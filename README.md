@@ -10,7 +10,7 @@
 
 ## 打开与分享
 
-下载HTML后用Chrome、Edge或Safari打开。微信文件预览可能限制JavaScript，交互版应选择“用浏览器打开”。静态分享版将信息直接展开。
+下载HTML后用Chrome、Edge或Safari打开。微信文件预览可能限制JavaScript，交互版应选择“用浏览器打开”。
 
 若要通过网址访问，在仓库 Settings → Pages 中选择 Deploy from a branch，分支 `main`，目录 `/ (root)`，保存后等待部署完成。页面入口为 `index.html`，静态分享版路径为 `share.html`。仓库文件页面本身不会运行HTML。
 
