@@ -1,0 +1,981 @@
+{
+  "exported_on": "2026-10-28",
+  "link_format": "relative Markdown links; Canvas vault-relative paths preserved",
+  "omitted_external_topics": [
+    "02 概念卡片/个人表达",
+    "02 概念卡片/现实反馈",
+    "02 概念卡片/身体基础",
+    "02 概念卡片/长期声誉",
+    "07 毛泽东选集/概念/实践与认识",
+    "07 毛泽东选集/概念/调查研究",
+    "07 毛泽东选集/阅读入口",
+    "人生指南"
+  ],
+  "files": [
+    {
+      "path": "08 博主研究/两位外贸博主的连接与区别.md",
+      "source_sha256": "6cd9158101961831e25c9c8c1cbbf5e8ce2a41f29afe998023d0a63bcb961131",
+      "export_sha256": "51ffcdc10e514a8d77b449b2c814bc1bf92d4485604a7949812b092068d418c4"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7592110898997035099.md",
+      "source_sha256": "fc1fd4f60e204d912bdcbfe3e646cbace0c20b2709aa9dd26d0a473d5b2d40e3",
+      "export_sha256": "7a49f95cd45e05c26d53a9d309638ec44a6179ce8b3d1ec201d35c07991a67d0"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7592465533956020809.md",
+      "source_sha256": "4eaa4297af40aa10f1f9a822125bf0fb7d84d99918ad9c6f4bf9afcc88518a88",
+      "export_sha256": "6cf0bb2419df8949bec09faf62b14906ad79ee498088da05024af28e62e22a78"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7592835090129775561.md",
+      "source_sha256": "452fcc80feb25934aa08d57b8d62e48f6a253bc872725628f99d1418275036bd",
+      "export_sha256": "aac6327bf435b9fb71c9bf2500b70366059320d62b02e6f14038c359c46c653d"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7593205765839222450.md",
+      "source_sha256": "2a018d5d73427bb69329abc9fe2a18fdc0121caa15caf29173e19d814a99331f",
+      "export_sha256": "95590b223d7b4683aeb3adfe05c56328755eaebd1ed66b1fe496a171ba4391e8"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7593571592719505801.md",
+      "source_sha256": "15968a56525ba4d2a21dd22bf1685baa22c228a79742404f3f40fbe8b5ba9d84",
+      "export_sha256": "03231e0197c40fa18d499cebbb67f80d53d7ad3dc4923e3966d3b15fd40973de"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7593959825908034954.md",
+      "source_sha256": "03769c29ec4093e27f2215b6882db1f60afc41600250b2111a2c5a0fc9002b97",
+      "export_sha256": "5df3e98e59925ebb4b9957c9868ed3e950aea7b9099c411f1f0e88e89df7560c"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7594298625493634907.md",
+      "source_sha256": "fe3b3dfb7c143b352511df695af6fdec60857096f9eb8711cc15940057b78a46",
+      "export_sha256": "4bf50a413f6afa488c101cda4a5c3cea2a2b75a1d7c81762f6363a6c3a447327"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7594679915019147494.md",
+      "source_sha256": "817b8a775dfb38d3ce08efb9961de96d9df06389f0db9022c8ab56e33083e5d7",
+      "export_sha256": "828b6b85e7d3f4574e0a3ffe16c92cf204201515f1c5558273d137199b69f9a3"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7595431338049300059.md",
+      "source_sha256": "539a5e7c3c69b2813b4dfa291b2420fc5933880c5b7fb284d1b355e0dc7cc62e",
+      "export_sha256": "6d1b4174ee3363f4b402bf3b8bbf5e479103f6e465cb82f948154d97a3bd96d6"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7597648603151240650.md",
+      "source_sha256": "ff38e26a0964588cb34d8f7ac91e4d45ac6d67402a7e42ca6e918f78dd5ef992",
+      "export_sha256": "c1ced3da515ab0af3fe954b3e6950094795a10ae8e78ecf4a54a0f1159a0ceef"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7598032247937796846.md",
+      "source_sha256": "8d318a2fe2e0266c01a58d18d8b582eedfe73b12e787ac0975e2eb0799999a2d",
+      "export_sha256": "f40e1883a09a291471e2b459ecca114536f05c11a0982eb1ef343a4e93cc932f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7599515477770477531.md",
+      "source_sha256": "559ab57a87fe244a5a95a85d98421c6316fc72d4f132c8de31584b7ff5640a0f",
+      "export_sha256": "e2b53d36d8d5a57f74f32497e24ac6c87697ad05928feb007a77e0753fb74e9b"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7599882746412115802.md",
+      "source_sha256": "5835970ba84e5fb473b41cab02ed84e36f0207eb73f20b59d12fc1355f5beecd",
+      "export_sha256": "2276726169b80c33c206abeacabcfac76d783c0967faaa25c063305726468b8f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7600256745667110363.md",
+      "source_sha256": "c20dccd7c4bf37c2e9b3d3600a2299babe282e32df640dcaee8103ae529f1e22",
+      "export_sha256": "b51af62f2c83fe68fa23d4268208b36e7b2f09947f2d3b93ef319a3a27acec88"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7601001546255711859.md",
+      "source_sha256": "d718418dfad924bb75cf7c906c48bb7065bc080e5bbafaeba2471a91c8fd40f3",
+      "export_sha256": "87e8b2544f4c605550a496e4b0e9fb79a5a7e5b90988732ddf92d0b3d80dd3ea"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7602115938414208155.md",
+      "source_sha256": "da5a4bf54d109398e539e7ce0bbfca14c342dc6dfac26e5de98417b60f83a3fe",
+      "export_sha256": "a68c9d031e7271fe4ceb24da16e52116e33bfb7843676883bab094aadca10c17"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7602854893481609178.md",
+      "source_sha256": "c5f32641e66a0eebce4e0a34157aedac2b31bcfb25cb820b773fd0bd59b3ff98",
+      "export_sha256": "b7038da00e9b4b4434171d714a36f9b24e58f23a0a6c0de9946b86915e0792a6"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7603966485895626650.md",
+      "source_sha256": "4ca17b55ffcc8c2d36d5f621ec374d50ab4422521cf9dc9e29b6fabacb379d6a",
+      "export_sha256": "3ea455cc64ca0d72c3ceed83cd61562c2a3465e261fb0f166857d5aa5ab60d81"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7605481572397165466.md",
+      "source_sha256": "68afd83ca4dcb877d2b56d095e3871237e6fd9e19ee66e2e5bb69747c6a1d423",
+      "export_sha256": "daec70033776342bd2c66c4a786591bf85c7b27d6c52ea723d3408919e2bbcf2"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7606555361940855410.md",
+      "source_sha256": "7faec6f5d8b83911bc7ed3cf195dbf0a6c5d1fe67fb42102a77f49cddcfd0f09",
+      "export_sha256": "2b106168d7bc2f35b1c2c72efcafd6bc31606165eb3aba850e78a17c3f019cf7"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7611013359017836531.md",
+      "source_sha256": "006d08c44f1714c5ee02979a26576483b3d4f04b92030e7e8fab07081862a8cd",
+      "export_sha256": "49988794c8fd70f0bf6046f291c41ba3842c3582ec3ebe07f0dbbdc9204c3a88"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7611376551180192686.md",
+      "source_sha256": "9d13a1da6334760f14fe99fa11d5eb38ff08094b276b59d7f12bc62b7a3093e0",
+      "export_sha256": "b4830a2763386c3f187b7681e5f85acb9acef3d44e2db4d5a3f1e8e974b9d4aa"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7611760616576099182.md",
+      "source_sha256": "58f3f3e13415ab01d74303af901e0bf4e0096f38c3cea8f1af9f2245f956631a",
+      "export_sha256": "64fccdea6e1f04b108809a27a29c096262c3741405df7c9108d66c8431fa102d"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7613238861648810406.md",
+      "source_sha256": "a72a04a5c4a652cc0a7509aa9948d4a52031f73c847ee267ba4c6a8a47c86689",
+      "export_sha256": "bcb08c53325ae469d18b42ff7ab92835b28cd411c8aef91991cff84bc099415b"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7613616708808509618.md",
+      "source_sha256": "ea897d8b10a49b071c1865ed5d10582bbb8f337591fde8e6b759fda2540db468",
+      "export_sha256": "f1a02331cf29591e843b320ca1c802d3ed375e488f4026758b39275fefecde68"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7613984896822915786.md",
+      "source_sha256": "de4c6c8cb3cf7ca13bf5fff6f7474dac4acce27b49190d69d3a32567291ccb13",
+      "export_sha256": "085b010cc7c1bb486d8243fec104387f83523cc5d202cdb72e873a8d79d14f6b"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7615466145723067622.md",
+      "source_sha256": "291ffbcdae2c01b0cd332a51c5c1bfc18a8c715672851ebffbf81284c98bc403",
+      "export_sha256": "868232741af7ee5e370a8b22a4ef4e19a9be6c9b60151678e0c10c00c7594659"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7615834571552775282.md",
+      "source_sha256": "2b2dc0fecb74f23add01aa4ee3eb9cd2cbdfcddf91c01677d74ad421bad6bf79",
+      "export_sha256": "9f9d6883167014c53946429ace501763e68f4dd185172b451356247700eaac93"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7616578293353170074.md",
+      "source_sha256": "931075f0845ce2ebb413cc0ab4171229998dfda0c5100570d4f5d91f3005f294",
+      "export_sha256": "d61044960c197dff8e43b27e780b36f8b2dcbc6245e8ea716b05a812b196bcf6"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7618060839820506778.md",
+      "source_sha256": "6e622fd71f7c14813b1c55756da93e83c466aa34b78473537abf7611f26196aa",
+      "export_sha256": "d4b43140105dff5c214621833d708bfce3ae8ae4cf2fcade3bcea568174ac7ff"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7618812421913973587.md",
+      "source_sha256": "442bdde76a79b21e11063f3580b539a39dc08e72fd332984bd54cfd326836a2c",
+      "export_sha256": "48e85845e0b2d2f98e2b8aca3110d303ff4270852317142729cf964ddb4d4a19"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7620286892786289634.md",
+      "source_sha256": "55a36ae141d2681311a9fa570f6c8c43ef650dfd96643f4b3d3c200a41a0cd19",
+      "export_sha256": "6c70e2596943eeed2d83e5e24f5ec60186669ab84f05f4614baf96ee9a4e0267"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7621033376841555298.md",
+      "source_sha256": "75782bba526be403dc726263bd337e0945251355e741ed793e0be27542aaa6e1",
+      "export_sha256": "78663b49c93fa47f43ca2fdbf91fc55132fba0648c633a69496f15ca6275a3f7"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7622888070890825140.md",
+      "source_sha256": "4d502e2205101c625f164e6309d2178a36e922e0e576f4b8a3ae1c87fe334b06",
+      "export_sha256": "e11e790c82ef57cb2b34cfbec1efba5658efaa55c734cb89a60a1e3bcfce3676"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7624003368642209088.md",
+      "source_sha256": "7ea6698c87ad1e9a6785d5f10abd8d5bc011f6402552d67c7105d45d7e3bdc4e",
+      "export_sha256": "c569fc90704e7f65430fa7bc04b7958caf05ced3744932ff9a4e400c5db9c09d"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7626238119809466304.md",
+      "source_sha256": "ca6cd448c3b91abeaf6e569b34d27842595bda5f2d13e8abc732dcb09eaf388f",
+      "export_sha256": "496bb663151fe4761add91f064072c99b03eecf872f1c8498716ccd833cc3217"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7626968153679985896.md",
+      "source_sha256": "af76a6623e0334e94c318324e3eeebfc564dd7b2b6ebe232b100b431ccd5b808",
+      "export_sha256": "f8a6c6863855c5135a9c238384f94483e01286ddf0c80016078da1a8ac921397"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7629567155076584034.md",
+      "source_sha256": "879724e744e2ace96a68ae14ad61c7f648337e02c17a5fd2b650cc4ed8f0b289",
+      "export_sha256": "9d974e9d051d71c4bf7275a71fd76f4d9ce954adbe680dfabb23de3d288a2afb"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7630792949743534991.md",
+      "source_sha256": "540e135bd4f1736134cf9672f8a894b1651642236b1dd701279570de8b3210f2",
+      "export_sha256": "c72a327d78edfd5c07fbe822d2c9c0f2d0f5e4c601fb79d2376c724e8ccb1914"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7631536053736575604.md",
+      "source_sha256": "7b54b399e9355d93b86bc992989601517ebb05d36842584e80f483169a8d9fa0",
+      "export_sha256": "4f9414d34a04a866cb614b6a9f3d79cc5397e1926c60d1ed8159edc634b686c8"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7631903443615809506.md",
+      "source_sha256": "11dd86f922c16e5258bbc863017b4b55d7c9175a9e92cddeaffa45c2b13bcda4",
+      "export_sha256": "5fea1b0f93818da4b31cd28fefd2e42d24d411dab3ea311e183ae5646d32f1f0"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7633406901384928116.md",
+      "source_sha256": "ec733ac107f4638b4e7eb17f7358736d08232a56f7e566ce3e48844848b951d1",
+      "export_sha256": "6212f80311d0da539511b1fc73e5586c32486b912cec59eda8e58bc435f7ff0f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7634143415395332736.md",
+      "source_sha256": "ccc2ab59dcd901962541b20b6c317812079edec07f9fef6a5e418d72f7507191",
+      "export_sha256": "4880022d8a71ae4474297e02d2882406f2912580d4bf150fd364286e2ee0597f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7635504755456866024.md",
+      "source_sha256": "76d964ab61569049c823944d9048dfb2cda8ee2f95a4431f045b4e9f003dd70a",
+      "export_sha256": "e363d6bfa69132998d0fe023d256b6c390e7faa0a168e214349e7ce706765791"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7636731439162061940.md",
+      "source_sha256": "8806d52b1df4e62daa625dc3f6cfc68bc5d77f6c871cfe441abb30bef24b2fd2",
+      "export_sha256": "5923fd7e14eea2cc4757ffe3ef22094555e0a84f121090c980acff95295ada3c"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7637148155050082146.md",
+      "source_sha256": "21c4cfb0b8ba5c40551b2963ea979c8ddac538d15ffa52f11518da4e079e4369",
+      "export_sha256": "d2b294d2a3a5f9f0b3dcc9fc5f7850877e42ae70de2530923c09a483ba82e265"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7637552498089997795.md",
+      "source_sha256": "2db7923a0662126b609dac4aca590d9e993d455092ec33f9bc19905235e56bcf",
+      "export_sha256": "135c9e4e652f10d0302c4cf51d1d13bca2ce5e60c47c5e1640b6cccbf3d0fe81"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7638862283176043892.md",
+      "source_sha256": "03ccd0290caeecac198914e0d18b4129345e4ea42cf33aa0856f6665767ba54a",
+      "export_sha256": "af681750fdfb02c20f83a674ca23406a3030835493d845939e7bce6023c662bc"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7639733494202421475.md",
+      "source_sha256": "a305337a7f776e688af0993ebd5a66cbd97008b82f94a97d1560fc7738e54ad7",
+      "export_sha256": "d020814bc56e5c71da72225a495ddb6bd2de12fba5238a38caff22790c5c22a2"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7640419947827151970.md",
+      "source_sha256": "e467474b0d1205f0f67d69d71ae7bab5283f78aa17fa3f06c55561f0c64803a9",
+      "export_sha256": "17ce41d4394ba75625119f46e239f593076729ef7a8c9745e8d0c0bfac6654d2"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7641622815565063907.md",
+      "source_sha256": "49a33385ce30d297def7b52c8b1140ce4fcb52f749550af0a9996163fc7150e7",
+      "export_sha256": "76d3746f921a0915afdd8453db06a12303c1c4337ae160655b60e4fd95b84caa"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7642332041577041064.md",
+      "source_sha256": "b1822cab06ee4136385b99fedf12b9f3b7ebdb083a711c6e92771a841e41cfd9",
+      "export_sha256": "65f6fff25b0a5453a104be0d8ab824752f454622e42f27cb09ed0849b61054a0"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7644937909560982208.md",
+      "source_sha256": "3ab3d9469a3698328056da3759dbc3c4b82bf4970535233d4daad6faacf22c29",
+      "export_sha256": "57bf893c261a4e281b9502f4bb4233c9a71480a7dd45a4d3a4352228b01581a0"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7646043888813457827.md",
+      "source_sha256": "431914d4ab99c7e370f705fd8944b5eafc7415b3b33ac668097e77e3c63c06c6",
+      "export_sha256": "7151e647b441d5a3e61145725ef2adb62bf7e5c22c92075c7832d8e64ad76ad8"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7646755159423218792.md",
+      "source_sha256": "3887b737f729a7c9d1ea99767c3c5259e38a19f9e4be03cfb9d94b791b4871a2",
+      "export_sha256": "28f79c09e276556e121d834b00465f3d5f1a0a898cda9d66ad98fff67f1dc345"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7647910929732481216.md",
+      "source_sha256": "3d5478e940abced672bb1ff8bad20776fdad2e632f05949bd7a36923013f5128",
+      "export_sha256": "cfcb603dd24203de7604a558a6219e2c72e89e19ac86a5952ecbb8c349af4cea"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7649725562365687656.md",
+      "source_sha256": "1a7307bde562699380419259c09a0e8dd0f474e60b6cefbfd9bc1dd7050d3116",
+      "export_sha256": "589afdebb6f63f105e9abc14688860fa26d3b166df9e93f46bd17ce816eb706f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7651215043213115042.md",
+      "source_sha256": "63f8e786269a64a7f8c3ae7724e46903a3e2d576b8fda0420500ec292ba16a23",
+      "export_sha256": "d1d275dadb027777cce2267649e73b235dd6a97fc76657e938cad773758acf9f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7652019842195049128.md",
+      "source_sha256": "4b4ab76303d4f4052d100ba9ba1e3a90ad9a7d24f209ad7ca2483e4fed2b3aa4",
+      "export_sha256": "15001e67a979815edb36ea72a3ab8eb525caad80d78b379641a99d8a0caed8d6"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7652335734129264803.md",
+      "source_sha256": "90755b7ec61c3fd9fcf527cd6047cdd9abf52211a5aea56301fa062146088893",
+      "export_sha256": "7a54e5db8a1f65da4776525eef03ce8b17bef7af5491f165751d15992ac5d62d"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7654212631833920847.md",
+      "source_sha256": "4006bcbf45df7a82d827a1f12044221ec97dfbe4e5157b7f260ddb3698083238",
+      "export_sha256": "53b1d8fced05e8ec23c3eacc3b06e8415fae7c2ef39b5dfda566e86cbb53b370"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7654941835706329167.md",
+      "source_sha256": "ee393c622435fe249b37fa669c513c7e4a4f62f13abc2a0d5cd6e4831718ed8d",
+      "export_sha256": "e9d51f1b97c4bd61fff896a9ab8f88d34d76c5cf4a19f48925f27dc0492922d6"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7656443318503377908.md",
+      "source_sha256": "f8a43a7314873c8cc531589b845198b0d50996760c6a91f490c87901e81d62be",
+      "export_sha256": "0e58de6a671abc4afd7308d5f654747f5a0777a1d9d6033e7c9ee6de22fa9d53"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7656753489263923939.md",
+      "source_sha256": "344429ab69642fb62f589ba98622d21a9765ada3bbb5f0ea5bc286efdced7861",
+      "export_sha256": "b19a2a5132e06ac9c52e546a618beffeb3c6a90ce4656f2f71fc24622ada2c30"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7657176817234071119.md",
+      "source_sha256": "cda6672c77681cdaea08fe8b23f513e5efef929827df80e6294df2124715cf73",
+      "export_sha256": "7bd207fefdba50291a93752a8e6a5dd1c8f496f87e31c0258fb8744318caa27e"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7657766480759469376.md",
+      "source_sha256": "660898eddb09bff6bb0dbf59627514bad25a343fdc12847d833da37c1a96bcb1",
+      "export_sha256": "1273b85a5df86391643234bad1c13df9ea6c10020934f723169c06cd937b61eb"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7658977644923451855.md",
+      "source_sha256": "a46e3657639311becc76072818b9508e8ecca7d4beb883c3a478cc44ed4e61d0",
+      "export_sha256": "fe05243610a6c57fb9ad95489954cc8d713464c3a1baba40aa4412470bfe5b7e"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7659692793783594146.md",
+      "source_sha256": "a9d7be103120292f46c7e7f960dcf747d2d4ca27cdba3e647cfccfc6decd841f",
+      "export_sha256": "8184ead461bd51c94c9c8a7307d294be302ec7a45636d89f1b9c9287c88de199"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7660161694643012707.md",
+      "source_sha256": "b420b136fcc5a87943b09d989f00b913f3c864370a0cb9be5cdf7193a57cf50b",
+      "export_sha256": "cf2f6aba19df10c31536b54c192fc5aa8c61cef1efb05d90471635a5184a227d"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7660737643499590592.md",
+      "source_sha256": "81fb7b538d36cf951d9ade2678ba09c33c9977b31f94f29a91230c7352f996f6",
+      "export_sha256": "a244b4cbb51cc438e311449967a0b81943513a69790288b7e6bd1863a0657b41"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7661110455930585762.md",
+      "source_sha256": "cfbd3714deb346892e9fbd8fb5f44220e3eba188da7a66e803666b6ec5d8206b",
+      "export_sha256": "86edf8913f3e45f3320418d3686464a27fcf899ab3ce1b35841e0a3cb5fdca26"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7661552909675269987.md",
+      "source_sha256": "03ba39d32c276adba32d887aab773bf9144c7cc2b2e375e1cffe6be31ea61895",
+      "export_sha256": "f6c09e9f3e1d51d03aa8eea8549ab5e3dbd8d0dc76e8d9cbc7968c4ab2873ced"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7661862289390267304.md",
+      "source_sha256": "381ed5b23eeeae3f3f6f2038dfb14adbcd51f17fbbe846285bfe11e5e7ab247d",
+      "export_sha256": "5d54eaff199baf1023e760f9beac72878f156007cad7f609814049949e510bd3"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7662237526371424872.md",
+      "source_sha256": "10d9a81e19dcbe4c72f10b2c48fbd214b9f9f620d7de4572fca5aa042e134b86",
+      "export_sha256": "a4860a594c824be7f461f738c9b495a396df89b230a88dd9ce380fdaa529d282"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7663110298275380898.md",
+      "source_sha256": "1a7e5227ac9c27ce67696f32ccb24cd4db512cd175b3fbc97b1581f9320d7920",
+      "export_sha256": "5d39fcf704a8c7ff9263ba944ebc7a6b34c66c4f7897ac291f1c75d688f2fed7"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7664602140845684468.md",
+      "source_sha256": "fed2a983dfbe82d599b9a6714ee3b7cf9a4cf163233b5f56a537b3ae6688748b",
+      "export_sha256": "3b64d669c2d402c4fd35fe5b805294af779602ec3c8186e7b2170289227e21b0"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7665203535043593588.md",
+      "source_sha256": "fa2cb483dd2f5feea2ad31525bb9bfc7ce595497b47d67ab17d07238051a11c7",
+      "export_sha256": "1670d25742bb4caa82cc602162ecdc10e08c282eff8c4a81f12e538a45fee597"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7665733271162336104.md",
+      "source_sha256": "4d70fefa860bfe0030ab5f38b0c18ee644ef530368dca76a82b0a56923f9caf0",
+      "export_sha256": "25ceefa564b52e31208bb629d1a1eb0a4a6591ea5738b084043766d861469604"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7666416395000873935.md",
+      "source_sha256": "d4401e2b87d2eaddbd644765794d5ab335017971150351efcd5a20fdb6c89624",
+      "export_sha256": "fca6afb1d0e8827ff2b6eff73744b00e0a485afce97d76d37ff6c92e37feade6"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7666771898433371791.md",
+      "source_sha256": "7277a269b8a70f69c42cb2291e9215b09823795a4822f377da191ed0f8972d3a",
+      "export_sha256": "0c402aad4476c10cb2e88511542f08cd154c4a9ee92a52d59c1b52dc9257d65f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7667178579305745332.md",
+      "source_sha256": "c4c44cd77bcb552703a92a5988b0175128d654c19f96080a0018ef1f7193c533",
+      "export_sha256": "96c6fe766e8115fb8281efc94e8dbd8f49d81f363b58dbfcd7c2ac67113f5c95"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7667542572597100520.md",
+      "source_sha256": "013fb1c30769a5205b466e1973c78470be9195a666f05753ee133fa25bfabb4c",
+      "export_sha256": "e74a972275907c605100f739953e13efc1a3c629fec482bcccad8ce550c46d40"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7668325263511482082.md",
+      "source_sha256": "c427af5d264b6168a5513a6f9b9a3986fcb2304638869927d446be0ad16d44f9",
+      "export_sha256": "e2b7cbfeb048dafee9e5e7c53c978ebcea65594b39fd7d6d721245ce41d4dbcd"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7669667945652241088.md",
+      "source_sha256": "7032db8ae55846a4ffd67ca66c298650bf7d748aa3e0d33df9e00f61d03be7c3",
+      "export_sha256": "e697b7fe01c5ac08ee8a1270724a75aa74f46ac29acaffe81c23e0ac6fac3a3c"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7670502289833459107.md",
+      "source_sha256": "964b577b7feb415a6528a7e9dbeac7092e5accb0f12155232514845c7dbdcd78",
+      "export_sha256": "66971781e18e4a0136be8232dd6d2b200a31fb09e4130fa5153891b7f024d298"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7671276321637523956.md",
+      "source_sha256": "19890024cb0dbe04dad72e17f03bcc2f4b6cf3d31d4881ee18f6e55ce8dcac89",
+      "export_sha256": "ac1872991fabdcd2457affd228a82c00863faaca0373efe28eae30b3d8378f7d"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7672753822213604008.md",
+      "source_sha256": "5036d05fa049f0c10b931435a93752e2552c4622ab55c119151be83f8f6b3c4c",
+      "export_sha256": "cbae0ac0bb31f5976507649cd8cb36ef2823398ed6ef09160f4b033fad3c2fdd"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7674197718558373696.md",
+      "source_sha256": "c1251c15ffa4ccedbe8018f0f79aa30c02b5e474776106af71ab8c3ae4796905",
+      "export_sha256": "1c74a81f86307bc14d6cbd0fe71d2296c6f5e0d6bd56c6b2008624cb64d2b688"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7676780000222644623.md",
+      "source_sha256": "a791317544b8c8698000bf5ea40a01319130f225a69b68b1afc0b681e275a263",
+      "export_sha256": "ec89e12f4c7e5ef03c1ee1b5f504724b0b412e47fa1195db7e6e6bcd2a379ddb"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7678017820328746868.md",
+      "source_sha256": "228398dc1cde9e98fe4891039b7f252dc1ac2b9167afd1e45562bf027f6ea37e",
+      "export_sha256": "8ac7710421d045c5bcd824fbb7543d8986cc3b2e95796e2934e85bca6d45b832"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7678704733875683264.md",
+      "source_sha256": "ce5f6d33acc633c6c874672f8d335e4b7d233eda88f2e64253a8b25a242e47bc",
+      "export_sha256": "4984de613919bb80ed837f87e89b348306bde0b8c490ac170f917f35cf813142"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7680187459686390452.md",
+      "source_sha256": "b49d1ecb45c0adf4565cc804e75bc37519dcb7fb826a1ba6a50fc0b0202cbe5d",
+      "export_sha256": "8885df6746c034a6446f3f813e0e0079599bf8ac2cac5786f61ecbc7f0a9759a"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7681163426890160808.md",
+      "source_sha256": "6f48b9c3ab9b1f74e86bb01fe6fc6a936102a71ad9f1dabfc672344084681b6b",
+      "export_sha256": "34cc28208c7beddc2c23d9ff0d42ba7be180789ae8ce135cf6dbd5631b23576e"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7681647701956763087.md",
+      "source_sha256": "f35c89d10979a96518a197d0b26d8f7293176c0f0bbb9d071596f7552a9b636f",
+      "export_sha256": "65226390c58a78f58ed6de6dbe84f873ddae00ec7258505ddb017cc224da67cc"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7682380313464987299.md",
+      "source_sha256": "f377faab48778f3a738d2ca12d254d64600f9234bedb71cd593a8516964ef247",
+      "export_sha256": "045527b18e0706b8a42f4017bc08dfb402ee87e4b172792737cdb595f9085944"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7683489665143728226.md",
+      "source_sha256": "b957ffcd13e0ec8d05c5ca2069ac3ff66c44902835fe8a740b4dfe35fbe2cf47",
+      "export_sha256": "c2225836ab14bb2d2695bac9d13834ec275d2721588f36f1abb17bb8a485c7fe"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7684933987651716450.md",
+      "source_sha256": "b9412234f0a3bb20d4e050f714d3635ff7c3547247dea4dbc1777658584c5fa7",
+      "export_sha256": "99cc1ea3ebcd28252092c233ef0face718384b0c5ead97e4e5b6c6121758de31"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7687238285592722752.md",
+      "source_sha256": "5d481d9d1341ee4a1fb4e5d6251c891137adb87c974eaadb8d286511ce929270",
+      "export_sha256": "89f1251a6f4994cbd1727a7969d9422d7c665396d432aced91713b33bff26123"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7688695713345269090.md",
+      "source_sha256": "a4ad9d7d836d79076cccb53f9c4048b96d29bc446d9f7abbddcb65b81ee521ce",
+      "export_sha256": "dc8a57a9f47cdc33a1bdc42f56cfcd37b5e9aa23fad16b08353743ee31231037"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7692679782072506984.md",
+      "source_sha256": "1986d48bd6e717b19b976feb715aed650fbf94b3418b28651bd048f772193c82",
+      "export_sha256": "6e8094a1cfcea967275e86a818203e555a6de3fb54371a0cf7cd87ba0f1f3f2f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7694157032383763264.md",
+      "source_sha256": "b3ea7ed9534e1dd585ac0360cc20f159428cf64908ebed46e723ea338e6254fa",
+      "export_sha256": "a3145cbafa2727daaa9dcaf6475367d5ba164702f2a75f4751b366e6796b79af"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7696395766805702287.md",
+      "source_sha256": "5eaac12bf21e2517e0dcedb417aa4dfd60e1115e351e08afff0c34c4a1866af1",
+      "export_sha256": "988df1c57f816f8de3f847aa794ea6bd5ef49de643fb9311626b7d32244161d2"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7697526632227202624.md",
+      "source_sha256": "0b7e3dc251b692f76ccb9ca9648bdecfd4263501c3861444f6be7bfad0208890",
+      "export_sha256": "7cb840781a52937a1b062e7d0b69e76fcd6fdbb9a8e41a3c368e949a7f405622"
+    },
+    {
+      "path": "08 博主研究/外貌阔/作品/7698346538855470818.md",
+      "source_sha256": "a619e3c496e67de0620a7bf8f56ab0498bb41607d7d1d4410306184d1411b9e0",
+      "export_sha256": "5abbb0bb75e13b12d4b02a2e3ecadc5e5fcf78895ebe24356173324a7b717bb3"
+    },
+    {
+      "path": "08 博主研究/外貌阔/全作品目录.md",
+      "source_sha256": "2853800b274db3dbadd2dd12fdc9ebef643875f7e68687ccd49a6526559b8ec7",
+      "export_sha256": "46b60b013f53150f7f18b1a17db647ea758915e9dcae886b1d23f83271647d4e"
+    },
+    {
+      "path": "08 博主研究/外貌阔/关系说明.md",
+      "source_sha256": "4b9f90512d616d6c91a94b3adf0a9390cccb974617bea27eb78c7c66cef45905",
+      "export_sha256": "6c879e99d4d87bc47703735e5410408998fc7d4e4f1e89971f5670ab09e5e784"
+    },
+    {
+      "path": "08 博主研究/外貌阔/原12条补读归纳.md",
+      "source_sha256": "5a5612d1178dd650a56088e7584474509fec9c55775230eb5fc046345c48c22b",
+      "export_sha256": "092db9b76c956b09bc471de41de16ab6843e67cb4bb4ce1eb09e06a398d4b762"
+    },
+    {
+      "path": "08 博主研究/外貌阔/外贸工作指南.md",
+      "source_sha256": "b5332870af54904c0d82800bc2084882cf82c68325c6349229226abe24fea057",
+      "export_sha256": "94e39d93545523ddb8f6044166b8af9cd4b619ff1de36a42e612cf685653dc09"
+    },
+    {
+      "path": "08 博主研究/外貌阔/外贸方法关系图谱.canvas",
+      "source_sha256": "1b71802a62cf645e0df30223d6df07125e810bf45f57485fc25a758b27ee7c48",
+      "export_sha256": "eca8612553ddce87c20d612fa53a24507b142df43bbdee827eef0a1e42a6dacd"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/价格与总成本.md",
+      "source_sha256": "a1c946b23ef8db00660cb276272b5928c0e55d0a35468345c4cbb6374faab5b1",
+      "export_sha256": "83b00bcf9bb546f79aea0b273d42648b46eb73df8fadb9ec25bbd1efc4e9be60"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/信任与关系.md",
+      "source_sha256": "0c822a84483fc262b4b5965f042274069347641bf5806b9a2a0e61851eca1cb9",
+      "export_sha256": "4039988b811fe7e11f61abf02c075f7cd218a721cc6e3ec6f5d2b10ba177dac3"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/售后与异常处理.md",
+      "source_sha256": "6869b1a7499193f69d5f4cf4a7fc4a07a0ff810eea8135cf117a2ae894948a3d",
+      "export_sha256": "c079d74a021d0aa4e55eb1e459359d91705a1e5223d8096135328189f725f760"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/回款与样品成本.md",
+      "source_sha256": "141f155b4f04d6ca4f90760ee3b6e4802a05759dc94e02b602848463eaf8b207",
+      "export_sha256": "7703e84c6840dedd730899944d6ac9e9a344bd5c6b2f406acd98742d8bffdeb8"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/客户筛选.md",
+      "source_sha256": "b1ad33ddba7684dc44dbaa5929ba8d0d649685f96a4991fdfab37d1b007776e7",
+      "export_sha256": "4d3b4cb825186cdd97fcac6fc30a326c9a68204def32c3c3d6f17502f57191a1"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/工具推广与语言适配.md",
+      "source_sha256": "965fe933946209aabb5864156219a7a081e11603bab3750fbfc643000b6ac81c",
+      "export_sha256": "c8398394fbd0474a29677ef0f4a89cb9d1d4a367b92b0e4e47e8527e6f3011e7"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/开发信与破冰.md",
+      "source_sha256": "af680096daaf2127bb01ec086687c3e3863781332126bf9643f93d2061541ebc",
+      "export_sha256": "876763947df1111ecd29aa6d6510205bccb1cb2ad245b1d69c58cd5f8c08fb6d"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/心态与表达方式.md",
+      "source_sha256": "5d76aa998ab92e3a9344f3360f2ab2d8fe2b7ae0286fb92246d1292bf9500476",
+      "export_sha256": "200b34351644c87209375d893f27c3b1a25cb5c92d1e71e1fa2aa091e87224de"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/成长与行动复盘.md",
+      "source_sha256": "0cac763113e3eec895a9a591e6e80d11cd231f50ee9671fb2dee0f6904c5d3e3",
+      "export_sha256": "4b94b32cf11483ccdc15d1b7c02dc91697d99bfaa1e0ef442c8e7dc4642a2b47"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/承诺与合作规则.md",
+      "source_sha256": "ab9425855893c98e2471006e565d5ff42cabe8c6c188e77db7612bf3ff7cba66",
+      "export_sha256": "79279c342833993341600f4144133748f83a3b6aaeb9df8612c1f4d5356f6f0c"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/报价有效期与真实变更.md",
+      "source_sha256": "5d5da079413553137fac11be6a91a484a8c07355ef186aebdc73f23512855f62",
+      "export_sha256": "d8013369d337fa52f8620d6f5e083176a557060a043906fe8dfaa7ed06316f3f"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/条件交换与方案选择.md",
+      "source_sha256": "25f4ba2715147b0cb74a2213f9569a04a237e675d977ed70355a99c45d81e37c",
+      "export_sha256": "681480154740e953e3116e11f02ac83c7ae5570f3ee14702adb125dc8fcdcfae"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/职业消耗与恢复.md",
+      "source_sha256": "21f90f913d0d38faf3e6bdb632beebbd246331b5abf97f85d2b5ccc4aab8bef7",
+      "export_sha256": "493396435e3d3e23faddeb70ec9e725248e55f967983c750b6741204e42c5bc0"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/跟进与下一步.md",
+      "source_sha256": "09fb6cd4df54bcc5192daf61ee86885e44450691ffa549918fba4a52391f4e77",
+      "export_sha256": "a12c5426672a5e192cd7a3751efcbee5b2d3e75d21cfd1aa16f46627f2700a9a"
+    },
+    {
+      "path": "08 博主研究/外貌阔/方法/需求诊断.md",
+      "source_sha256": "f077d1288aad4a6a111a9cf6b07e62cfa7ee0ee97a87543afdbbd2cf3143f2d4",
+      "export_sha256": "54c113bda36e91f4365177211d9ebc28327e48eb44f151bb928ae889d3cd11d8"
+    },
+    {
+      "path": "08 博主研究/外貌阔/未取得摘要的作品.md",
+      "source_sha256": "4410a1691bcadac37af59ef6fb9bdebda987aab82d4afa61d31277f99459fc18",
+      "export_sha256": "a91c19f3c254159f7bee70789bac10f9a5af864c3c87c5424dd21f729e9fbdf9"
+    },
+    {
+      "path": "08 博主研究/外貌阔/表达结构分析.md",
+      "source_sha256": "b5d07dd1b0a6a8c5135271d0b63559b3b2743810a70ce773feacdd2cb65d160e",
+      "export_sha256": "d1548434203bd0f0bfd8a664f1dbba3639e9606758c04a3923191c7abf40b60e"
+    },
+    {
+      "path": "08 博主研究/外貌阔/观点边界与矛盾.md",
+      "source_sha256": "6685b3b83ab75ecd5dd661dfb4f4a32541984c4c63e97176e4f023dd284387a7",
+      "export_sha256": "335fe0a00d0ca51287714bcbaac9d1f84e2ac69de69d405811d407c4893e0f16"
+    },
+    {
+      "path": "08 博主研究/外貌阔/阅读入口.md",
+      "source_sha256": "d61e9e54a15b189b726f6bf1889f1b737505baa36993eaa3140b08ccd68987f2",
+      "export_sha256": "1d943b0a33593fa9e36f0bf3bd276bf878ac5aeee543d3fd57136ac925f16862"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7670376224472769350.md",
+      "source_sha256": "e5336af59a7094c34d295858af9d11959e118db2457eb36963e0825a72f95422",
+      "export_sha256": "4e08e30c8840a3f05992c80151c12e59766f496cf50840eac7905df717955f62"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7671118472659478954.md",
+      "source_sha256": "c7480b26194b098efead9a8fe982828bb5c2801228060ed46a0040896d664c31",
+      "export_sha256": "63e5f879d1855c0a989bd36e2dfeaa4f2ed215de87c12d66884497a6ae7c1ec6"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7671484944309068388.md",
+      "source_sha256": "e91ed8dffb878240c7bbcb50a471b31600559db4db35e63001d6d166206a264c",
+      "export_sha256": "f2c26b22a2fc300323bc090f69d165d835c77b1c85920e358f55d6c760f040bb"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7671856540706083062.md",
+      "source_sha256": "2c954d13eb76ed617a8d9e51966d6c8005ac3a6e07ffa92aa9524ff1490e4095",
+      "export_sha256": "ffcb8e5e5a3938b57b3487f8f7ac81fc2e3da8598cd05a74299af2f9620280c5"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7671997229373627883.md",
+      "source_sha256": "d2a98f678aaef0b0f134ab81183953eb86a36167e2f5d3d7451940529638bd58",
+      "export_sha256": "d8f89b9069cd913acb19f2cd76dfc09160e07788debf5c74bd673f7e07d56818"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7672741673668084214.md",
+      "source_sha256": "ecb18bfcfbfcb7e3b1bfc6708a8e7b3d37aee9d5b1f81c8c3ce1554367dbbb98",
+      "export_sha256": "91668fdc36cc83f57964ec7a32cf0f269a80000acba6ec3eebc91e10d9197215"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7673339885231849451.md",
+      "source_sha256": "662a988ac73b669fc150039082f453a9a1cfa2bdddd0e846d77e45ca0648f469",
+      "export_sha256": "875882276c005b4770ce303553d23f019be12efe871f18ca8305a005b1706e86"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7673804073459784191.md",
+      "source_sha256": "c39b2be67ad5d4289827a38063a9769a5de2b618686ef3265e33709aa890bf15",
+      "export_sha256": "06746a8df52fe31ad2bab04871bfe372c757e20a1c38a44743771922a5f12bae"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7674559218947430889.md",
+      "source_sha256": "924eddc3e667d5d05a69d3b97ebcde3e6d5aff487de4dfccb064110b3ba07ba4",
+      "export_sha256": "7f0d37b1a281abd9772bad075d652cb41a70a5f1b6ef2b35afd045fcc154a278"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7676073285353140586.md",
+      "source_sha256": "eef854c6ca5fd7c3e2c30d68f6a84219f9ea9d49080c64847d88b56a35316d29",
+      "export_sha256": "2b33d5562977c58c22b3d008e21de36be6578430124fd607a7f07da2c827fcbd"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7676714330503942379.md",
+      "source_sha256": "f7109a16ab9db230ac722f82ba8a5c763cd475a76ec2d2289f4fe59d2ac22c70",
+      "export_sha256": "c78fb676e74705c456ff1e1aef4cd97e0b7a24307cb468d48fe44b49402aee17"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7677200391055193707.md",
+      "source_sha256": "7c65ea41f7f68c69e867041b60a5470300a19ee86aae7d06b04fb16544f198df",
+      "export_sha256": "310efb432f0d14c6563e2ffb118dbb04c7745ca6b4c48dbfc449d9f06bcdfcc0"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7677870088690779718.md",
+      "source_sha256": "c28101242fd39a7f08de518b2c19a2695d9a2dfbe5dee34e1d83cb05d8ec0596",
+      "export_sha256": "2322c0ce2ed7af777a07ed00ac19cd2312a51aafc36cc1d60eaec08f59e93c85"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7678293469400813651.md",
+      "source_sha256": "cb74280115f8799e5cfac66d0193117a6b9c58768054c272a2285c3cd0987ebb",
+      "export_sha256": "14b33b721601f7d46b9ce227ccd89486e8d6248bf00391957e7171e757094a9f"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7678956270858357860.md",
+      "source_sha256": "2169b77669b74ae139f78dc5d9ace64b62cdd37cda5bbaf4773d704dbbee587b",
+      "export_sha256": "f0830d1ddfd57e70a09b76b7cd3b7c7b38c3b1660bf9972ba190192811db0174"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7679786860164135379.md",
+      "source_sha256": "750a76920747c17cb1ec2b32fc6037d65ccfcd67aa8cc29daa5e9cca4a797307",
+      "export_sha256": "75805eb877dcf701e321c0dfec64cc3cdcb902bac8fb4318fa64eaad8d0277cb"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7680496009134700395.md",
+      "source_sha256": "449a6be5b8c3f9b81e9228bf4cdca1ab7e670b385dff802af7ed5beb84a8db4b",
+      "export_sha256": "8e7052bed2712e62d51f2845bae13d14ffc737fb0067ecbf167bedc38c2fdcc4"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7681260456456096489.md",
+      "source_sha256": "d3edfd984f16c1ed927e7b27548c6f660bd4c1be473d53ae72f96409ecc7115b",
+      "export_sha256": "375cc7acd3a417e3b41dae9a58a4c1f6fc42ac0fb263b1b793dff4b4deee2b16"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7681605924577931753.md",
+      "source_sha256": "a9a4d727b546d1e9e94ba70f56562a7ac40bd8ab5298ecf0e6c1ff6fec6bec96",
+      "export_sha256": "e16d4816c29bae68e9ba0e80845d2d09e0c03d465c510eb99fb77eee1afd5b89"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7682325245856236521.md",
+      "source_sha256": "7e977857da503b05f54b2ed07394cab14bf72c47fa509e9c1c25ed568ee82f34",
+      "export_sha256": "39dce9c4484417ef282bd73fcd5bfc92243b8e08488f9dfb466598b72bcfa469"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7683415598101054022.md",
+      "source_sha256": "6a038974247bacc31efd3c70911938fd9d9abc15916542343d228ed33bbc0e5f",
+      "export_sha256": "c4c1a5dd8af155e236fc5b9cfba57e08edf6a93cd86175718fe2196705ed027c"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7683782613035297193.md",
+      "source_sha256": "0ba0d37719e0ccd8e840d8fdbee20b959c52382075902efac92c253e55256651",
+      "export_sha256": "06cf7a1bd0c683e484a566ffae0ed38b642661809c6f0eda8a9a84a686086b15"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7684952225521589126.md",
+      "source_sha256": "4ec561f73708dbf48f1593ff7a691303ebc810a1505e75cbae11de3724f75212",
+      "export_sha256": "a8f4125c76b494e14f34bda26f54843387049e128e514ddf42396353ec1936ea"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7685730846930539263.md",
+      "source_sha256": "6d09847984a715015d0980744c997cfa415fdd96321a34a1708f17cd2985c91f",
+      "export_sha256": "2aea9def8c72a2c602e3660af72c45c7cca000bd9995ceb1e7f8d4da83cbb4f4"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7687225815692540137.md",
+      "source_sha256": "f4e9691f3de2201732f67dcf17be95da826fdea743eca688c63c3830d86e35d8",
+      "export_sha256": "6a3cb7aac7392d9b3f831d3be1654eb7f97925f3fd728f010ed20143823be52b"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7688675923742502633.md",
+      "source_sha256": "5d18644aeb46056e3b299cfe299147e40535a288b1f96b9e9102be5a83c515bc",
+      "export_sha256": "6e0b4c13fbc79a22e3847c9b47fc97752d83352ebbe578154be5bab22684e5b7"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7690200315408177387.md",
+      "source_sha256": "d44745f2b40695a810cc653e0bbb962dff150d0463584975f159dbfa805d0d5d",
+      "export_sha256": "33957fe564f30ea954715bda4975dfd175e3b032db23bd8e156f16ab846aa256"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7691713001192070058.md",
+      "source_sha256": "b020ede610c85ffaf0023a8471a8d8047bb9864a844b63e73ebd3a88ff72cd3a",
+      "export_sha256": "311dfbfdfe074229264d5724275e3fa64d9efdf1543f1a3877ad9dbdd5621453"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7693121589382451690.md",
+      "source_sha256": "12fa2a7b3cf6968307a86940449e1efe2c072f4c0ccab7c3ade25786951eac7b",
+      "export_sha256": "6648c8db15dfdaae1832c900e0bbdf7746a01604828aa3f5dded5765013afec3"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7694250839054462419.md",
+      "source_sha256": "151c6f6f8ce606830f1ff26fe01b3112702a928c8ad10e831f9e44fc9062ec28",
+      "export_sha256": "56a6f11166efa312e0c9947e398b80324c55f80a82f84b29b42e0652bcf68dce"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7695748552425854838.md",
+      "source_sha256": "168f07309b4bbe6dabe72e4df48efe3af9de3854c6af22c983e485955f3800ef",
+      "export_sha256": "e203e054ef45cc5ee03f40441e3a5eafaff53acce26bb1860f2c9c3e201a93d1"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7696481018321279222.md",
+      "source_sha256": "f710f5318b174d6d9d4403de85716779cca7fd6fe7eda16224d42fe90123b000",
+      "export_sha256": "ab20f7dd9ff1f6c7bf55389f69f09fc5907ff226246208f82c271f3007e71d61"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7697203616843355364.md",
+      "source_sha256": "24baa2cf31e0b87ea99a2f346b1b2ed2344ab302e9d4571a25bd78804bdc210b",
+      "export_sha256": "dd19b78c1b79e9cf70bd08e0af5f0d584a2ff8cf5295c586cb0d421e394a7353"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7698003421198487715.md",
+      "source_sha256": "f7b3b811a41a1de3e36165c9a6cf3778e8555a3335db5d179650bd663964b0eb",
+      "export_sha256": "68b416b209949ef60afbdeb39bd1636fd7df22b0aa272b0812fdf267b7ff11c0"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7698968062985485739.md",
+      "source_sha256": "23f3771b68ffeae987ae034af13ad5934a961add2b756343bd1e3dd711510e86",
+      "export_sha256": "0e95263a3cb7265c6843b5158ab04bb101bf9e03a8ffc185cf07a1bb91480efc"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7699420813251062931.md",
+      "source_sha256": "d38b6e173675a99cead4fbedbac0c1e1b9656e04262c99d49c77b2a2750d3aa7",
+      "export_sha256": "572a4efb9a89d81fdc78e938ea219975a3c13c8ce0b48240a291185dde9da0bb"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/作品/7700067108777205156.md",
+      "source_sha256": "f31e14800be57ed6c66ce3ede21e8663d7bbb693a4bed7e1a7bc77c30b8d173a",
+      "export_sha256": "08d04e6ddb0f1b26db7cc5a0a0517592f2fb03cdb733048ea11644d2934175a8"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/全作品目录.md",
+      "source_sha256": "097c40090d7b2d620e9b61c38af9527873b32cf050208319995c429997c865b2",
+      "export_sha256": "5f78cb6b148e82a4da1f3ae6af26ff966a775014bf3e2f16a00be0efe3a303f3"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/八条补读归纳.md",
+      "source_sha256": "ebd5b41509f23371105c1dfda57d2178c40c620dad26d6435e1c57b568893b33",
+      "export_sha256": "42bd3cc816a9199bb1c0c483d38e379ec1e0c1ad1e2ac9a967c03a99f8115227"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/关系图谱.canvas",
+      "source_sha256": "903aeb08283a6b7bf182a3d74cbcca9e8b4fda2b422cd611626863982782df14",
+      "export_sha256": "1150feae0517c83f2ed94a668401abd480966e5786747f2965a3fd3fb6cadcb9"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/关系说明.md",
+      "source_sha256": "b3a93d23e69a8aacf705f20f80ff95e0021925aa25528fbaa993b20498be8ca1",
+      "export_sha256": "779ed4403d6bd0129d4af1fe219818d30b841e5b4fc52f84d397a716856030bc"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/外贸实践指南.md",
+      "source_sha256": "d8dd95f1e2e8cd7eb245540b13c52197210e399d216998392d81681d58031d84",
+      "export_sha256": "8bcb5e3e8c997a11af678d17f5325edcfba5e84820b92f3a820b58a0312fd00a"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/待精读与来源.md",
+      "source_sha256": "28d4b45809bd2a17feee761d42f3f4c657657684baa0ccd8a2ee299a3f5e7137",
+      "export_sha256": "f7c213f9f868d5a930b32c47c506ae5b47c3a9f2dade4735e6da9fcca9029b16"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/业务模式与海外伙伴.md",
+      "source_sha256": "67e60d83fad25de009c664f31c340370893b08aa5989d97209f0306b67fca81d",
+      "export_sha256": "6d070b8d478d5c513c793869077d33c61d6ad2a489f90e903645f1128ae60616"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/伙伴店铺与轻定制.md",
+      "source_sha256": "71b36f106f1944a7a5bdb05c057c9a37b7e6ff785d931e3cc109eea0ccbda0fb",
+      "export_sha256": "90b8f14879a3ddf6e89f0ccefa03d11df01bb060f960fffe8b433faeed493095"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/供应商与看厂.md",
+      "source_sha256": "b4f2d54ab62c6ed0114ef528d9e3efc119747d344fecec09050d3ce3cbd0642e",
+      "export_sha256": "c547d3efccd9fa436c60168c6bbe232afd7b41ec4e7795b74d52c7bef225560f"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/入门流程与复盘.md",
+      "source_sha256": "78902ff84d765d75b2e8f53320fc806dcc6b8a9076aad00cdb3ac63ed171cd4f",
+      "export_sha256": "63fc452572cffca27a88e4852f4d21ab3c52bc5d1e776603df5a5eeaebe17bd5"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/公开渠道找客.md",
+      "source_sha256": "d1e8fb9d8da76e20125e3c511aa1e0d6c5b227be0731598209059d19e1c5fb77",
+      "export_sha256": "060c5d8f967c29746f7de2a0b08575c90a5cb48545c3e5df723a1e0954b94407"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/发货与售后.md",
+      "source_sha256": "e4b7e2bc7be41f74a7136f54cbcd37803e131da9ba1458c5b921cdc18752a90c",
+      "export_sha256": "ad17012a07f7986e6c6189e5bd168622f45bd48a8abd0067e5c08bec84d55f57"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/多语言与工具.md",
+      "source_sha256": "4b598fff788b99b23876a141db200263fdd899790e568117b283c65ee5021bd9",
+      "export_sha256": "80103b4f195d33366c62d32d54d5d143ccec0c2beb4b85ddc1f6045ea4c7edd3"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/客户背调.md",
+      "source_sha256": "562e714bc8dda88ef9e9e41c7f39daa4e8ae392f8a22072b35de9170db887a4b",
+      "export_sha256": "bc96f34cf2a7513e5f31a63cfe4b3a87f4bf45e9caeffce69b92b439bdbf62eb"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/报价与预算.md",
+      "source_sha256": "7aeaa82f8265be45e8b4e992f8dfa6c22e8f49b36e996016a4e66d28c983e0f7",
+      "export_sha256": "a018b79d087291f3c992b09d941c463e2aaecc83e3f08e00118f55ac346a6fc8"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/收款与资金风险.md",
+      "source_sha256": "c25a55f041cec3231b7b4f68b1c33828b6398d4011b218aa4d95ad480d23cda5",
+      "export_sha256": "8c9ba31c760f98d8f65ccf0b17936af1f2dd8a5efae976daa41bf3e6eac70eaf"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/服务与客户留存.md",
+      "source_sha256": "240ab2de0839e2f269a334a694a00a1e653b134211532ac4c8c69cb0390a872c",
+      "export_sha256": "f08d0b498f788e9cffee5a7e43848655b18df27930f75a8e408d33a7c8a0a399"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/样品政策与合作试单.md",
+      "source_sha256": "5a1f7154c12e45a5ea3f129bb42f1df80066071a7633eb11edd096aff1f79656",
+      "export_sha256": "7b2ade1d59cbd5c80bb7c8b0f3de6f496db7e9e1bd4bb8e28fec18216b95b430"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/海关统计与市场验证.md",
+      "source_sha256": "52ce3dc87bedc03ca21a54cccb269a192adc251c3cf88db206e0bc9800c0b75c",
+      "export_sha256": "f9deaded947c25d72777ea46383447e4236de7514380c5358fa0e728a49211da"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/破冰与订单推进.md",
+      "source_sha256": "af5772df26e2a6c44cd3b9ddccdb207ed16227457b9753fc56815246010ebeb7",
+      "export_sha256": "fc067cffe5ed341428106a707146522b7aaa844c467c4feb1cf01d522a5b76a6"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/询盘承接与分层跟进.md",
+      "source_sha256": "61673cab2abfd4952830bd1d8a31aef4a63ca87f7174d91afe21feaacf9a0740",
+      "export_sha256": "5f8c21d22cf3eb8c56f287621d05d02e5503401259499fb7a83a5ca76d8ebce6"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/方法/选品与目标市场.md",
+      "source_sha256": "3416c9fed40c49db2980b979b32d8298da4c852be8bf583bd92851cd351f488e",
+      "export_sha256": "c413a2da9f9b721262c6dd647db610063f9038a05f052ce400ac2a4c3b126928"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/表达结构.md",
+      "source_sha256": "532aa6884e993d8c4af5e70dd6b1e866d6c4dc5375d270365b6e186fbbcce307",
+      "export_sha256": "cd96948a70cd80f665246b88960f965d1c8d8510d30c95fe333f97e6d96b1c4b"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/观点边界与宣传辨析.md",
+      "source_sha256": "ce1a59ccada0adb317e8c3b230f22fe0169b34c23d99a3240534c353dbdbfc48",
+      "export_sha256": "3a1f15cb9a38899096e61519e6cd4cdad84c55d46f2a22e42ed6588618e12f73"
+    },
+    {
+      "path": "08 博主研究/天天正在做外贸/阅读入口.md",
+      "source_sha256": "d02049d369dde02776f5223e25e96e5ee00f839068e8498c23506a762fec8c48",
+      "export_sha256": "0ff993474ac6225db2fbfa6160d50f14b380ea65a59d4fbe6102ff16b03fe956"
+    },
+    {
+      "path": "08 博主研究/抖音博主采集记录.md",
+      "source_sha256": "c30a647b89a0a32bd19f223f7e059b8cdceb9ab8aebca477d969436e999f9a42",
+      "export_sha256": "9b9aee59ba4ef798eb64a40a09b180c0bd9bc88703035d6011ceb292ae0d2804"
+    },
+    {
+      "path": "06 模板/客户沟通与方案复盘.md",
+      "source_sha256": "6338b6a02acc32cc310e5b6dfe7507cc388ba8fca382926c7f173afca6e9ea91",
+      "export_sha256": "d3ecd7799d8590afd60018dceab921f7f7674c05d196ea2927ac9dbb45ce3214"
+    }
+  ]
+}

@@ -1,0 +1,799 @@
+{
+  "nodes": [
+    {
+      "id": "hub",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/阅读入口.md",
+      "x": 540,
+      "y": -420,
+      "width": 360,
+      "height": 150
+    },
+    {
+      "id": "guide",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/外贸实践指南.md",
+      "x": 100,
+      "y": -420,
+      "width": 320,
+      "height": 150
+    },
+    {
+      "id": "source",
+      "type": "text",
+      "x": 1040,
+      "y": -420,
+      "width": 320,
+      "height": 150,
+      "text": "## 来源与读取精度\n\n[[08 博主研究/天天正在做外贸/待精读与来源|查看覆盖范围与限制]]",
+      "color": "2"
+    },
+    {
+      "id": "m0",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/业务模式与海外伙伴.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m1",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/选品与目标市场.md",
+      "x": 400,
+      "y": 0,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m2",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/客户背调.md",
+      "x": 800,
+      "y": 0,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m3",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/公开渠道找客.md",
+      "x": 1200,
+      "y": 0,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m4",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/破冰与订单推进.md",
+      "x": 0,
+      "y": 230,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m5",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/供应商与看厂.md",
+      "x": 400,
+      "y": 230,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m6",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/报价与预算.md",
+      "x": 800,
+      "y": 230,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m7",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/服务与客户留存.md",
+      "x": 1200,
+      "y": 230,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m8",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/收款与资金风险.md",
+      "x": 0,
+      "y": 460,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m9",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/发货与售后.md",
+      "x": 400,
+      "y": 460,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m10",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/多语言与工具.md",
+      "x": 800,
+      "y": 460,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m11",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/入门流程与复盘.md",
+      "x": 1200,
+      "y": 460,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "c0",
+      "type": "text",
+      "x": 0,
+      "y": 1020,
+      "width": 300,
+      "height": 160,
+      "text": "## 当地电商筛选客户\n\n[[08 博主研究/天天正在做外贸/作品/7673804073459784191|打开作品笔记]]\n\n平台章节摘要",
+      "color": "5"
+    },
+    {
+      "id": "c1",
+      "type": "text",
+      "x": 400,
+      "y": 1020,
+      "width": 300,
+      "height": 160,
+      "text": "## 客户与产品双线背调\n\n[[08 博主研究/天天正在做外贸/作品/7685730846930539263|打开作品笔记]]\n\n平台章节摘要",
+      "color": "5"
+    },
+    {
+      "id": "c2",
+      "type": "text",
+      "x": 800,
+      "y": 1020,
+      "width": 300,
+      "height": 160,
+      "text": "## 说要下单却迟迟不付款\n\n[[08 博主研究/天天正在做外贸/作品/7700067108777205156|打开作品笔记]]\n\n平台章节摘要",
+      "color": "5"
+    },
+    {
+      "id": "c3",
+      "type": "text",
+      "x": 1200,
+      "y": 1020,
+      "width": 300,
+      "height": 160,
+      "text": "## 客户比价时先核对差异\n\n[[08 博主研究/天天正在做外贸/作品/7682325245856236521|打开作品笔记]]\n\n平台章节摘要",
+      "color": "5"
+    },
+    {
+      "id": "c4",
+      "type": "text",
+      "x": 0,
+      "y": 1250,
+      "width": 300,
+      "height": 160,
+      "text": "## 客户看厂的准备\n\n[[08 博主研究/天天正在做外贸/作品/7688675923742502633|打开作品笔记]]\n\n平台章节摘要",
+      "color": "5"
+    },
+    {
+      "id": "c5",
+      "type": "text",
+      "x": 400,
+      "y": 1250,
+      "width": 300,
+      "height": 160,
+      "text": "## 发货前检查与售后态度\n\n[[08 博主研究/天天正在做外贸/作品/7679786860164135379|打开作品笔记]]\n\n平台章节摘要",
+      "color": "5"
+    },
+    {
+      "id": "m12",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/询盘承接与分层跟进.md",
+      "x": 0,
+      "y": 690,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m13",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/样品政策与合作试单.md",
+      "x": 400,
+      "y": 690,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m14",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/海关统计与市场验证.md",
+      "x": 800,
+      "y": 690,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "m15",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/方法/伙伴店铺与轻定制.md",
+      "x": 1200,
+      "y": 690,
+      "width": 300,
+      "height": 125
+    },
+    {
+      "id": "s0",
+      "type": "text",
+      "x": 800,
+      "y": 1250,
+      "width": 300,
+      "height": 160,
+      "text": "## 社媒高播放量后流失询盘\n\n[[08 博主研究/天天正在做外贸/作品/7697203616843355364|打开作品笔记]]\n\n本轮屏幕字幕或画面补读",
+      "color": "4"
+    },
+    {
+      "id": "s1",
+      "type": "text",
+      "x": 1200,
+      "y": 1250,
+      "width": 300,
+      "height": 160,
+      "text": "## 新人全流程SOP直播预告\n\n[[08 博主研究/天天正在做外贸/作品/7698003421198487715|打开作品笔记]]\n\n本轮屏幕字幕或画面补读",
+      "color": "4"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "x": 0,
+      "y": 1480,
+      "width": 300,
+      "height": 160,
+      "text": "## 客户要求免费样品\n\n[[08 博主研究/天天正在做外贸/作品/7691713001192070058|打开作品笔记]]\n\n本轮屏幕字幕或画面补读",
+      "color": "4"
+    },
+    {
+      "id": "s3",
+      "type": "text",
+      "x": 400,
+      "y": 1480,
+      "width": 300,
+      "height": 160,
+      "text": "## 时间与个人心态\n\n[[08 博主研究/天天正在做外贸/作品/7681605924577931753|打开作品笔记]]\n\n本轮屏幕字幕或画面补读",
+      "color": "4"
+    },
+    {
+      "id": "s4",
+      "type": "text",
+      "x": 800,
+      "y": 1480,
+      "width": 300,
+      "height": 160,
+      "text": "## 用海关统计比较商品市场\n\n[[08 博主研究/天天正在做外贸/作品/7680496009134700395|打开作品笔记]]\n\n本轮屏幕字幕或画面补读",
+      "color": "4"
+    },
+    {
+      "id": "s5",
+      "type": "text",
+      "x": 1200,
+      "y": 1480,
+      "width": 300,
+      "height": 160,
+      "text": "## 客户语音视频翻译\n\n[[08 博主研究/天天正在做外贸/作品/7677200391055193707|打开作品笔记]]\n\n本轮屏幕字幕或画面补读",
+      "color": "4"
+    },
+    {
+      "id": "s6",
+      "type": "text",
+      "x": 0,
+      "y": 1710,
+      "width": 300,
+      "height": 160,
+      "text": "## 伙伴服务的四件事\n\n[[08 博主研究/天天正在做外贸/作品/7671997229373627883|打开作品笔记]]\n\n本轮屏幕字幕或画面补读",
+      "color": "4"
+    },
+    {
+      "id": "s7",
+      "type": "text",
+      "x": 400,
+      "y": 1710,
+      "width": 300,
+      "height": 160,
+      "text": "## 海外伙伴与国内找货的分工\n\n[[08 博主研究/天天正在做外贸/作品/7670376224472769350|打开作品笔记]]\n\n本轮屏幕字幕或画面补读",
+      "color": "4"
+    },
+    {
+      "id": "supplement",
+      "type": "file",
+      "file": "08 博主研究/天天正在做外贸/八条补读归纳.md",
+      "x": 440,
+      "y": 1980,
+      "width": 400,
+      "height": 160
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "guide",
+      "toSide": "top",
+      "label": "实践顺序"
+    },
+    {
+      "id": "e1",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "source",
+      "toSide": "top",
+      "label": "检验覆盖"
+    },
+    {
+      "id": "e2",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m0",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e3",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m1",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e4",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m2",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e5",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m3",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e6",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m4",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e7",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m5",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e8",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m6",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e9",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m7",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e10",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m8",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e11",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m9",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e12",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m10",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e13",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m11",
+      "toSide": "top",
+      "label": "主题"
+    },
+    {
+      "id": "e14",
+      "fromNode": "m0",
+      "fromSide": "bottom",
+      "toNode": "m3",
+      "toSide": "top",
+      "label": "伙伴触达买家"
+    },
+    {
+      "id": "e15",
+      "fromNode": "m1",
+      "fromSide": "bottom",
+      "toNode": "m2",
+      "toSide": "top",
+      "label": "验证客户适配"
+    },
+    {
+      "id": "e16",
+      "fromNode": "m2",
+      "fromSide": "bottom",
+      "toNode": "m3",
+      "toSide": "top",
+      "label": "约束找客方向"
+    },
+    {
+      "id": "e17",
+      "fromNode": "m3",
+      "fromSide": "bottom",
+      "toNode": "m4",
+      "toSide": "top",
+      "label": "进入沟通"
+    },
+    {
+      "id": "e18",
+      "fromNode": "m5",
+      "fromSide": "bottom",
+      "toNode": "m6",
+      "toSide": "top",
+      "label": "供给成本影响报价"
+    },
+    {
+      "id": "e19",
+      "fromNode": "m4",
+      "fromSide": "bottom",
+      "toNode": "m6",
+      "toSide": "top",
+      "label": "确认预算"
+    },
+    {
+      "id": "e20",
+      "fromNode": "m6",
+      "fromSide": "bottom",
+      "toNode": "m8",
+      "toSide": "top",
+      "label": "确认付款条件"
+    },
+    {
+      "id": "e21",
+      "fromNode": "m8",
+      "fromSide": "bottom",
+      "toNode": "m9",
+      "toSide": "top",
+      "label": "对齐资金与交付"
+    },
+    {
+      "id": "e22",
+      "fromNode": "m9",
+      "fromSide": "bottom",
+      "toNode": "m7",
+      "toSide": "top",
+      "label": "售后积累信任"
+    },
+    {
+      "id": "e23",
+      "fromNode": "m10",
+      "fromSide": "bottom",
+      "toNode": "m7",
+      "toSide": "top",
+      "label": "资料与语言支持"
+    },
+    {
+      "id": "e24",
+      "fromNode": "m7",
+      "fromSide": "bottom",
+      "toNode": "m0",
+      "toSide": "top",
+      "label": "体现合作价值"
+    },
+    {
+      "id": "e25",
+      "fromNode": "m11",
+      "fromSide": "bottom",
+      "toNode": "m1",
+      "toSide": "top",
+      "label": "反馈修正选品"
+    },
+    {
+      "id": "e26",
+      "fromNode": "m11",
+      "fromSide": "bottom",
+      "toNode": "m3",
+      "toSide": "top",
+      "label": "反馈修正渠道"
+    },
+    {
+      "id": "e27",
+      "fromNode": "m3",
+      "fromSide": "bottom",
+      "toNode": "c0",
+      "toSide": "top",
+      "label": "案例摘要"
+    },
+    {
+      "id": "e28",
+      "fromNode": "m2",
+      "fromSide": "bottom",
+      "toNode": "c1",
+      "toSide": "top",
+      "label": "案例摘要"
+    },
+    {
+      "id": "e29",
+      "fromNode": "m4",
+      "fromSide": "bottom",
+      "toNode": "c2",
+      "toSide": "top",
+      "label": "案例摘要"
+    },
+    {
+      "id": "e30",
+      "fromNode": "m6",
+      "fromSide": "bottom",
+      "toNode": "c3",
+      "toSide": "top",
+      "label": "案例摘要"
+    },
+    {
+      "id": "e31",
+      "fromNode": "m5",
+      "fromSide": "bottom",
+      "toNode": "c4",
+      "toSide": "top",
+      "label": "案例摘要"
+    },
+    {
+      "id": "e32",
+      "fromNode": "m9",
+      "fromSide": "bottom",
+      "toNode": "c5",
+      "toSide": "top",
+      "label": "案例摘要"
+    },
+    {
+      "id": "new33",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m12",
+      "toSide": "top",
+      "label": "补充方法"
+    },
+    {
+      "id": "new34",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m13",
+      "toSide": "top",
+      "label": "补充方法"
+    },
+    {
+      "id": "new35",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m14",
+      "toSide": "top",
+      "label": "补充方法"
+    },
+    {
+      "id": "new36",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "m15",
+      "toSide": "top",
+      "label": "补充方法"
+    },
+    {
+      "id": "new37",
+      "fromNode": "m3",
+      "fromSide": "bottom",
+      "toNode": "m12",
+      "toSide": "top",
+      "label": "获客后承接"
+    },
+    {
+      "id": "new38",
+      "fromNode": "m12",
+      "fromSide": "bottom",
+      "toNode": "m4",
+      "toSide": "top",
+      "label": "人工推进"
+    },
+    {
+      "id": "new39",
+      "fromNode": "m12",
+      "fromSide": "bottom",
+      "toNode": "m10",
+      "toSide": "top",
+      "label": "工具辅助"
+    },
+    {
+      "id": "new40",
+      "fromNode": "m4",
+      "fromSide": "bottom",
+      "toNode": "m13",
+      "toSide": "top",
+      "label": "样品试单"
+    },
+    {
+      "id": "new41",
+      "fromNode": "m13",
+      "fromSide": "bottom",
+      "toNode": "m6",
+      "toSide": "top",
+      "label": "透明收费"
+    },
+    {
+      "id": "new42",
+      "fromNode": "m13",
+      "fromSide": "bottom",
+      "toNode": "m7",
+      "toSide": "top",
+      "label": "验证服务"
+    },
+    {
+      "id": "new43",
+      "fromNode": "m14",
+      "fromSide": "bottom",
+      "toNode": "m1",
+      "toSide": "top",
+      "label": "缩小市场研究范围"
+    },
+    {
+      "id": "new44",
+      "fromNode": "m14",
+      "fromSide": "bottom",
+      "toNode": "m2",
+      "toSide": "top",
+      "label": "统计不能代替客户调查"
+    },
+    {
+      "id": "new45",
+      "fromNode": "m0",
+      "fromSide": "bottom",
+      "toNode": "m15",
+      "toSide": "top",
+      "label": "持续支持伙伴"
+    },
+    {
+      "id": "new46",
+      "fromNode": "m15",
+      "fromSide": "bottom",
+      "toNode": "m1",
+      "toSide": "top",
+      "label": "反馈修正产品"
+    },
+    {
+      "id": "new47",
+      "fromNode": "m15",
+      "fromSide": "bottom",
+      "toNode": "m7",
+      "toSide": "top",
+      "label": "差异服务"
+    },
+    {
+      "id": "new48",
+      "fromNode": "m15",
+      "fromSide": "bottom",
+      "toNode": "m5",
+      "toSide": "top",
+      "label": "验证定制供给"
+    },
+    {
+      "id": "new49",
+      "fromNode": "m12",
+      "fromSide": "bottom",
+      "toNode": "s0",
+      "toSide": "top",
+      "label": "失误复盘与工具演示"
+    },
+    {
+      "id": "new50",
+      "fromNode": "source",
+      "fromSide": "bottom",
+      "toNode": "s1",
+      "toSide": "top",
+      "label": "预告已读 课程未取得"
+    },
+    {
+      "id": "new51",
+      "fromNode": "m13",
+      "fromSide": "bottom",
+      "toNode": "s2",
+      "toSide": "top",
+      "label": "样品政策案例"
+    },
+    {
+      "id": "new52",
+      "fromNode": "source",
+      "fromSide": "bottom",
+      "toNode": "s3",
+      "toSide": "top",
+      "label": "照片对照 无操作教程"
+    },
+    {
+      "id": "new53",
+      "fromNode": "m14",
+      "fromSide": "bottom",
+      "toNode": "s4",
+      "toSide": "top",
+      "label": "统计演示与指标辨析"
+    },
+    {
+      "id": "new54",
+      "fromNode": "m10",
+      "fromSide": "bottom",
+      "toNode": "s5",
+      "toSide": "top",
+      "label": "两设备翻译示例"
+    },
+    {
+      "id": "new55",
+      "fromNode": "m15",
+      "fromSide": "bottom",
+      "toNode": "s6",
+      "toSide": "top",
+      "label": "四项服务案例"
+    },
+    {
+      "id": "new56",
+      "fromNode": "m0",
+      "fromSide": "bottom",
+      "toNode": "s7",
+      "toSide": "top",
+      "label": "伙伴分工与条件"
+    },
+    {
+      "id": "new57",
+      "fromNode": "hub",
+      "fromSide": "bottom",
+      "toNode": "supplement",
+      "toSide": "top",
+      "label": "八条补读结果"
+    },
+    {
+      "id": "new58",
+      "fromNode": "source",
+      "fromSide": "bottom",
+      "toNode": "supplement",
+      "toSide": "top",
+      "label": "读取范围与限制"
+    }
+  ]
+}

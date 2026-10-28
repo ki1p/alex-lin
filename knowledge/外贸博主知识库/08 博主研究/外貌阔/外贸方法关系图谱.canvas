@@ -1,0 +1,579 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/阅读入口.md",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 170,
+      "color": "4"
+    },
+    {
+      "id": "guide",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/外贸工作指南.md",
+      "x": 460,
+      "y": 0,
+      "width": 400,
+      "height": 170,
+      "color": "3"
+    },
+    {
+      "id": "boundary",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/观点边界与矛盾.md",
+      "x": 920,
+      "y": 0,
+      "width": 400,
+      "height": 170,
+      "color": "1"
+    },
+    {
+      "id": "existing",
+      "type": "text",
+      "x": 1380,
+      "y": 0,
+      "width": 400,
+      "height": 170,
+      "text": "## 人生指南\n\n原库关联主题，未随本次导出。"
+    },
+    {
+      "id": "m0",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/客户筛选.md",
+      "x": 0,
+      "y": 260,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m1",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/开发信与破冰.md",
+      "x": 460,
+      "y": 260,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m2",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/需求诊断.md",
+      "x": 920,
+      "y": 260,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m3",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/价格与总成本.md",
+      "x": 1380,
+      "y": 260,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m4",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/条件交换与方案选择.md",
+      "x": 0,
+      "y": 560,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m5",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/跟进与下一步.md",
+      "x": 460,
+      "y": 560,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m6",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/信任与关系.md",
+      "x": 920,
+      "y": 560,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m7",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/承诺与合作规则.md",
+      "x": 1380,
+      "y": 560,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m8",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/售后与异常处理.md",
+      "x": 0,
+      "y": 860,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m9",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/回款与样品成本.md",
+      "x": 460,
+      "y": 860,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m10",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/成长与行动复盘.md",
+      "x": 920,
+      "y": 860,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m11",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/心态与表达方式.md",
+      "x": 1380,
+      "y": 860,
+      "width": 400,
+      "height": 220
+    },
+    {
+      "id": "m12",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/工具推广与语言适配.md",
+      "x": 0,
+      "y": 1160,
+      "width": 400,
+      "height": 220,
+      "color": "2"
+    },
+    {
+      "id": "recovery",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/职业消耗与恢复.md",
+      "x": 460,
+      "y": 1160,
+      "width": 400,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "validity",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/方法/报价有效期与真实变更.md",
+      "x": 920,
+      "y": 1160,
+      "width": 400,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "x": 1380,
+      "y": 1160,
+      "width": 400,
+      "height": 220,
+      "color": "3",
+      "text": "## 身体基础\n\n原库关联主题，未随本次导出。"
+    },
+    {
+      "id": "source_7594679915019147494",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7594679915019147494.md",
+      "x": 0,
+      "y": 1600,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7593959825908034954",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7593959825908034954.md",
+      "x": 460,
+      "y": 1600,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7592110898997035099",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7592110898997035099.md",
+      "x": 920,
+      "y": 1600,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7592465533956020809",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7592465533956020809.md",
+      "x": 1380,
+      "y": 1600,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7592835090129775561",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7592835090129775561.md",
+      "x": 0,
+      "y": 1880,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7593205765839222450",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7593205765839222450.md",
+      "x": 460,
+      "y": 1880,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7593571592719505801",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7593571592719505801.md",
+      "x": 920,
+      "y": 1880,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7595431338049300059",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7595431338049300059.md",
+      "x": 1380,
+      "y": 1880,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7599882746412115802",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7599882746412115802.md",
+      "x": 0,
+      "y": 2160,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7644937909560982208",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7644937909560982208.md",
+      "x": 460,
+      "y": 2160,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "source_7654941835706329167",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7654941835706329167.md",
+      "x": 920,
+      "y": 2160,
+      "width": 400,
+      "height": 200,
+      "color": "2"
+    },
+    {
+      "id": "source_7640419947827151970",
+      "type": "file",
+      "file": "08 博主研究/外貌阔/作品/7640419947827151970.md",
+      "x": 1380,
+      "y": 2160,
+      "width": 400,
+      "height": 200,
+      "color": "2"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "m0",
+      "fromSide": "right",
+      "toNode": "m1",
+      "toSide": "left",
+      "label": "选择合适的接触对象"
+    },
+    {
+      "id": "e1",
+      "fromNode": "m1",
+      "fromSide": "right",
+      "toNode": "m2",
+      "toSide": "left",
+      "label": "开启需求澄清"
+    },
+    {
+      "id": "e2",
+      "fromNode": "m2",
+      "fromSide": "right",
+      "toNode": "m3",
+      "toSide": "left",
+      "label": "建立比较口径"
+    },
+    {
+      "id": "e3",
+      "fromNode": "m3",
+      "fromSide": "right",
+      "toNode": "m4",
+      "toSide": "left",
+      "label": "转成可执行取舍"
+    },
+    {
+      "id": "e4",
+      "fromNode": "m4",
+      "fromSide": "right",
+      "toNode": "m5",
+      "toSide": "left",
+      "label": "明确下一步"
+    },
+    {
+      "id": "e5",
+      "fromNode": "m5",
+      "fromSide": "right",
+      "toNode": "m6",
+      "toSide": "left",
+      "label": "持续兑现积累信任"
+    },
+    {
+      "id": "e6",
+      "fromNode": "m7",
+      "fromSide": "right",
+      "toNode": "m6",
+      "toSide": "left",
+      "label": "规则使承诺可兑现"
+    },
+    {
+      "id": "e7",
+      "fromNode": "m8",
+      "fromSide": "right",
+      "toNode": "m6",
+      "toSide": "left",
+      "label": "真实补救维护合作"
+    },
+    {
+      "id": "e8",
+      "fromNode": "m9",
+      "fromSide": "right",
+      "toNode": "m7",
+      "toSide": "left",
+      "label": "明确费用与风险承担"
+    },
+    {
+      "id": "e9",
+      "fromNode": "m10",
+      "fromSide": "right",
+      "toNode": "m2",
+      "toSide": "left",
+      "label": "实践修正判断"
+    },
+    {
+      "id": "e10",
+      "fromNode": "m11",
+      "fromSide": "right",
+      "toNode": "m1",
+      "toSide": "left",
+      "label": "清楚表达相关性"
+    },
+    {
+      "id": "e11",
+      "fromNode": "m12",
+      "fromSide": "right",
+      "toNode": "m11",
+      "toSide": "left",
+      "label": "语言适配需人工核验"
+    },
+    {
+      "id": "a",
+      "fromNode": "entry",
+      "fromSide": "right",
+      "toNode": "guide",
+      "toSide": "left",
+      "label": "按场景使用"
+    },
+    {
+      "id": "b",
+      "fromNode": "boundary",
+      "fromSide": "left",
+      "toNode": "guide",
+      "toSide": "right",
+      "label": "约束应用"
+    },
+    {
+      "id": "c",
+      "fromNode": "guide",
+      "fromSide": "right",
+      "toNode": "existing",
+      "toSide": "left",
+      "label": "连接日常实践"
+    },
+    {
+      "id": "source_link_0",
+      "fromNode": "source_7594679915019147494",
+      "fromSide": "top",
+      "toNode": "m6",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_1",
+      "fromNode": "source_7593959825908034954",
+      "fromSide": "top",
+      "toNode": "m0",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_2",
+      "fromNode": "source_7592110898997035099",
+      "fromSide": "top",
+      "toNode": "m3",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_3",
+      "fromNode": "source_7592465533956020809",
+      "fromSide": "top",
+      "toNode": "m5",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_4",
+      "fromNode": "source_7592835090129775561",
+      "fromSide": "top",
+      "toNode": "m7",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_5",
+      "fromNode": "source_7593205765839222450",
+      "fromSide": "top",
+      "toNode": "m0",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_6",
+      "fromNode": "source_7593571592719505801",
+      "fromSide": "top",
+      "toNode": "m11",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_7",
+      "fromNode": "source_7595431338049300059",
+      "fromSide": "top",
+      "toNode": "m5",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_8",
+      "fromNode": "source_7599882746412115802",
+      "fromSide": "top",
+      "toNode": "m3",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_9",
+      "fromNode": "source_7644937909560982208",
+      "fromSide": "top",
+      "toNode": "m7",
+      "toSide": "bottom",
+      "label": "字幕议题依据"
+    },
+    {
+      "id": "source_link_10",
+      "fromNode": "source_7654941835706329167",
+      "fromSide": "top",
+      "toNode": "m10",
+      "toSide": "bottom",
+      "label": "摘要议题依据"
+    },
+    {
+      "id": "source_link_11",
+      "fromNode": "source_7640419947827151970",
+      "fromSide": "top",
+      "toNode": "recovery",
+      "toSide": "bottom",
+      "label": "摘要议题依据"
+    },
+    {
+      "id": "recovery_body",
+      "fromNode": "recovery",
+      "fromSide": "right",
+      "toNode": "body",
+      "toSide": "left",
+      "label": "身体基础支撑持续工作"
+    },
+    {
+      "id": "validity_rules",
+      "fromNode": "validity",
+      "fromSide": "top",
+      "toNode": "m7",
+      "toSide": "bottom",
+      "label": "细化承诺条件"
+    },
+    {
+      "id": "health_boundary",
+      "fromNode": "recovery",
+      "fromSide": "top",
+      "toNode": "boundary",
+      "toSide": "bottom",
+      "label": "不把硬撑当责任"
+    },
+    {
+      "id": "case_validity",
+      "fromNode": "source_7644937909560982208",
+      "fromSide": "right",
+      "toNode": "validity",
+      "toSide": "bottom",
+      "label": "真实变更与惩罚性话术需区分"
+    },
+    {
+      "id": "contrast_silence",
+      "fromNode": "source_7595431338049300059",
+      "fromSide": "right",
+      "toNode": "source_7644937909560982208",
+      "toSide": "left",
+      "label": "失联可能有不同解释",
+      "color": "1"
+    },
+    {
+      "id": "quality_boundary",
+      "fromNode": "source_7599882746412115802",
+      "fromSide": "top",
+      "toNode": "boundary",
+      "toSide": "right",
+      "label": "风险与改善须有真实依据",
+      "color": "1"
+    }
+  ]
+}
