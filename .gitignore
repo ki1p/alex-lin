@@ -1,0 +1,31 @@
+# Local credentials, customers, message history and runtime state
+data/
+**/data/
+*.db
+*.db-*
+*.sqlite*
+*.dpapi
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+token*.json
+# Installed dependencies and linked browser sessions
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.wwebjs_auth/
+.wwebjs_cache/
+session/
+sessions/
+# Local outputs
+*.log
+backups/
+outputs/
+work/
+.DS_Store
+Thumbs.db

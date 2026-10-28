@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "friesgo-whatsapp": {
+      "command": "C:/Users/LBJ/Documents/Codex/2026-10-20/ni/friesgo-sender/mcp/.venv/Scripts/python.exe",
+      "args": [
+        "-X",
+        "utf8",
+        "C:/Users/LBJ/Documents/Codex/2026-10-20/ni/friesgo-sender/mcp/server.py"
+      ],
+      "cwd": "C:/Users/LBJ/Documents/Codex/2026-10-20/ni/friesgo-sender/mcp"
+    }
+  }
+}
