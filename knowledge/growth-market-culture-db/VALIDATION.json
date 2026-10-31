@@ -1,0 +1,19 @@
+{
+  "checked_on": "2026-10-31",
+  "version": "1.0.0",
+  "records": 431,
+  "sources": 79,
+  "categories": 29,
+  "new_full_profiles": 12,
+  "linked_existing_markets": 6,
+  "contact_markets": 18,
+  "tests_passed": 40,
+  "sqlite_integrity": "ok",
+  "foreign_key_errors": 0,
+  "native_review_claimed": false,
+  "live_procurement_verified": false,
+  "new_country_holiday_calendar_complete": false,
+  "numeric_parameters": "unvalidated authored practice, not national behaviour probabilities",
+  "contact_tool": "on-demand read-only advice; no background monitoring, queue, sending or scheduling",
+  "data_scope": "general research and authored templates; no private customer data"
+}

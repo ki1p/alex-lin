@@ -1,0 +1,185 @@
+{
+  "note": "Manifest hashes all delivery files except itself; ZIP excludes repository-level AGENTS.md.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 107,
+      "sha256": "1bae6ee728cfa6065b9114742c81a189993be66edf7e237f5a92246b49da5189"
+    },
+    {
+      "path": "data.json",
+      "bytes": 430914,
+      "sha256": "fb48bd99f4e168dc6aae18e637ea53a15e9e616e0f2eddd4f9f2e77460921008"
+    },
+    {
+      "path": "kb.py",
+      "bytes": 10923,
+      "sha256": "f504ea53a05b9e2fd648c7cb853a7a90321edea96f6323274de7f0bda51bc065"
+    },
+    {
+      "path": "export_guides.py",
+      "bytes": 16010,
+      "sha256": "b3818abbb6e0f8fdd6b2719234571a7687877a8abeee063cd8fdb75b618dcd04"
+    },
+    {
+      "path": "schema.sql",
+      "bytes": 1552,
+      "sha256": "04354d3187b72fd6e64ff83e4847dcc710bd59c73949c929cd8620d9a1eb23fc"
+    },
+    {
+      "path": "growth_markets.sqlite3",
+      "bytes": 921600,
+      "sha256": "51977c7d703e2024c82a391aa8d9bf20f59e6cd52e316b68ac2ec791288d31ed"
+    },
+    {
+      "path": "contact_planner.py",
+      "bytes": 12671,
+      "sha256": "62eb61c3eac0ad09bb9641080907e1456019f092248d32862faa210da24b1b68"
+    },
+    {
+      "path": "contact_policy.json",
+      "bytes": 24473,
+      "sha256": "2d29f5d7717ac035d0a5730d9a3fe0ed14f06db17cb072d3352354bc1d5c7944"
+    },
+    {
+      "path": "customer_schedule.example.json",
+      "bytes": 821,
+      "sha256": "a02397e146c092e6df01d7d5d72e81865b92cad128cf0f3639b71561ab31144f"
+    },
+    {
+      "path": "test_kb.py",
+      "bytes": 5355,
+      "sha256": "1d7073318024eb06d575debb1749b74b0d5c9e216738e10ec40ae6dd28bdb2ff"
+    },
+    {
+      "path": "test_contact_planner.py",
+      "bytes": 6386,
+      "sha256": "9aa93b320d0f3627b3e13622e897fab7e23de7b4c1ad4ce906aca9640483614e"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 696,
+      "sha256": "a04920fb9fe250cc8d185f320492444d9b3accf878a969e02349ce3b0d75c246"
+    },
+    {
+      "path": "AE.md",
+      "bytes": 19872,
+      "sha256": "f75a2634980205a5364dc056538bd42afb949e020c4cb44f2d34696ad4e6222e"
+    },
+    {
+      "path": "BD.md",
+      "bytes": 16563,
+      "sha256": "15366fc1bf2f684dc7c0a081e71c1be209a8a87ee856b43e4c035416b9917cb4"
+    },
+    {
+      "path": "COMMON.md",
+      "bytes": 30566,
+      "sha256": "9d69a3627e78e10ff1154abe1a211a03d6582dda235e1429af9acb9d44cc7dc7"
+    },
+    {
+      "path": "CONTACT_POLICY.md",
+      "bytes": 4837,
+      "sha256": "3bb72731f9bd7c6fc148edb9ce1ae64ad36f761e928c0a1b25ad69ec4c17c929"
+    },
+    {
+      "path": "EG.md",
+      "bytes": 16507,
+      "sha256": "74832cce42639ed90e3b022acce42d77d3c5d3cc45d20e23a18b7e7856535d74"
+    },
+    {
+      "path": "ET.md",
+      "bytes": 16573,
+      "sha256": "5912a2f83537e5af5c58d198d46e77e37ec1c96c47f7087091f0d4b9490a1146"
+    },
+    {
+      "path": "HANDBOOK.md",
+      "bytes": 244,
+      "sha256": "731375452ee3cd6e73f42d8d73b3af8a02b2f19f0cbebb720a8d07d7c6c45214"
+    },
+    {
+      "path": "ID.md",
+      "bytes": 18080,
+      "sha256": "d00ab997c52f6e4969cfee71a1bd8143752d27b6c6330bba61d19417a3be790c"
+    },
+    {
+      "path": "IN.md",
+      "bytes": 17314,
+      "sha256": "0eb0822f88350c917a3fb4a1c619572fc80864e2c78fae694d5430e9925f076c"
+    },
+    {
+      "path": "KE.md",
+      "bytes": 16535,
+      "sha256": "7ea7c28c4df296a0e71ca3d3910e6c7819560a00e738a8c5b44870d05cff994f"
+    },
+    {
+      "path": "KG.md",
+      "bytes": 927,
+      "sha256": "a26990b82f6c89b046b197457bc19ec202e182f0b6fe5dd0ea74357cc501e0cc"
+    },
+    {
+      "path": "KZ.md",
+      "bytes": 924,
+      "sha256": "9ff1fb994bbaec9997e0fc3506003172d4f026d93e1bbff9dabce55733ac840d"
+    },
+    {
+      "path": "MA.md",
+      "bytes": 17860,
+      "sha256": "6193fb534a8c272d604d6725147fda33587daae2f2a012dbe0bac860e0823c56"
+    },
+    {
+      "path": "MARKETS.md",
+      "bytes": 4130,
+      "sha256": "82c62d0bc0310a3a6b79a74de9055e5c89e628b9b7fc47d11f0b6574f5aed82e"
+    },
+    {
+      "path": "PH.md",
+      "bytes": 17813,
+      "sha256": "e0c194620920545ef6142499579af2b7330fdbd802b9adcdf9045ef6ff9c022d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4870,
+      "sha256": "9c3a4d594bf49612834aa172334a02f12d4a6521cedb70dc88eb55c0ee5bc336"
+    },
+    {
+      "path": "RW.md",
+      "bytes": 16896,
+      "sha256": "47b23a9a42cce61df1074b06be555993640a9e1cdb10a2145a645c852ffa7d58"
+    },
+    {
+      "path": "SA.md",
+      "bytes": 17376,
+      "sha256": "829c354faff6ebfcd0caa928c5057d18c5e683e1dc2016ac6ba218b056b967e8"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 24875,
+      "sha256": "d721e8ff4a19b4c252770028a4f09714761fdca8bc4daaf082854ed8707254cf"
+    },
+    {
+      "path": "TJ.md",
+      "bytes": 924,
+      "sha256": "d4e2868bf9ab56362e73d46595789898a9281bb51fba503b458ea71402343015"
+    },
+    {
+      "path": "TM.md",
+      "bytes": 924,
+      "sha256": "9862a763af851b6c0132e64149437f759b299687363b6e0748613c853c9a24b5"
+    },
+    {
+      "path": "TZ.md",
+      "bytes": 16947,
+      "sha256": "0a07eb5709cd8e9b6f76703b56d026bb209dcf3d5322a0abb07f9e2564c7622c"
+    },
+    {
+      "path": "UZ.md",
+      "bytes": 927,
+      "sha256": "51ad4ea505f465c1e86e638eabb7a6916ecf9ca169f588cd1d93e15bad3bc178"
+    },
+    {
+      "path": "VN.md",
+      "bytes": 929,
+      "sha256": "8bbd5df12be9e0ea94f9e626930cc091c78a0800e6d2704dc7fa2c885b359697"
+    }
+  ]
+}

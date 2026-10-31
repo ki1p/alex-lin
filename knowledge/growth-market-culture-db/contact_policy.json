@@ -1,0 +1,833 @@
+{
+  "version": "1.0.0",
+  "checked_on": "2026-10-31",
+  "purpose": "18市场只读联系时间判断；不自动发送、排队或后台监控。",
+  "countries": {
+    "KZ": {
+      "timezone": "Asia/Almaty",
+      "verified_utc_offset_minutes": 300,
+      "office_hours_reference": "09:00—18:00",
+      "reference_source": "../central-asia-culture-db/data.json#KZ02",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "17:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "UZ": {
+      "timezone": "Asia/Tashkent",
+      "verified_utc_offset_minutes": 300,
+      "office_hours_reference": "09:00—18:00，周一至周五",
+      "reference_source": "../central-asia-culture-db/data.json#UZ09",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "10:00",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "17:00"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "KG": {
+      "timezone": "Asia/Bishkek",
+      "verified_utc_offset_minutes": 360,
+      "office_hours_reference": "09:00—18:00",
+      "reference_source": "../central-asia-culture-db/data.json#KG08",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "17:00"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "TJ": {
+      "timezone": "Asia/Dushanbe",
+      "verified_utc_offset_minutes": 300,
+      "office_hours_reference": "08:00—17:00；午休通常12:00—13:00",
+      "reference_source": "../central-asia-culture-db/data.json#TJ08",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "09:00",
+          "11:30"
+        ],
+        [
+          "13:30",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "TM": {
+      "timezone": "Asia/Ashgabat",
+      "verified_utc_offset_minutes": 300,
+      "office_hours_reference": "09:00—18:00，周一至周五",
+      "reference_source": "../central-asia-culture-db/data.json#TM09",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "17:00"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "SA": {
+      "timezone": "Asia/Riyadh",
+      "verified_utc_offset_minutes": 180,
+      "office_hours_reference": "参考周日—周四；周五、周六保守避开。具体开工下班和斋月调整需问企业。",
+      "reference_source": "SA-B",
+      "working_days": [
+        6,
+        0,
+        1,
+        2,
+        3
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "AE": {
+      "timezone": "Asia/Dubai",
+      "verified_utc_offset_minutes": 240,
+      "office_hours_reference": "不能照搬沙特周末：联邦政府周五为半天；沙迦政府有四天工作制；私企另行确认。",
+      "reference_source": "AE-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": [],
+      "weekday_contact_windows": {
+        "4": [
+          [
+            "09:30",
+            "11:30"
+          ]
+        ]
+      }
+    },
+    "IN": {
+      "timezone": "Asia/Kolkata",
+      "verified_utc_offset_minutes": 330,
+      "office_hours_reference": "保守周一—周五候选；部分企业周六办公，不能自动认定。印度与北京时间相差2小时30分。",
+      "reference_source": "IN-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "ID": {
+      "timezone": "Asia/Jakarta",
+      "verified_utc_offset_minutes": 420,
+      "office_hours_reference": "必须先确认城市和时区：Jakarta UTC+7、Makassar UTC+8、Jayapura UTC+9；不能全国默认雅加达。",
+      "reference_source": "ID-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": [],
+      "requires_timezone_confirmation": true,
+      "timezones": [
+        "Asia/Jakarta",
+        "Asia/Makassar",
+        "Asia/Jayapura"
+      ],
+      "verified_offsets": {
+        "Asia/Jakarta": 420,
+        "Asia/Makassar": 480,
+        "Asia/Jayapura": 540
+      }
+    },
+    "PH": {
+      "timezone": "Asia/Manila",
+      "verified_utc_offset_minutes": 480,
+      "office_hours_reference": "商务指南提及08—17或09—18，部分周六半天；本工具先用周一—周五保守候选。",
+      "reference_source": "PH-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "BD": {
+      "timezone": "Asia/Dhaka",
+      "verified_utc_offset_minutes": 360,
+      "office_hours_reference": "参考周日—周四。商务指南钟点存在PM笔误，未采纳具体时段；候选09:30—12:00、14:00—16:30为自拟。",
+      "reference_source": "BD-B",
+      "working_days": [
+        6,
+        0,
+        1,
+        2,
+        3
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "EG": {
+      "timezone": "Africa/Cairo",
+      "verified_utc_offset_minutes": null,
+      "office_hours_reference": "Africa/Cairo有夏令时变化；2026年参考切换4月24日、10月30日，不可全年写死UTC+2。",
+      "reference_source": "EG-B",
+      "working_days": [
+        6,
+        0,
+        1,
+        2,
+        3
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "MA": {
+      "timezone": "Africa/Casablanca",
+      "verified_utc_offset_minutes": null,
+      "office_hours_reference": "Africa/Casablanca会因斋月调钟；2026年2月15日回GMT，使用IANA时区动态计算。",
+      "reference_source": "MA-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "KE": {
+      "timezone": "Africa/Nairobi",
+      "verified_utc_offset_minutes": 180,
+      "office_hours_reference": "2024商务指南参考08—17、午餐13—14；本工具候选避开午间，不保证每家公司相同。",
+      "reference_source": "KE-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "TZ": {
+      "timezone": "Africa/Dar_es_Salaam",
+      "verified_utc_offset_minutes": 180,
+      "office_hours_reference": "2022商务指南给政府参考08—17周一—周五；只作旧参考，实际企业日程先确认。",
+      "reference_source": "TZ-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "RW": {
+      "timezone": "Africa/Kigali",
+      "verified_utc_offset_minutes": 120,
+      "office_hours_reference": "保守周一—周五；09:30—12:00、14:00—16:30为自拟候选，非全国办公室统一制度。",
+      "reference_source": "RW-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "ET": {
+      "timezone": "Africa/Addis_Ababa",
+      "verified_utc_offset_minutes": 180,
+      "office_hours_reference": "2024指南参考08—17、午餐12—14中的一小时；政府周五午间较长。候选避开午间，实际企业确认。",
+      "reference_source": "ET-B",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "VN": {
+      "timezone": "Asia/Ho_Chi_Minh",
+      "verified_utc_offset_minutes": 420,
+      "office_hours_reference": "周一—周五保守候选；实际企业确认",
+      "reference_source": "../vietnam-communication-db/data.json",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "country_reference_company_unconfirmed",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    }
+  },
+  "calendars": {
+    "KZ": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_KZ",
+      "source_quality": "official_reference",
+      "holidays": {
+        "2026-01-01": "元旦",
+        "2026-01-02": "新年假日",
+        "2026-01-07": "东正教圣诞节",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节顺延",
+        "2026-03-21": "Nauryz",
+        "2026-03-22": "Nauryz",
+        "2026-03-23": "Nauryz",
+        "2026-03-24": "Nauryz顺延",
+        "2026-03-25": "Nauryz顺延",
+        "2026-05-01": "团结日",
+        "2026-05-07": "保卫者日",
+        "2026-05-09": "胜利日",
+        "2026-05-11": "胜利日顺延",
+        "2026-05-27": "Qurban Ait",
+        "2026-07-06": "首都日",
+        "2026-10-25": "共和国日",
+        "2026-10-26": "共和国日顺延",
+        "2026-12-16": "独立日"
+      },
+      "possible_working_dates": [],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "UZ": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_UZ",
+      "source_quality": "secondary_reference",
+      "holidays": {
+        "2026-01-01": "元旦",
+        "2026-01-02": "新年假日",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节顺延",
+        "2026-03-20": "开斋节参考日期",
+        "2026-03-21": "Navruz",
+        "2026-03-23": "Navruz顺延",
+        "2026-05-09": "纪念日",
+        "2026-05-11": "纪念日顺延",
+        "2026-05-27": "宰牲节参考日期",
+        "2026-05-28": "宰牲节假日",
+        "2026-05-29": "宰牲节假日",
+        "2026-08-31": "独立日连休",
+        "2026-09-01": "独立日",
+        "2026-10-01": "教师节",
+        "2026-12-08": "宪法日",
+        "2026-12-31": "新年假日"
+      },
+      "possible_working_dates": [
+        "2026-12-12"
+      ],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "KG": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_KG",
+      "source_quality": "secondary_reference",
+      "holidays": {
+        "2026-01-01": "新年及圣诞参考假日",
+        "2026-01-02": "新年及圣诞参考假日",
+        "2026-01-03": "新年及圣诞参考假日",
+        "2026-01-04": "新年及圣诞参考假日",
+        "2026-01-05": "新年及圣诞参考假日",
+        "2026-01-06": "新年及圣诞参考假日",
+        "2026-01-07": "新年及圣诞参考假日",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节顺延",
+        "2026-03-20": "Orozo Ait参考日期",
+        "2026-03-21": "Nooruz",
+        "2026-05-01": "五月参考假期",
+        "2026-05-02": "五月参考假期",
+        "2026-05-03": "五月参考假期",
+        "2026-05-04": "五月参考假期",
+        "2026-05-05": "五月参考假期",
+        "2026-05-06": "五月参考假期",
+        "2026-05-07": "五月参考假期",
+        "2026-05-08": "五月参考假期",
+        "2026-05-09": "五月参考假期",
+        "2026-05-27": "Kurman Ait参考日期",
+        "2026-08-31": "独立日"
+      },
+      "possible_working_dates": [],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "TJ": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_TJ",
+      "source_quality": "secondary_reference",
+      "holidays": {
+        "2026-01-01": "元旦",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节顺延",
+        "2026-03-20": "开斋节参考日期",
+        "2026-03-21": "Navruz",
+        "2026-03-22": "Navruz",
+        "2026-03-23": "Navruz",
+        "2026-03-24": "Navruz",
+        "2026-05-09": "胜利日",
+        "2026-05-11": "胜利日顺延",
+        "2026-05-27": "宰牲节参考日期",
+        "2026-06-27": "团结日",
+        "2026-06-29": "团结日顺延",
+        "2026-09-09": "独立日",
+        "2026-11-06": "宪法日"
+      },
+      "possible_working_dates": [],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "TM": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_TM",
+      "source_quality": "secondary_reference",
+      "holidays": {
+        "2026-01-01": "元旦",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节参考顺延",
+        "2026-03-20": "Oraza Bayram参考日期",
+        "2026-03-21": "Nowruz",
+        "2026-03-22": "Nowruz",
+        "2026-03-23": "Nowruz参考顺延",
+        "2026-05-18": "宪法日",
+        "2026-05-27": "Kurban Bayramy参考日期",
+        "2026-05-28": "Kurban Bayramy假日",
+        "2026-05-29": "Kurban Bayramy假日",
+        "2026-09-27": "独立日",
+        "2026-09-28": "独立日参考假日",
+        "2026-09-29": "独立日参考顺延",
+        "2026-10-06": "纪念日",
+        "2026-12-12": "中立日"
+      },
+      "possible_working_dates": [],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "SA": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "AE": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "IN": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "ID": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "PH": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "BD": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "EG": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "MA": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "KE": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "TZ": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "RW": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "ET": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    },
+    "VN": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [],
+      "complete": false,
+      "holidays": {},
+      "note": "未完成逐年、地方和企业日历核验；不能保证候选为实际工作日。"
+    }
+  }
+}

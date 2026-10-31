@@ -1,0 +1,52 @@
+{
+  "example_only": true,
+  "country": "AE",
+  "timezone": "Asia/Dubai",
+  "schedule_confirmed": false,
+  "working_days": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "contact_windows": [
+    [
+      "09:30",
+      "12:00"
+    ],
+    [
+      "14:00",
+      "16:30"
+    ]
+  ],
+  "weekday_contact_windows": {
+    "4": [
+      [
+        "09:30",
+        "11:30"
+      ]
+    ]
+  },
+  "quiet_hours": [
+    "22:00",
+    "08:30"
+  ],
+  "unavailable_dates": [],
+  "confirmed_working_dates": [],
+  "confirmed_on": null,
+  "source_type": null,
+  "personal_routine": {
+    "wake_time": null,
+    "sleep_time": null,
+    "nap": null,
+    "meal_times": null
+  },
+  "interests": {
+    "food": null,
+    "music": null,
+    "singing": null,
+    "dancing": null,
+    "sports": null
+  }
+}
