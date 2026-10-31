@@ -1,0 +1,6545 @@
+{
+  "metadata": {
+    "title": "越南生活与阀门销售沟通知识数据库",
+    "version": "1.0.0",
+    "created_on": "2026-10-31",
+    "primary_language": "zh-CN",
+    "communication_language": "English with selected Vietnamese",
+    "audience": "越南各地客户与日常交往",
+    "evidence_notice": "数值全部是自拟实践起点，非越南全国行为统计；自编越南语未完成母语专项复核。",
+    "personal_data": "不含真实客户档案、聊天正文、邮箱、电话、凭据或自动发送任务。",
+    "scope_notice": "第一版覆盖常见生活与销售场景，不声称穷尽越南所有群体或地方习俗。"
+  },
+  "categories": [
+    {
+      "id": "greetings",
+      "name_zh": "称呼与初识"
+    },
+    {
+      "id": "conversation",
+      "name_zh": "日常聊天与倾听"
+    },
+    {
+      "id": "dialects",
+      "name_zh": "地方用词与语气"
+    },
+    {
+      "id": "food",
+      "name_zh": "吃饭与饮食"
+    },
+    {
+      "id": "coffee",
+      "name_zh": "咖啡与邀约"
+    },
+    {
+      "id": "home",
+      "name_zh": "做客与家居"
+    },
+    {
+      "id": "gifts",
+      "name_zh": "礼物与人情"
+    },
+    {
+      "id": "family",
+      "name_zh": "家人与孩子"
+    },
+    {
+      "id": "friends",
+      "name_zh": "朋友与互助"
+    },
+    {
+      "id": "dating",
+      "name_zh": "异性交往与感情"
+    },
+    {
+      "id": "ceremonies",
+      "name_zh": "生日婚礼与丧事"
+    },
+    {
+      "id": "beliefs",
+      "name_zh": "信仰与多元文化"
+    },
+    {
+      "id": "festivals",
+      "name_zh": "节庆与时间"
+    },
+    {
+      "id": "leisure",
+      "name_zh": "兴趣与地方文化"
+    },
+    {
+      "id": "travel",
+      "name_zh": "交通与出行"
+    },
+    {
+      "id": "online",
+      "name_zh": "线上聊天与社交平台"
+    },
+    {
+      "id": "requests",
+      "name_zh": "请求拒绝与感谢"
+    },
+    {
+      "id": "conflict",
+      "name_zh": "分歧道歉与尴尬"
+    },
+    {
+      "id": "work",
+      "name_zh": "职场与会议"
+    },
+    {
+      "id": "valves",
+      "name_zh": "阀门销售与采购"
+    },
+    {
+      "id": "health",
+      "name_zh": "生病与关怀"
+    },
+    {
+      "id": "daily",
+      "name_zh": "购物邻里与日常事务"
+    },
+    {
+      "id": "metrics",
+      "name_zh": "量化标准与复盘"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Vietnam — Business Travel",
+      "url": "https://www.trade.gov/country-commercial-guides/vietnam-business-travel",
+      "publisher": "U.S. International Trade Administration",
+      "checked_on": "2026-10-31",
+      "scope": "名字、介绍、关系建立、会前准备、多人决策。",
+      "limitations": "商务概括；不应机械套用文中对国民性格的推断。"
+    },
+    {
+      "id": "S02",
+      "title": "Vietnamese etiquette for travellers",
+      "url": "https://vietnam.travel/things-to-do/vietnamese-etiquette-travellers/",
+      "publisher": "Vietnam Tourism",
+      "checked_on": "2026-10-31",
+      "scope": "家庭拜访、共享餐食、祭坛、递物、公众体面。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S03",
+      "title": "What are the Vietnamese like?",
+      "url": "https://vietnam.travel/things-to-do/what-are-vietnamese-like/",
+      "publisher": "Vietnam Tourism",
+      "checked_on": "2026-10-31",
+      "scope": "年龄询问与称呼的文化背景。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S04",
+      "title": "Requests and politeness in Vietnamese as a native language",
+      "url": "https://benjamins.com/online/prag/articles/prag.23.4.05ngu",
+      "publisher": "Pragmatics / John Benjamins",
+      "checked_on": "2026-10-31",
+      "scope": "请求表达受关系、权力和情境影响。",
+      "limitations": "九名受试者、六个角色扮演场景；不是全国代表性样本，不能生成国籍性格评分。"
+    },
+    {
+      "id": "S05",
+      "title": "Em ăn chưa? — Have you eaten?",
+      "url": "https://vlstudies.wordpress.com/2018/12/06/vietnamese-culture-em-an-chuahave-you-eaten/",
+      "publisher": "Vietnamese Language Studies",
+      "checked_on": "2026-10-31",
+      "scope": "熟人之间吃饭问候的非字面功能。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S06",
+      "title": "Southern vs Northern Vietnamese word list",
+      "url": "https://howtovietnamese.com/vietnamese-northern-southern-words/",
+      "publisher": "HowToVietnamese",
+      "checked_on": "2026-10-31",
+      "scope": "所选常见南北词对。",
+      "limitations": "教学词表有个别项目可能过度简化；这里只采用含义稳定的词对，非排他地区分布。"
+    },
+    {
+      "id": "S07",
+      "title": "Southern Vietnamese texting on Zalo",
+      "url": "https://svff.online/blog/southern-vietnamese-texting-zalo-slang",
+      "publisher": "SVFF",
+      "checked_on": "2026-10-31",
+      "scope": "日常聊天缩写、无声调拼写与口语形式。",
+      "limitations": "教学示例；不是客户真实对话数据，不支持回复频率的统计结论。"
+    },
+    {
+      "id": "S08",
+      "title": "Southern Vietnamese sentence-final particles",
+      "url": "https://svff.online/blog/southern-vietnamese-sentence-final-particles",
+      "publisher": "SVFF",
+      "checked_on": "2026-10-31",
+      "scope": "nha、nghen、hén的柔化和确认功能。",
+      "limitations": "不同教学页面对正式程度描述不一致，库中不对这些词作固定正式度排名。"
+    },
+    {
+      "id": "S09",
+      "title": "Giữ hồn tiếng Nghệ trên sân khấu kịch hát",
+      "url": "https://baonghean.vn/giu-hon-tieng-nghe-tren-san-khau-kich-hat-10307232.html",
+      "publisher": "Báo Nghệ An",
+      "checked_on": "2026-10-31",
+      "scope": "乂安地方语言中的mô、tê、răng、rứa、chộ、nác。",
+      "limitations": "舞台与文化报道，不代表所有中部口音。"
+    },
+    {
+      "id": "S10",
+      "title": "Wedding gift-giving: evolving sociability practices",
+      "url": "https://www.iias.asia/the-newsletter/article/gift-giving",
+      "publisher": "International Institute for Asian Studies",
+      "checked_on": "2026-10-31",
+      "scope": "婚礼礼赠、信封及互助关系。",
+      "limitations": "研究场地与时期有限；不提供当前全国统一礼金金额。"
+    },
+    {
+      "id": "S11",
+      "title": "Worshipping ancestors in a peri-urban context",
+      "url": "https://www.iias.asia/the-newsletter/article/peri-urban-context",
+      "publisher": "International Institute for Asian Studies",
+      "checked_on": "2026-10-31",
+      "scope": "家乡、家族纽带、年度giỗ与祭祖。",
+      "limitations": "城市边缘地区研究；不代表每个家庭或宗教。"
+    },
+    {
+      "id": "S12",
+      "title": "Top festivals and holidays in Vietnam",
+      "url": "https://vietnam.travel/things-to-do/top-festivals-vietnam/",
+      "publisher": "Vietnam Tourism",
+      "checked_on": "2026-10-31",
+      "scope": "主要节庆的性质。",
+      "limitations": "每年公历日期、官方放假与企业调休需另外核对。"
+    },
+    {
+      "id": "S13",
+      "title": "Vietnam magical Mid-autumn Festival",
+      "url": "https://vietnam.travel/things-to-do/vietnams-magical-mid-autumn-festival/",
+      "publisher": "Vietnam Tourism",
+      "checked_on": "2026-10-31",
+      "scope": "中秋的儿童活动、灯笼、月饼。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S14",
+      "title": "Tet: Tradition, Reunion & Taste",
+      "url": "https://vietnam.travel/things-to-do/tet-tradition-reunion-taste/",
+      "publisher": "Vietnam Tourism",
+      "checked_on": "2026-10-31",
+      "scope": "春节团聚、桃花黄梅与传统食物。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S15",
+      "title": "Vietnamese Women’s Day anniversary activities",
+      "url": "https://vwu.vn/en_US/web/guest/tin-chi-tiet/-/chi-tiet/chuoi-cac-hoat-%C4%91ong-ky-niem-96-nam-thanh-lap-hoi-lhpn-viet-nam-va-ngay-phu-nu-viet-nam-20-10-999701-7.html",
+      "publisher": "Vietnam Women’s Union",
+      "checked_on": "2026-10-31",
+      "scope": "10月20日越南妇女节。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S16",
+      "title": "Vietnamese Teachers’ Day",
+      "url": "https://dav.edu.vn/en/the-diplomatic-academy-of-viet-nam-organizes-a-ceremony-to-celebrate-vietnamese-teachers-day-november-20-2023/",
+      "publisher": "Diplomatic Academy of Viet Nam",
+      "checked_on": "2026-10-31",
+      "scope": "11月20日教师节与尊师文化。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S17",
+      "title": "Vu Lan: respect towards parents",
+      "url": "https://en.vietnamplus.vn/vu-lan-festival-where-vietnamese-people-show-respect-towards-parents-post268597.vnp",
+      "publisher": "Vietnam News Agency / VietnamPlus",
+      "checked_on": "2026-10-31",
+      "scope": "Vu Lan与孝亲、追念。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S18",
+      "title": "The Peoples of Vietnam",
+      "url": "https://www.vme.org.vn/en/c/category-67/the-peoples-of-vietnam-p1.html",
+      "publisher": "Vietnam Museum of Ethnology",
+      "checked_on": "2026-10-31",
+      "scope": "民族、语言与文化多样性。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S19",
+      "title": "Time Zone & Clock Changes in Hanoi",
+      "url": "https://www.timeanddate.com/time/zone/vietnam/hanoi",
+      "publisher": "timeanddate.com",
+      "checked_on": "2026-10-31",
+      "scope": "UTC+7与近期无夏令时。",
+      "limitations": "只用于时区事实；不支持工作日或午休时间的推定。"
+    },
+    {
+      "id": "S20",
+      "title": "NSRP instrument & analyser spare-parts procurement notice",
+      "url": "https://www.nsrp.vn/vi/partner-blog/notice-of-procurement-plan-for-supply-of-instrument-analyser-consolidated-spare-part-list-batch-2-2026/",
+      "publisher": "Nghi Son Refinery and Petrochemical",
+      "checked_on": "2026-10-31",
+      "scope": "一次采购中的库存、原厂文件、质保及型号尺寸核对。",
+      "limitations": "已发布采购案例；不是正在开放的机会，也不是全越南采购统一要求。"
+    },
+    {
+      "id": "S21",
+      "title": "Vietnam: foodie guide by region",
+      "url": "https://vietnam.travel/things-to-do/vietnam-foodie-guide-region/",
+      "publisher": "Vietnam Tourism",
+      "checked_on": "2026-10-31",
+      "scope": "地方食物差异，可作话题入口。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S22",
+      "title": "5 fantastic Vietnamese coffees",
+      "url": "https://vietnam.travel/things-to-do/5-fantastic-vietnamese-coffees",
+      "publisher": "Vietnam Tourism",
+      "checked_on": "2026-10-31",
+      "scope": "鸡蛋咖啡、bạc xỉu等饮品文化。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S23",
+      "title": "Food tour Hải Phòng",
+      "url": "https://haiphongnews.gov.vn/vn/du-lich/food-tour-hai-phong-va-dac-san-khong-the-thieu-ct771.html",
+      "publisher": "Hai Phong News",
+      "checked_on": "2026-10-31",
+      "scope": "海防bánh đa cua及地方饮食。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S24",
+      "title": "Viet Nam intangible cultural heritage lists",
+      "url": "https://ich.unesco.org/en/state/viet-nam-VN?info=elements-on-the-lists",
+      "publisher": "UNESCO",
+      "checked_on": "2026-10-31",
+      "scope": "Quan họ、Ví Giặm、Đờn ca tài tử等地方文化。",
+      "limitations": "文化参考具有地区、代际与个人差异；只支持所列范围，不支持操作阈值或成交概率。"
+    },
+    {
+      "id": "S25",
+      "title": "Vietnamese culture — Communication",
+      "url": "https://theculturalatlas.org/vietnamese-culture/vietnamese-culture-communication",
+      "publisher": "Cultural Atlas",
+      "checked_on": "2026-10-31",
+      "scope": "应答、表情和沉默需要结合语境。",
+      "limitations": "概括性文化指南且原编辑年份较早；不采用其中绝对化的身体语言判断。"
+    }
+  ],
+  "records": [
+    {
+      "id": "K001",
+      "kind": "knowledge",
+      "category_id": "greetings",
+      "title": "名字与称呼",
+      "summary": "越南商务往来常以称谓配合名字称呼；不确定时可询问本人。",
+      "body": "保留本人邮件签名和称呼习惯，复合名字不能只凭最后一个音节武断截断。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S01",
+          "claim_scope": "越南商务往来常以称谓配合名字称呼；不确定时可询问本人。"
+        }
+      ]
+    },
+    {
+      "id": "K002",
+      "kind": "knowledge",
+      "category_id": "greetings",
+      "title": "年龄与礼貌",
+      "summary": "初识时询问年龄，有时与选择称呼有关。",
+      "body": "这不等于对方同意继续谈收入、婚姻或其他私人问题。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S03",
+          "claim_scope": "初识时询问年龄，有时与选择称呼有关。"
+        }
+      ]
+    },
+    {
+      "id": "K003",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "吃饭了吗的问候功能",
+      "summary": "熟人之间的 ăn cơm chưa 可以是问候，也可能是实际约饭。",
+      "body": "结合时间、是否已有邀请及后续对话判断。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S05",
+          "claim_scope": "熟人之间的 ăn cơm chưa 可以是问候，也可能是实际约饭。"
+        }
+      ]
+    },
+    {
+      "id": "K004",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "Yes未必等于达成一致",
+      "summary": "应答可以表达听见、理解或同意，需要通过上下文核对。",
+      "body": "重要事项应明确双方实际同意的动作。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S25",
+          "claim_scope": "应答可以表达听见、理解或同意，需要通过上下文核对。"
+        }
+      ]
+    },
+    {
+      "id": "K005",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "笑容需要语境",
+      "summary": "笑容可能与礼貌或尴尬有关，不宜单独用于判断满意或信任。",
+      "body": "记录可观察行为，暂不推测内心动机。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S25",
+          "claim_scope": "笑容可能与礼貌或尴尬有关，不宜单独用于判断满意或信任。"
+        }
+      ]
+    },
+    {
+      "id": "K006",
+      "kind": "knowledge",
+      "category_id": "requests",
+      "title": "请求随关系和情境变化",
+      "summary": "越南语请求研究发现身份与请求情境会影响表达策略。",
+      "body": "该研究样本仅九人，不能据此给全体越南人设置性格评分。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S04",
+          "claim_scope": "越南语请求研究发现身份与请求情境会影响表达策略。"
+        }
+      ]
+    },
+    {
+      "id": "K007",
+      "kind": "knowledge",
+      "category_id": "home",
+      "title": "进家门与祭坛",
+      "summary": "家庭拜访应留意脱鞋安排，并尊重家中或店内祭坛。",
+      "body": "不确定的位置、座位和拍摄范围，向主人询问。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S02",
+          "claim_scope": "家庭拜访应留意脱鞋安排，并尊重家中或店内祭坛。"
+        }
+      ]
+    },
+    {
+      "id": "K008",
+      "kind": "knowledge",
+      "category_id": "food",
+      "title": "共享菜肴与主人添菜",
+      "summary": "共享菜肴和主人添菜是常见待客方式。",
+      "body": "各家用餐方式有差异，可礼貌说明吃饱或饮食限制。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S02",
+          "claim_scope": "共享菜肴和主人添菜是常见待客方式。"
+        }
+      ]
+    },
+    {
+      "id": "K009",
+      "kind": "knowledge",
+      "category_id": "family",
+      "title": "quê与家乡联系",
+      "summary": "家乡与家族纽带在相关研究中有重要位置。",
+      "body": "工作城市不能直接等同家乡，跟随本人怎样介绍自己。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S11",
+          "claim_scope": "家乡与家族纽带在相关研究中有重要位置。"
+        }
+      ]
+    },
+    {
+      "id": "K010",
+      "kind": "knowledge",
+      "category_id": "ceremonies",
+      "title": "giỗ年度纪念",
+      "summary": "giỗ可指年度家族纪念祭日，并不一定是刚有人去世。",
+      "body": "先理解事件再回应，避免自动使用新丧慰问。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S11",
+          "claim_scope": "giỗ可指年度家族纪念祭日，并不一定是刚有人去世。"
+        }
+      ]
+    },
+    {
+      "id": "K011",
+      "kind": "knowledge",
+      "category_id": "ceremonies",
+      "title": "婚礼信封礼赠",
+      "summary": "部分越南婚礼以信封中的现金表达祝贺，并存在长期互助往来。",
+      "body": "金额与家庭、关系和时期有关，研究不提供全国统一标准。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S10",
+          "claim_scope": "部分越南婚礼以信封中的现金表达祝贺，并存在长期互助往来。"
+        }
+      ]
+    },
+    {
+      "id": "K012",
+      "kind": "knowledge",
+      "category_id": "beliefs",
+      "title": "民族与语言多样性",
+      "summary": "越南包含多种民族、语言和文化传统。",
+      "body": "根据本人表达了解饮食和活动安排，不用国籍代替询问。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S18",
+          "claim_scope": "越南包含多种民族、语言和文化传统。"
+        }
+      ]
+    },
+    {
+      "id": "K013",
+      "kind": "knowledge",
+      "category_id": "festivals",
+      "title": "春节团聚与地方花卉",
+      "summary": "Tết与家庭团聚相关，桃花、黄梅及传统食物可以成为交流入口。",
+      "body": "花卉意义随场合变化，勿将所有黄色花卉都概括为禁忌。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S14",
+          "claim_scope": "Tết与家庭团聚相关，桃花、黄梅及传统食物可以成为交流入口。"
+        }
+      ]
+    },
+    {
+      "id": "K014",
+      "kind": "knowledge",
+      "category_id": "festivals",
+      "title": "中秋儿童活动",
+      "summary": "越南中秋有灯笼、月饼和儿童活动等鲜明节庆内容。",
+      "body": "是否参与、如何庆祝仍以本人家庭为准。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S13",
+          "claim_scope": "越南中秋有灯笼、月饼和儿童活动等鲜明节庆内容。"
+        }
+      ]
+    },
+    {
+      "id": "K015",
+      "kind": "knowledge",
+      "category_id": "festivals",
+      "title": "Vu Lan孝亲文化",
+      "summary": "Vu Lan与孝亲、追念和佛教文化相关。",
+      "body": "不能由国籍推定每个人都会庆祝。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S17",
+          "claim_scope": "Vu Lan与孝亲、追念和佛教文化相关。"
+        }
+      ]
+    },
+    {
+      "id": "K016",
+      "kind": "knowledge",
+      "category_id": "travel",
+      "title": "越南时区",
+      "summary": "越南使用UTC+7，比北京时间慢一小时。",
+      "body": "工作安排写明Vietnam time；此时区信息不说明企业作息。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S19",
+          "claim_scope": "越南使用UTC+7，比北京时间慢一小时。"
+        }
+      ]
+    },
+    {
+      "id": "K017",
+      "kind": "knowledge",
+      "category_id": "work",
+      "title": "会前提供资料",
+      "summary": "商务指南建议会前分享议程与相关材料，便于安排参与者。",
+      "body": "实际会议流程和参与角色应由双方确认。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S01",
+          "claim_scope": "商务指南建议会前分享议程与相关材料，便于安排参与者。"
+        }
+      ]
+    },
+    {
+      "id": "K018",
+      "kind": "knowledge",
+      "category_id": "work",
+      "title": "多人参与决策",
+      "summary": "商务讨论中的联系人可能需要其他团队成员参与决策。",
+      "body": "不能仅凭职位推断最终权限。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S01",
+          "claim_scope": "商务讨论中的联系人可能需要其他团队成员参与决策。"
+        }
+      ]
+    },
+    {
+      "id": "K019",
+      "kind": "knowledge",
+      "category_id": "valves",
+      "title": "阀门采购的公开案例",
+      "summary": "NSRP一份采购问卷询问库存、CO/CQ、质保和型号尺寸核对。",
+      "body": "这是一次采购的案例，不能推广为所有客户的强制要求，也不代表仍开放投标。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S20",
+          "claim_scope": "NSRP一份采购问卷询问库存、CO/CQ、质保和型号尺寸核对。"
+        }
+      ]
+    },
+    {
+      "id": "K020",
+      "kind": "knowledge",
+      "category_id": "leisure",
+      "title": "海防蟹汤红米粉",
+      "summary": "bánh đa cua是海防地方饮食的重要话题。",
+      "body": "可以请熟悉当地的人讲述自己偏爱的做法。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S23",
+          "claim_scope": "bánh đa cua是海防地方饮食的重要话题。"
+        }
+      ]
+    },
+    {
+      "id": "K021",
+      "kind": "knowledge",
+      "category_id": "coffee",
+      "title": "地方咖啡饮品",
+      "summary": "鸡蛋咖啡和bạc xỉu等饮品具有地方文化背景。",
+      "body": "不要根据客户所在城市替他决定口味。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S22",
+          "claim_scope": "鸡蛋咖啡和bạc xỉu等饮品具有地方文化背景。"
+        }
+      ]
+    },
+    {
+      "id": "K022",
+      "kind": "knowledge",
+      "category_id": "leisure",
+      "title": "地方传统音乐",
+      "summary": "Quan họ、Ví Giặm、Đờn ca tài tử等项目见于UNESCO越南名录。",
+      "body": "可作文化话题入口，但不预设当地人都喜欢或熟悉。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S24",
+          "claim_scope": "Quan họ、Ví Giặm、Đờn ca tài tử等项目见于UNESCO越南名录。"
+        }
+      ]
+    },
+    {
+      "id": "K023",
+      "kind": "knowledge",
+      "category_id": "dialects",
+      "title": "南北用词有倾向而非边界",
+      "summary": "日常越南语中可见不同的南北常见用词。",
+      "body": "词汇会跨地区流通，不能单凭一个词判断籍贯。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "日常越南语中可见不同的南北常见用词。"
+        }
+      ]
+    },
+    {
+      "id": "K024",
+      "kind": "knowledge",
+      "category_id": "dialects",
+      "title": "中部不能视作一种口音",
+      "summary": "乂安地方报道可见mô、tê、răng、rứa、chộ、nác等表达。",
+      "body": "这些材料不代表整个中部；向具体说话者学习。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S09",
+          "claim_scope": "乂安地方报道可见mô、tê、răng、rứa、chộ、nác等表达。"
+        }
+      ]
+    },
+    {
+      "id": "K025",
+      "kind": "knowledge",
+      "category_id": "online",
+      "title": "聊天缩写与无声调拼写",
+      "summary": "越南语聊天中可能出现省略声调和缩写，如cf、đc、r。",
+      "body": "正文的正式程度和缩写含义依语境判断。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S07",
+          "claim_scope": "越南语聊天中可能出现省略声调和缩写，如cf、đc、r。"
+        }
+      ]
+    },
+    {
+      "id": "K026",
+      "kind": "knowledge",
+      "category_id": "dialects",
+      "title": "南部句尾语气词",
+      "summary": "nha、nghen、hén等可承担柔化或确认功能。",
+      "body": "不对其正式程度作固定排序，先学完整句子。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S08",
+          "claim_scope": "nha、nghen、hén等可承担柔化或确认功能。"
+        }
+      ]
+    },
+    {
+      "id": "K027",
+      "kind": "knowledge",
+      "category_id": "greetings",
+      "title": "第一次介绍",
+      "summary": "交代身份、真实来由和一个容易回答的问题。",
+      "body": "不把长产品清单和私人问题堆在开场。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K028",
+      "kind": "knowledge",
+      "category_id": "greetings",
+      "title": "确认名字读音",
+      "summary": "请对方读一次名字，记录本人偏好称呼。",
+      "body": "被纠正时简短感谢并调整；不反复解释自己的发音错误。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K029",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "回应分享再提问",
+      "summary": "先回应具体信息，分享真实相关经历，再问一个问题。",
+      "body": "个人经历必须真实，不伪装熟悉当地生活。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K030",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "对方连续短答",
+      "summary": "连续两次短答且不展开，可换题或收尾。",
+      "body": "这只是降负担信号，不等于对方讨厌你。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K031",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "对方主动讲故事",
+      "summary": "围绕他刚讲的细节追问一次。",
+      "body": "不要立刻用自己的故事覆盖对方经历。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K032",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "私人话题分层",
+      "summary": "P0公共、P1偏好经历、P2个人近况、P3敏感隐私。",
+      "body": "P2跟随对方主动分享；P3须有明确意愿与当下相关性。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K033",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "熟悉度R0到R4",
+      "summary": "R0陌生、R1初识、R2熟悉、R3稳定往来、R4长期信任。",
+      "body": "等级是工作用的观察标签，不是人格分数；纯专业关系也可以非常可靠。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K034",
+      "kind": "knowledge",
+      "category_id": "conversation",
+      "title": "正式度F1到F3",
+      "summary": "F1闲聊，F2工作或较正式往来，F3重要仪式。",
+      "body": "越正式越应提前确认流程；对方实际安排优先。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K035",
+      "kind": "knowledge",
+      "category_id": "requests",
+      "title": "请求负担B0到B3",
+      "summary": "B0简单回答，B1小查找，B2整理资料或会议，B3重要责任或资源。",
+      "body": "较大请求先确认是否愿意，再讨论范围和时间。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K036",
+      "kind": "knowledge",
+      "category_id": "food",
+      "title": "点餐前问饮食安排",
+      "summary": "先问有无不吃的东西，以及想简单吃还是正式用餐。",
+      "body": "需要时再问过敏、素食、猪肉或酒精，避免连续盘问。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K037",
+      "kind": "knowledge",
+      "category_id": "food",
+      "title": "吃饱时说清楚",
+      "summary": "感谢食物后，明确表示已经很饱。",
+      "body": "不必以继续吃来证明对主人尊重。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K038",
+      "kind": "knowledge",
+      "category_id": "food",
+      "title": "共享食物与卫生",
+      "summary": "使用现场公筷或公勺，并跟随主人安排。",
+      "body": "饮食限制直接说明，不要求别人为了合群尝一口。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K039",
+      "kind": "knowledge",
+      "category_id": "food",
+      "title": "买单前确认",
+      "summary": "邀请时考虑自己支付，朋友聚餐可提前商议分摊。",
+      "body": "对方坚持支付后不必反复抢单。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K040",
+      "kind": "knowledge",
+      "category_id": "coffee",
+      "title": "咖啡邀约",
+      "summary": "提出具体地点、时间和大致占用时长。",
+      "body": "泛泛说改天喝咖啡不等于已经确认见面。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K041",
+      "kind": "knowledge",
+      "category_id": "coffee",
+      "title": "饮品偏好",
+      "summary": "问对方习惯喝什么，比按地区替对方点单更自然。",
+      "body": "记住本人偏好，下次可核对是否仍想喝同样的。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K042",
+      "kind": "knowledge",
+      "category_id": "home",
+      "title": "家庭到访五项确认",
+      "summary": "确认日期时间、地址、同行人数、是否用餐、需携物品。",
+      "body": "不擅自增加同行者，也不未经邀请参观私人房间。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K043",
+      "kind": "knowledge",
+      "category_id": "home",
+      "title": "做客结束",
+      "summary": "自然感谢并给主人恢复生活安排的空间。",
+      "body": "离开后发一条提到真实细节的感谢即可。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K044",
+      "kind": "knowledge",
+      "category_id": "home",
+      "title": "拍照与发布",
+      "summary": "拍摄人像、家庭和私人空间前征询。",
+      "body": "允许拍照不自动等于同意公开发布。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K045",
+      "kind": "knowledge",
+      "category_id": "gifts",
+      "title": "日常小礼物",
+      "summary": "考虑一种方便分享且符合饮食习惯的特产。",
+      "body": "预算应在无需期待回报的范围，不制造回礼压力。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K046",
+      "kind": "knowledge",
+      "category_id": "gifts",
+      "title": "礼物被拒绝",
+      "summary": "可以解释一次来意，对方再次明确拒绝就收回。",
+      "body": "不偷偷留下，尊重公司或家庭限制。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K047",
+      "kind": "knowledge",
+      "category_id": "gifts",
+      "title": "是否当面拆礼物",
+      "summary": "不确定时直接询问能否现在打开。",
+      "body": "不要把暂未拆封解读成不喜欢。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K048",
+      "kind": "knowledge",
+      "category_id": "family",
+      "title": "孩子话题",
+      "summary": "接住本人主动谈到的活动、兴趣或比赛。",
+      "body": "不比较成绩，不追问学校住址等无关细节。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K049",
+      "kind": "knowledge",
+      "category_id": "family",
+      "title": "父母话题",
+      "summary": "询问是否常有机会团聚，并听其实际安排。",
+      "body": "不评价同住、照护和家庭分工是否正确。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K050",
+      "kind": "knowledge",
+      "category_id": "family",
+      "title": "婚育问题",
+      "summary": "初识时避免追问为何未婚或为何没有孩子。",
+      "body": "可以改聊空闲时怎样安排生活。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K051",
+      "kind": "knowledge",
+      "category_id": "friends",
+      "title": "朋友邀约",
+      "summary": "用具体活动与时间发出邀请。",
+      "body": "拒绝后不追问私人原因，后续根据自然往来决定。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K052",
+      "kind": "knowledge",
+      "category_id": "friends",
+      "title": "互助与人情",
+      "summary": "提前说清帮助范围和能否做到。",
+      "body": "重要介绍先征求被介绍人同意；不承诺他人的资源。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K053",
+      "kind": "knowledge",
+      "category_id": "friends",
+      "title": "借款与担保",
+      "summary": "涉及资金和责任时明确自己的能力边界。",
+      "body": "友好关系不等于必须借款或担保；需要时另行寻求专业意见。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K054",
+      "kind": "knowledge",
+      "category_id": "dating",
+      "title": "区分友好和感情意向",
+      "summary": "及时回复、工作帮助和聚餐本身不足以证明感情意向。",
+      "body": "有约会意图时清楚表达并接受对方选择。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K055",
+      "kind": "knowledge",
+      "category_id": "dating",
+      "title": "身体接触",
+      "summary": "初识以口头问候和双方接受的握手为主。",
+      "body": "拥抱搭肩等按双方明确习惯；不凭国籍规定秒数和距离。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K056",
+      "kind": "knowledge",
+      "category_id": "ceremonies",
+      "title": "婚礼赴约",
+      "summary": "确认受邀人数、仪式时间、着装和礼赠安排。",
+      "body": "向熟悉该家庭的当地人了解，不套统一礼金，不自行假设宴席会晚开始。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K057",
+      "kind": "knowledge",
+      "category_id": "ceremonies",
+      "title": "生日祝福",
+      "summary": "日期由本人告知或公开时，发一条简洁祝福。",
+      "body": "未知年龄无需询问，不自动发送销售内容。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K058",
+      "kind": "knowledge",
+      "category_id": "ceremonies",
+      "title": "丧事慰问",
+      "summary": "一次诚恳慰问，是否探访或送物先了解家庭安排。",
+      "body": "服装、花圈、礼金、上香等按家庭和宗教确认。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K059",
+      "kind": "knowledge",
+      "category_id": "health",
+      "title": "一般生病",
+      "summary": "简短关心，提供延期等实际帮助。",
+      "body": "不追问病情，不提供未经请求的诊疗建议。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K060",
+      "kind": "knowledge",
+      "category_id": "health",
+      "title": "照顾家人",
+      "summary": "询问延期或调整沟通是否有帮助。",
+      "body": "后续联系频率由对方回应决定，不要求病中及时回复。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K061",
+      "kind": "knowledge",
+      "category_id": "beliefs",
+      "title": "饮食与信仰",
+      "summary": "直接问实际饮食要求。",
+      "body": "不根据外貌姓名或城市推定宗教及禁忌。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K062",
+      "kind": "knowledge",
+      "category_id": "beliefs",
+      "title": "参加仪式",
+      "summary": "提前询问着装、座位、拍照和参与动作。",
+      "body": "可以表达尊重，同时说明不熟悉仪式，需要主人指引。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K063",
+      "kind": "knowledge",
+      "category_id": "leisure",
+      "title": "运动话题",
+      "summary": "先问喜欢参与运动还是观看比赛。",
+      "body": "不假装看过未看过的比赛；具体近期赛果先核对。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K064",
+      "kind": "knowledge",
+      "category_id": "leisure",
+      "title": "音乐影视",
+      "summary": "请对方推荐一首歌或一部作品，再真实反馈。",
+      "body": "不要以年龄和地区断定审美。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K065",
+      "kind": "knowledge",
+      "category_id": "leisure",
+      "title": "家乡美食",
+      "summary": "问小时候常吃什么、怎样判断做得好。",
+      "body": "知识问题接个人经历，避免背菜名后无话可接。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K066",
+      "kind": "knowledge",
+      "category_id": "leisure",
+      "title": "旅行与周末",
+      "summary": "问本人愿意分享的活动和体验。",
+      "body": "不打探实时住址或要求分享行踪。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K067",
+      "kind": "knowledge",
+      "category_id": "travel",
+      "title": "迟到通知",
+      "summary": "预计晚到就提供新的到达时间。",
+      "body": "不把堵车当万能借口，必要时让对方选择改约。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K068",
+      "kind": "knowledge",
+      "category_id": "travel",
+      "title": "出发和返程",
+      "summary": "约会前确认集合点与预计结束时间。",
+      "body": "对方送行或接送前先确认，不擅自给其增加行程。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K069",
+      "kind": "knowledge",
+      "category_id": "online",
+      "title": "消息结构",
+      "summary": "背景、新信息、一个请求、真实时间要求。",
+      "body": "技术编号、日期、数量用文字保留。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K070",
+      "kind": "knowledge",
+      "category_id": "online",
+      "title": "读而未回",
+      "summary": "把未回复记录为未回复，不直接推断动机。",
+      "body": "有约定按约定跟进，无约定使用有限触达节奏。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K071",
+      "kind": "knowledge",
+      "category_id": "online",
+      "title": "语音和视频",
+      "summary": "先询问对方是否方便，再发送或拨打。",
+      "body": "复杂内容补文字摘要；不以语音替代关键规格确认。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K072",
+      "kind": "knowledge",
+      "category_id": "online",
+      "title": "群聊和私聊",
+      "summary": "工作进展放相关群，个人安排私聊。",
+      "body": "未核实的个人错误先找相关人核对；影响项目的已确认风险及时通报。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K073",
+      "kind": "knowledge",
+      "category_id": "requests",
+      "title": "清楚地拒绝",
+      "summary": "理解或感谢、说明限制、可行时提供替代。",
+      "body": "没有替代安排也可以明确拒绝，不编造病情。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K074",
+      "kind": "knowledge",
+      "category_id": "requests",
+      "title": "具体地感谢",
+      "summary": "指出对方做了什么，以及产生的实际帮助。",
+      "body": "不通过持续夸奖要求对方继续帮忙。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K075",
+      "kind": "knowledge",
+      "category_id": "conflict",
+      "title": "指出具体差异",
+      "summary": "以图纸、文件、事实中的差异发起核对。",
+      "body": "不公开评价对方能力或人格。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K076",
+      "kind": "knowledge",
+      "category_id": "conflict",
+      "title": "完整道歉",
+      "summary": "说明发生什么、影响、处理办法和更新时间。",
+      "body": "先采取可行修正，不用空泛歉意替代行动。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K077",
+      "kind": "knowledge",
+      "category_id": "conflict",
+      "title": "开玩笑的边界",
+      "summary": "优先轻微自嘲和双方共享的趣事。",
+      "body": "避免地域刻板印象、收入、婚育、外貌和迟回消息等玩笑。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K078",
+      "kind": "knowledge",
+      "category_id": "conflict",
+      "title": "问得过深后收住",
+      "summary": "承认问得太直接，并真的结束话题。",
+      "body": "不要求对方安慰你，也不再换个说法重问。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K079",
+      "kind": "knowledge",
+      "category_id": "work",
+      "title": "确认职责",
+      "summary": "先了解对方负责的工作和需要协调的团队。",
+      "body": "不绕过联系人进行无依据的越级催促。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K080",
+      "kind": "knowledge",
+      "category_id": "work",
+      "title": "会议收尾四项",
+      "summary": "确认做什么、谁负责、何时更新、怎样算完成。",
+      "body": "联系人说OK后仍核对具体范围。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K081",
+      "kind": "knowledge",
+      "category_id": "work",
+      "title": "公众体面与事实透明",
+      "summary": "表达尊重，及时传递已确认的重要事实。",
+      "body": "维护关系不能成为延迟质量或交期风险通报的理由。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K082",
+      "kind": "knowledge",
+      "category_id": "valves",
+      "title": "经销商的日常",
+      "summary": "问哪些询价最费时间、哪些规格常有急单。",
+      "body": "用答案决定目录、选型或库存信息支持。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K083",
+      "kind": "knowledge",
+      "category_id": "valves",
+      "title": "采购人员的日常",
+      "summary": "问新供应商审核所需信息和反复沟通点。",
+      "body": "交期依据、文件和责任边界据实提供。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K084",
+      "kind": "knowledge",
+      "category_id": "valves",
+      "title": "工程人员的日常",
+      "summary": "围绕工况、安装空间和待确认技术点交流。",
+      "body": "不把未核对的替代型号说成完全通用。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K085",
+      "kind": "knowledge",
+      "category_id": "valves",
+      "title": "维护人员的日常",
+      "summary": "问紧急更换时最难拿到哪些信息。",
+      "body": "可提供铭牌、尺寸、照片采集清单，适配真实供货能力。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K086",
+      "kind": "knowledge",
+      "category_id": "valves",
+      "title": "价格异议",
+      "summary": "先问比较的是单价、总成本还是供货范围。",
+      "body": "对齐规格、文件、运费和质保范围后再讨论调整。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K087",
+      "kind": "knowledge",
+      "category_id": "valves",
+      "title": "等待内部讨论",
+      "summary": "询问决策者需要看到什么，并提供简短摘要。",
+      "body": "尊重联系人角色，不把协商误解为没有诚意。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K088",
+      "kind": "knowledge",
+      "category_id": "daily",
+      "title": "购物询价",
+      "summary": "问清单价、数量、规格和总价。",
+      "body": "固定价商店按标价处理；是否议价以场景和店家回应为准。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K089",
+      "kind": "knowledge",
+      "category_id": "daily",
+      "title": "邻里噪音",
+      "summary": "说明具体时间、影响和一个可行请求。",
+      "body": "避免用国籍或生活方式评价邻居。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K090",
+      "kind": "knowledge",
+      "category_id": "daily",
+      "title": "维修和预约服务",
+      "summary": "确认问题、地点、预约时间、报价范围。",
+      "body": "变更费用前要求说明；保留文字确认。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K091",
+      "kind": "knowledge",
+      "category_id": "daily",
+      "title": "租房与物业沟通",
+      "summary": "把报修、费用、访问时间等问题分开说清楚。",
+      "body": "合同与当地规定需要另行核查，本库不作法律解释。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K092",
+      "kind": "knowledge",
+      "category_id": "daily",
+      "title": "公共服务和问路",
+      "summary": "先礼貌招呼，给出具体目的地或事项。",
+      "body": "听不懂时请对方写下关键词，不假装明白。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K093",
+      "kind": "knowledge",
+      "category_id": "metrics",
+      "title": "文化参数的性质",
+      "summary": "本库数值是自拟实践起点，尚无本人的客户数据验证。",
+      "body": "不用于推算国籍性格、亲密度或成交概率。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K094",
+      "kind": "knowledge",
+      "category_id": "metrics",
+      "title": "事实与推测分开",
+      "summary": "事实记录可观察内容；解释标为待核对。",
+      "body": "例如三天后回复是事实，客户不重视我是推测。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "K095",
+      "kind": "knowledge",
+      "category_id": "metrics",
+      "title": "30天校准",
+      "summary": "第一周建基线，第二周只改一项，第三周练延续，第四周复盘。",
+      "body": "小样本只作线索；不同角色和阶段分别比较。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "P001",
+      "kind": "phrase",
+      "category_id": "greetings",
+      "title": "问候",
+      "summary": "Nam，您好，很高兴见到您。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Hello, Nam. It is good to meet you.",
+        "Em chào anh Nam ạ.",
+        "Nam，您好，很高兴见到您。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Hello, Nam. It is good to meet you.",
+        "vietnamese": "Em chào anh Nam ạ.",
+        "chinese": "Nam，您好，很高兴见到您。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P002",
+      "kind": "phrase",
+      "category_id": "greetings",
+      "title": "询问称呼",
+      "summary": "您希望我怎样称呼您？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "How would you prefer me to address you?",
+        "",
+        "您希望我怎样称呼您？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "How would you prefer me to address you?",
+        "vietnamese": "",
+        "chinese": "您希望我怎样称呼您？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P003",
+      "kind": "phrase",
+      "category_id": "greetings",
+      "title": "确认名字读音",
+      "summary": "能请您读一下名字吗？我想把它念对。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Could you say your name for me once? I would like to pronounce it correctly.",
+        "",
+        "能请您读一下名字吗？我想把它念对。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Could you say your name for me once? I would like to pronounce it correctly.",
+        "vietnamese": "",
+        "chinese": "能请您读一下名字吗？我想把它念对。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P004",
+      "kind": "phrase",
+      "category_id": "greetings",
+      "title": "介绍自己",
+      "summary": "我叫……，在……公司工作。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "My name is [name]. I work with [company].",
+        "",
+        "我叫……，在……公司工作。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "My name is [name]. I work with [company].",
+        "vietnamese": "",
+        "chinese": "我叫……，在……公司工作。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P005",
+      "kind": "phrase",
+      "category_id": "greetings",
+      "title": "说明正在学习",
+      "summary": "我正在学越南语，说得不对请您指点。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I am learning Vietnamese. Please let me know if I say something incorrectly.",
+        "Em đang học tiếng Việt.",
+        "我正在学越南语，说得不对请您指点。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I am learning Vietnamese. Please let me know if I say something incorrectly.",
+        "vietnamese": "Em đang học tiếng Việt.",
+        "chinese": "我正在学越南语，说得不对请您指点。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P006",
+      "kind": "phrase",
+      "category_id": "conversation",
+      "title": "问近况",
+      "summary": "上次聊完之后，您最近怎么样？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "How have things been since we last spoke?",
+        "Dạo này anh thế nào ạ?",
+        "上次聊完之后，您最近怎么样？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "How have things been since we last spoke?",
+        "vietnamese": "Dạo này anh thế nào ạ?",
+        "chinese": "上次聊完之后，您最近怎么样？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P007",
+      "kind": "phrase",
+      "category_id": "conversation",
+      "title": "请对方慢一点",
+      "summary": "能请您说慢一点吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Could you speak a little more slowly?",
+        "Anh nói chậm một chút được không ạ?",
+        "能请您说慢一点吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Could you speak a little more slowly?",
+        "vietnamese": "Anh nói chậm một chút được không ạ?",
+        "chinese": "能请您说慢一点吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P008",
+      "kind": "phrase",
+      "category_id": "conversation",
+      "title": "请重复",
+      "summary": "能请您再说一遍吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Could you say that again, please?",
+        "Anh nói lại được không ạ?",
+        "能请您再说一遍吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Could you say that again, please?",
+        "vietnamese": "Anh nói lại được không ạ?",
+        "chinese": "能请您再说一遍吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P009",
+      "kind": "phrase",
+      "category_id": "conversation",
+      "title": "确认理解",
+      "summary": "我确认一下自己是否理解正确。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Let me check that I understood correctly.",
+        "",
+        "我确认一下自己是否理解正确。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Let me check that I understood correctly.",
+        "vietnamese": "",
+        "chinese": "我确认一下自己是否理解正确。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P010",
+      "kind": "phrase",
+      "category_id": "conversation",
+      "title": "表示听懂",
+      "summary": "谢谢，我现在明白了。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Thank you, I understand now.",
+        "Dạ, em hiểu rồi ạ.",
+        "谢谢，我现在明白了。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Thank you, I understand now.",
+        "vietnamese": "Dạ, em hiểu rồi ạ.",
+        "chinese": "谢谢，我现在明白了。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P011",
+      "kind": "phrase",
+      "category_id": "conversation",
+      "title": "承认不懂",
+      "summary": "这一部分我还没太明白。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I did not quite understand that part.",
+        "Em chưa hiểu phần này ạ.",
+        "这一部分我还没太明白。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I did not quite understand that part.",
+        "vietnamese": "Em chưa hiểu phần này ạ.",
+        "chinese": "这一部分我还没太明白。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P012",
+      "kind": "phrase",
+      "category_id": "conversation",
+      "title": "听对方展开",
+      "summary": "那段经历对您来说是什么样的？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "What was that experience like for you?",
+        "",
+        "那段经历对您来说是什么样的？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "What was that experience like for you?",
+        "vietnamese": "",
+        "chinese": "那段经历对您来说是什么样的？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P013",
+      "kind": "phrase",
+      "category_id": "conversation",
+      "title": "结束私人话题",
+      "summary": "这个话题我们可以就谈到这里。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "We can leave that topic there.",
+        "",
+        "这个话题我们可以就谈到这里。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "We can leave that topic there.",
+        "vietnamese": "",
+        "chinese": "这个话题我们可以就谈到这里。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P014",
+      "kind": "phrase",
+      "category_id": "food",
+      "title": "问吃过饭没有",
+      "summary": "您吃过午饭了吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Have you had lunch yet?",
+        "Anh ăn trưa chưa ạ?",
+        "您吃过午饭了吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Have you had lunch yet?",
+        "vietnamese": "Anh ăn trưa chưa ạ?",
+        "chinese": "您吃过午饭了吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P015",
+      "kind": "phrase",
+      "category_id": "food",
+      "title": "问饮食要求",
+      "summary": "您有什么不吃的吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Is there anything you do not eat?",
+        "Anh có kiêng món gì không ạ?",
+        "您有什么不吃的吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Is there anything you do not eat?",
+        "vietnamese": "Anh có kiêng món gì không ạ?",
+        "chinese": "您有什么不吃的吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P016",
+      "kind": "phrase",
+      "category_id": "food",
+      "title": "点餐请推荐",
+      "summary": "这里您推荐点什么？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "What would you recommend here?",
+        "Anh gợi ý món nào ạ?",
+        "这里您推荐点什么？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "What would you recommend here?",
+        "vietnamese": "Anh gợi ý món nào ạ?",
+        "chinese": "这里您推荐点什么？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P017",
+      "kind": "phrase",
+      "category_id": "food",
+      "title": "表示吃饱",
+      "summary": "很好吃，谢谢，我已经很饱了。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "That was delicious, thank you. I am very full now.",
+        "Em no rồi, em cảm ơn anh ạ.",
+        "很好吃，谢谢，我已经很饱了。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "That was delicious, thank you. I am very full now.",
+        "vietnamese": "Em no rồi, em cảm ơn anh ạ.",
+        "chinese": "很好吃，谢谢，我已经很饱了。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P018",
+      "kind": "phrase",
+      "category_id": "food",
+      "title": "分摊账单",
+      "summary": "我们分摊账单吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Shall we split the bill?",
+        "",
+        "我们分摊账单吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Shall we split the bill?",
+        "vietnamese": "",
+        "chinese": "我们分摊账单吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P019",
+      "kind": "phrase",
+      "category_id": "food",
+      "title": "饮料选择",
+      "summary": "我今晚喝茶，谢谢。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I will have tea tonight, thank you.",
+        "Cho em trà ạ.",
+        "我今晚喝茶，谢谢。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I will have tea tonight, thank you.",
+        "vietnamese": "Cho em trà ạ.",
+        "chinese": "我今晚喝茶，谢谢。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P020",
+      "kind": "phrase",
+      "category_id": "coffee",
+      "title": "具体邀约",
+      "summary": "周四下午在您办公室附近喝杯咖啡，方便吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would Thursday afternoon work for a short coffee near your office?",
+        "",
+        "周四下午在您办公室附近喝杯咖啡，方便吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would Thursday afternoon work for a short coffee near your office?",
+        "vietnamese": "",
+        "chinese": "周四下午在您办公室附近喝杯咖啡，方便吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P021",
+      "kind": "phrase",
+      "category_id": "coffee",
+      "title": "询问时间偏好",
+      "summary": "上午还是下午对您更方便？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would morning or afternoon be easier for you?",
+        "",
+        "上午还是下午对您更方便？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would morning or afternoon be easier for you?",
+        "vietnamese": "",
+        "chinese": "上午还是下午对您更方便？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P022",
+      "kind": "phrase",
+      "category_id": "coffee",
+      "title": "询问口味",
+      "summary": "您喜欢浓咖啡，还是奶多一些的？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Do you prefer strong coffee or something with more milk?",
+        "",
+        "您喜欢浓咖啡，还是奶多一些的？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Do you prefer strong coffee or something with more milk?",
+        "vietnamese": "",
+        "chinese": "您喜欢浓咖啡，还是奶多一些的？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P023",
+      "kind": "phrase",
+      "category_id": "coffee",
+      "title": "调整见面时间",
+      "summary": "改天会不会更方便？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would another day be easier?",
+        "",
+        "改天会不会更方便？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would another day be easier?",
+        "vietnamese": "",
+        "chinese": "改天会不会更方便？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P024",
+      "kind": "phrase",
+      "category_id": "home",
+      "title": "确认同行者",
+      "summary": "我的同事一起去，可以吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would it be all right if my colleague joined me?",
+        "",
+        "我的同事一起去，可以吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would it be all right if my colleague joined me?",
+        "vietnamese": "",
+        "chinese": "我的同事一起去，可以吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P025",
+      "kind": "phrase",
+      "category_id": "home",
+      "title": "问要带什么",
+      "summary": "您希望我带点什么吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Is there anything you would like me to bring?",
+        "",
+        "您希望我带点什么吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Is there anything you would like me to bring?",
+        "vietnamese": "",
+        "chinese": "您希望我带点什么吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P026",
+      "kind": "phrase",
+      "category_id": "home",
+      "title": "问脱鞋",
+      "summary": "我在这里脱鞋吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Should I take my shoes off here?",
+        "",
+        "我在这里脱鞋吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Should I take my shoes off here?",
+        "vietnamese": "",
+        "chinese": "我在这里脱鞋吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P027",
+      "kind": "phrase",
+      "category_id": "home",
+      "title": "征求拍照同意",
+      "summary": "我可以拍张照片吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "May I take a photo?",
+        "Em chụp ảnh được không ạ?",
+        "我可以拍张照片吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "May I take a photo?",
+        "vietnamese": "Em chụp ảnh được không ạ?",
+        "chinese": "我可以拍张照片吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P028",
+      "kind": "phrase",
+      "category_id": "home",
+      "title": "做客告辞",
+      "summary": "谢谢招待，我就不继续打扰您晚上的安排了。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Thank you for having me. I should let you get back to your evening.",
+        "",
+        "谢谢招待，我就不继续打扰您晚上的安排了。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Thank you for having me. I should let you get back to your evening.",
+        "vietnamese": "",
+        "chinese": "谢谢招待，我就不继续打扰您晚上的安排了。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P029",
+      "kind": "phrase",
+      "category_id": "gifts",
+      "title": "家乡特产",
+      "summary": "我带了一点家乡特产，给大家一起尝尝。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I brought a small speciality from my hometown for everyone to share.",
+        "",
+        "我带了一点家乡特产，给大家一起尝尝。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I brought a small speciality from my hometown for everyone to share.",
+        "vietnamese": "",
+        "chinese": "我带了一点家乡特产，给大家一起尝尝。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P030",
+      "kind": "phrase",
+      "category_id": "gifts",
+      "title": "收礼感谢",
+      "summary": "谢谢，您太有心了。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Thank you. That is very thoughtful of you.",
+        "Em cảm ơn anh nhiều ạ.",
+        "谢谢，您太有心了。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Thank you. That is very thoughtful of you.",
+        "vietnamese": "Em cảm ơn anh nhiều ạ.",
+        "chinese": "谢谢，您太有心了。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P031",
+      "kind": "phrase",
+      "category_id": "gifts",
+      "title": "询问拆礼物",
+      "summary": "我现在可以打开吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "May I open it now?",
+        "",
+        "我现在可以打开吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "May I open it now?",
+        "vietnamese": "",
+        "chinese": "我现在可以打开吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P032",
+      "kind": "phrase",
+      "category_id": "family",
+      "title": "问家乡",
+      "summary": "您在这里长大，还是后来因为工作搬来？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Did you grow up here, or move here for work?",
+        "",
+        "您在这里长大，还是后来因为工作搬来？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Did you grow up here, or move here for work?",
+        "vietnamese": "",
+        "chinese": "您在这里长大，还是后来因为工作搬来？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P033",
+      "kind": "phrase",
+      "category_id": "family",
+      "title": "问返乡",
+      "summary": "这次能和家人待几天吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Will you have a few days with your family?",
+        "",
+        "这次能和家人待几天吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Will you have a few days with your family?",
+        "vietnamese": "",
+        "chinese": "这次能和家人待几天吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P034",
+      "kind": "phrase",
+      "category_id": "family",
+      "title": "延续孩子话题",
+      "summary": "上次您说有场比赛，后来怎么样？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "You mentioned a competition last time. How did it go?",
+        "",
+        "上次您说有场比赛，后来怎么样？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "You mentioned a competition last time. How did it go?",
+        "vietnamese": "",
+        "chinese": "上次您说有场比赛，后来怎么样？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P035",
+      "kind": "phrase",
+      "category_id": "friends",
+      "title": "一般邀请",
+      "summary": "周六愿意和我们一起吃午饭吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would you like to join us for lunch on Saturday?",
+        "",
+        "周六愿意和我们一起吃午饭吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would you like to join us for lunch on Saturday?",
+        "vietnamese": "",
+        "chinese": "周六愿意和我们一起吃午饭吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P036",
+      "kind": "phrase",
+      "category_id": "friends",
+      "title": "接受拒绝",
+      "summary": "完全没问题，我们再找合适的时间。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "No problem at all. We can find another time.",
+        "Không sao ạ.",
+        "完全没问题，我们再找合适的时间。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "No problem at all. We can find another time.",
+        "vietnamese": "Không sao ạ.",
+        "chinese": "完全没问题，我们再找合适的时间。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P037",
+      "kind": "phrase",
+      "category_id": "dating",
+      "title": "明确约会意图",
+      "summary": "愿意和我约会吃顿晚饭吗？希望保持朋友关系也完全可以。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would you like to have dinner with me as a date? It is fine if you would rather stay friends.",
+        "",
+        "愿意和我约会吃顿晚饭吗？希望保持朋友关系也完全可以。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would you like to have dinner with me as a date? It is fine if you would rather stay friends.",
+        "vietnamese": "",
+        "chinese": "愿意和我约会吃顿晚饭吗？希望保持朋友关系也完全可以。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P038",
+      "kind": "phrase",
+      "category_id": "ceremonies",
+      "title": "生日祝福",
+      "summary": "祝您生日快乐，新的一岁顺心。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Wishing you a happy birthday and a wonderful year ahead.",
+        "Chúc mừng sinh nhật anh!",
+        "祝您生日快乐，新的一岁顺心。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Wishing you a happy birthday and a wonderful year ahead.",
+        "vietnamese": "Chúc mừng sinh nhật anh!",
+        "chinese": "祝您生日快乐，新的一岁顺心。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P039",
+      "kind": "phrase",
+      "category_id": "ceremonies",
+      "title": "接受婚礼邀请",
+      "summary": "谢谢邀请，我很高兴参加。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Thank you for inviting me. I would be delighted to join.",
+        "",
+        "谢谢邀请，我很高兴参加。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Thank you for inviting me. I would be delighted to join.",
+        "vietnamese": "",
+        "chinese": "谢谢邀请，我很高兴参加。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P040",
+      "kind": "phrase",
+      "category_id": "ceremonies",
+      "title": "确认仪式安排",
+      "summary": "仪式或着装方面，有什么需要提前了解的吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Is there anything I should know about the ceremony or dress code?",
+        "",
+        "仪式或着装方面，有什么需要提前了解的吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Is there anything I should know about the ceremony or dress code?",
+        "vietnamese": "",
+        "chinese": "仪式或着装方面，有什么需要提前了解的吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P041",
+      "kind": "phrase",
+      "category_id": "ceremonies",
+      "title": "近期丧事慰问",
+      "summary": "对您的失去我深感遗憾，请先安心处理家里的事。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I am very sorry for your loss. Please take the time you need.",
+        "",
+        "对您的失去我深感遗憾，请先安心处理家里的事。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I am very sorry for your loss. Please take the time you need.",
+        "vietnamese": "",
+        "chinese": "对您的失去我深感遗憾，请先安心处理家里的事。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P042",
+      "kind": "phrase",
+      "category_id": "ceremonies",
+      "title": "尊重家族祭日",
+      "summary": "当然，我们可以等您家族聚会后再聊。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Of course. We can speak after your family gathering.",
+        "",
+        "当然，我们可以等您家族聚会后再聊。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Of course. We can speak after your family gathering.",
+        "vietnamese": "",
+        "chinese": "当然，我们可以等您家族聚会后再聊。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P043",
+      "kind": "phrase",
+      "category_id": "health",
+      "title": "生病关怀",
+      "summary": "祝您早日好转，现在不用回复。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I hope you feel better soon. There is no need to reply now.",
+        "Chúc anh mau khỏe.",
+        "祝您早日好转，现在不用回复。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I hope you feel better soon. There is no need to reply now.",
+        "vietnamese": "Chúc anh mau khỏe.",
+        "chinese": "祝您早日好转，现在不用回复。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P044",
+      "kind": "phrase",
+      "category_id": "health",
+      "title": "提供延期",
+      "summary": "把会议延后，会不会对您更方便？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would it help if we postponed the meeting?",
+        "",
+        "把会议延后，会不会对您更方便？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would it help if we postponed the meeting?",
+        "vietnamese": "",
+        "chinese": "把会议延后，会不会对您更方便？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P045",
+      "kind": "phrase",
+      "category_id": "beliefs",
+      "title": "请教仪式",
+      "summary": "我不熟悉仪式，请您指点怎样做比较尊重。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I am not familiar with the ceremony. Please let me know what would be respectful.",
+        "",
+        "我不熟悉仪式，请您指点怎样做比较尊重。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I am not familiar with the ceremony. Please let me know what would be respectful.",
+        "vietnamese": "",
+        "chinese": "我不熟悉仪式，请您指点怎样做比较尊重。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P046",
+      "kind": "phrase",
+      "category_id": "leisure",
+      "title": "运动话题",
+      "summary": "您下班会运动，还是更喜欢看比赛？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Do you play any sports after work, or prefer watching?",
+        "",
+        "您下班会运动，还是更喜欢看比赛？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Do you play any sports after work, or prefer watching?",
+        "vietnamese": "",
+        "chinese": "您下班会运动，还是更喜欢看比赛？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P047",
+      "kind": "phrase",
+      "category_id": "leisure",
+      "title": "请推荐音乐",
+      "summary": "能推荐一首您喜欢的越南歌曲吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Could you recommend one Vietnamese song that you enjoy?",
+        "",
+        "能推荐一首您喜欢的越南歌曲吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Could you recommend one Vietnamese song that you enjoy?",
+        "vietnamese": "",
+        "chinese": "能推荐一首您喜欢的越南歌曲吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P048",
+      "kind": "phrase",
+      "category_id": "leisure",
+      "title": "童年食物",
+      "summary": "您小时候常吃什么早餐？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "What is a breakfast you grew up eating?",
+        "",
+        "您小时候常吃什么早餐？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "What is a breakfast you grew up eating?",
+        "vietnamese": "",
+        "chinese": "您小时候常吃什么早餐？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P049",
+      "kind": "phrase",
+      "category_id": "leisure",
+      "title": "旅行建议",
+      "summary": "带朋友去您家乡，您会先带他去哪儿？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "If you took a friend to your hometown, where would you go first?",
+        "",
+        "带朋友去您家乡，您会先带他去哪儿？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "If you took a friend to your hometown, where would you go first?",
+        "vietnamese": "",
+        "chinese": "带朋友去您家乡，您会先带他去哪儿？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P050",
+      "kind": "phrase",
+      "category_id": "travel",
+      "title": "迟到通知",
+      "summary": "我预计晚到约十五分钟，您还方便吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I expect to arrive about fifteen minutes late. Would that still work for you?",
+        "",
+        "我预计晚到约十五分钟，您还方便吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I expect to arrive about fifteen minutes late. Would that still work for you?",
+        "vietnamese": "",
+        "chinese": "我预计晚到约十五分钟，您还方便吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P051",
+      "kind": "phrase",
+      "category_id": "online",
+      "title": "确认渠道",
+      "summary": "您希望邮件沟通，还是通过Zalo？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would you prefer to discuss this by email or on Zalo?",
+        "",
+        "您希望邮件沟通，还是通过Zalo？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would you prefer to discuss this by email or on Zalo?",
+        "vietnamese": "",
+        "chinese": "您希望邮件沟通，还是通过Zalo？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P052",
+      "kind": "phrase",
+      "category_id": "online",
+      "title": "询问语音",
+      "summary": "发一条简短语音方便吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would a short voice message be convenient?",
+        "",
+        "发一条简短语音方便吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would a short voice message be convenient?",
+        "vietnamese": "",
+        "chinese": "发一条简短语音方便吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P053",
+      "kind": "phrase",
+      "category_id": "online",
+      "title": "约电话",
+      "summary": "明天方便通话十分钟吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Would you have ten minutes for a call tomorrow?",
+        "",
+        "明天方便通话十分钟吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Would you have ten minutes for a call tomorrow?",
+        "vietnamese": "",
+        "chinese": "明天方便通话十分钟吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P054",
+      "kind": "phrase",
+      "category_id": "requests",
+      "title": "小请求",
+      "summary": "下次到现场时能发张照片吗？不必专程跑一趟。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Could you send the photo when you are next at the site? There is no need to make a special trip.",
+        "",
+        "下次到现场时能发张照片吗？不必专程跑一趟。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Could you send the photo when you are next at the site? There is no need to make a special trip.",
+        "vietnamese": "",
+        "chinese": "下次到现场时能发张照片吗？不必专程跑一趟。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P055",
+      "kind": "phrase",
+      "category_id": "requests",
+      "title": "清楚拒绝",
+      "summary": "谢谢想到我，我周六没法参加。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Thank you for thinking of me. I cannot join on Saturday.",
+        "",
+        "谢谢想到我，我周六没法参加。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Thank you for thinking of me. I cannot join on Saturday.",
+        "vietnamese": "",
+        "chinese": "谢谢想到我，我周六没法参加。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P056",
+      "kind": "phrase",
+      "category_id": "requests",
+      "title": "感谢具体帮助",
+      "summary": "您发的位号让核对清楚很多，谢谢。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "The tag numbers you sent made the checking much clearer. Thank you.",
+        "",
+        "您发的位号让核对清楚很多，谢谢。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "The tag numbers you sent made the checking much clearer. Thank you.",
+        "vietnamese": "",
+        "chinese": "您发的位号让核对清楚很多，谢谢。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P057",
+      "kind": "phrase",
+      "category_id": "conflict",
+      "title": "核对分歧",
+      "summary": "我的理解可能不同，我们一起核对一下可以吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I may be reading this differently. Could we check it together?",
+        "",
+        "我的理解可能不同，我们一起核对一下可以吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I may be reading this differently. Could we check it together?",
+        "vietnamese": "",
+        "chinese": "我的理解可能不同，我们一起核对一下可以吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P058",
+      "kind": "phrase",
+      "category_id": "conflict",
+      "title": "承认问太直接",
+      "summary": "我可能问得太直接了，这个话题就到这里。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I may have asked that too directly. We can leave it there.",
+        "",
+        "我可能问得太直接了，这个话题就到这里。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I may have asked that too directly. We can leave it there.",
+        "vietnamese": "",
+        "chinese": "我可能问得太直接了，这个话题就到这里。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P059",
+      "kind": "phrase",
+      "category_id": "conflict",
+      "title": "说明修正",
+      "summary": "我们发错版本了，附件是修订文件，余下资料明天确认。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "We sent the wrong revision. The corrected file is attached. I will confirm the remaining documents tomorrow.",
+        "",
+        "我们发错版本了，附件是修订文件，余下资料明天确认。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "We sent the wrong revision. The corrected file is attached. I will confirm the remaining documents tomorrow.",
+        "vietnamese": "",
+        "chinese": "我们发错版本了，附件是修订文件，余下资料明天确认。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P060",
+      "kind": "phrase",
+      "category_id": "work",
+      "title": "确认结束时间",
+      "summary": "您还有三十分钟吗，还是我们缩短一点？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Do you still have thirty minutes, or should we keep this shorter?",
+        "",
+        "您还有三十分钟吗，还是我们缩短一点？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Do you still have thirty minutes, or should we keep this shorter?",
+        "vietnamese": "",
+        "chinese": "您还有三十分钟吗，还是我们缩短一点？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P061",
+      "kind": "phrase",
+      "category_id": "work",
+      "title": "确认责任分工",
+      "summary": "由谁核对，什么时候更新比较实际？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Who will check this, and when would an update be realistic?",
+        "",
+        "由谁核对，什么时候更新比较实际？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Who will check this, and when would an update be realistic?",
+        "vietnamese": "",
+        "chinese": "由谁核对，什么时候更新比较实际？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P062",
+      "kind": "phrase",
+      "category_id": "valves",
+      "title": "价格比较范围",
+      "summary": "主要差距是单价，还是含运费文件后的总成本？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Is the main gap the unit price or the total cost after freight and documents?",
+        "",
+        "主要差距是单价，还是含运费文件后的总成本？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Is the main gap the unit price or the total cost after freight and documents?",
+        "vietnamese": "",
+        "chinese": "主要差距是单价，还是含运费文件后的总成本？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P063",
+      "kind": "phrase",
+      "category_id": "valves",
+      "title": "支持内部审核",
+      "summary": "您老板需要看哪些资料？我可以整理简短摘要。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "What will your manager need to see? I can prepare a short summary.",
+        "",
+        "您老板需要看哪些资料？我可以整理简短摘要。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "What will your manager need to see? I can prepare a short summary.",
+        "vietnamese": "",
+        "chinese": "您老板需要看哪些资料？我可以整理简短摘要。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P064",
+      "kind": "phrase",
+      "category_id": "valves",
+      "title": "询问审批材料",
+      "summary": "新阀门供应商获批前，您团队需要哪些资料？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "What does your team need before a new valve supplier can be approved?",
+        "",
+        "新阀门供应商获批前，您团队需要哪些资料？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "What does your team need before a new valve supplier can be approved?",
+        "vietnamese": "",
+        "chinese": "新阀门供应商获批前，您团队需要哪些资料？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P065",
+      "kind": "phrase",
+      "category_id": "valves",
+      "title": "维修的信息困难",
+      "summary": "紧急更换时，哪些信息最难拿到？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "During an urgent replacement, what information is hardest to obtain?",
+        "",
+        "紧急更换时，哪些信息最难拿到？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "During an urgent replacement, what information is hardest to obtain?",
+        "vietnamese": "",
+        "chinese": "紧急更换时，哪些信息最难拿到？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P066",
+      "kind": "phrase",
+      "category_id": "valves",
+      "title": "说明更新时间",
+      "summary": "日期尚未确定，我明天越南时间下午三点前更新。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "The date is not confirmed yet. I will update you tomorrow by 3 pm Vietnam time.",
+        "",
+        "日期尚未确定，我明天越南时间下午三点前更新。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "The date is not confirmed yet. I will update you tomorrow by 3 pm Vietnam time.",
+        "vietnamese": "",
+        "chinese": "日期尚未确定，我明天越南时间下午三点前更新。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P067",
+      "kind": "phrase",
+      "category_id": "daily",
+      "title": "核对总价",
+      "summary": "能确认一下这个数量的总价吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Could you confirm the total price for this quantity?",
+        "",
+        "能确认一下这个数量的总价吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Could you confirm the total price for this quantity?",
+        "vietnamese": "",
+        "chinese": "能确认一下这个数量的总价吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P068",
+      "kind": "phrase",
+      "category_id": "daily",
+      "title": "邻里请求",
+      "summary": "声音传到我房间里了，今晚十点后能小声一点吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "The noise is carrying into my room. Could we keep it lower after ten tonight?",
+        "",
+        "声音传到我房间里了，今晚十点后能小声一点吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "The noise is carrying into my room. Could we keep it lower after ten tonight?",
+        "vietnamese": "",
+        "chinese": "声音传到我房间里了，今晚十点后能小声一点吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P069",
+      "kind": "phrase",
+      "category_id": "daily",
+      "title": "维修预约",
+      "summary": "能确认上门时间和报价包含什么吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Could you confirm the visit time and what the quoted price includes?",
+        "",
+        "能确认上门时间和报价包含什么吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Could you confirm the visit time and what the quoted price includes?",
+        "vietnamese": "",
+        "chinese": "能确认上门时间和报价包含什么吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P070",
+      "kind": "phrase",
+      "category_id": "daily",
+      "title": "请写关键词",
+      "summary": "能请您把名称写下来吗？",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Could you write down the name for me?",
+        "",
+        "能请您把名称写下来吗？"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Could you write down the name for me?",
+        "vietnamese": "",
+        "chinese": "能请您把名称写下来吗？",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P071",
+      "kind": "phrase",
+      "category_id": "festivals",
+      "title": "春节祝福",
+      "summary": "祝您和家人新年健康平安、事业顺利。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Wishing you and your family a healthy, peaceful and successful new year.",
+        "Chúc mừng năm mới!",
+        "祝您和家人新年健康平安、事业顺利。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Wishing you and your family a healthy, peaceful and successful new year.",
+        "vietnamese": "Chúc mừng năm mới!",
+        "chinese": "祝您和家人新年健康平安、事业顺利。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P072",
+      "kind": "phrase",
+      "category_id": "festivals",
+      "title": "妇女节祝福",
+      "summary": "祝越南妇女节快乐，健康顺心、事业进步。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Happy Vietnamese Women's Day. Wishing you good health and continued success.",
+        "",
+        "祝越南妇女节快乐，健康顺心、事业进步。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Happy Vietnamese Women's Day. Wishing you good health and continued success.",
+        "vietnamese": "",
+        "chinese": "祝越南妇女节快乐，健康顺心、事业进步。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P073",
+      "kind": "phrase",
+      "category_id": "festivals",
+      "title": "开业祝福",
+      "summary": "祝开业顺利，新的一年生意兴隆。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Wishing you a smooth opening and a successful year ahead.",
+        "",
+        "祝开业顺利，新的一年生意兴隆。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Wishing you a smooth opening and a successful year ahead.",
+        "vietnamese": "",
+        "chinese": "祝开业顺利，新的一年生意兴隆。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P074",
+      "kind": "phrase",
+      "category_id": "requests",
+      "title": "简单感谢",
+      "summary": "谢谢。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "Thank you.",
+        "Cảm ơn anh ạ.",
+        "谢谢。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "Thank you.",
+        "vietnamese": "Cảm ơn anh ạ.",
+        "chinese": "谢谢。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P075",
+      "kind": "phrase",
+      "category_id": "requests",
+      "title": "简单道歉",
+      "summary": "抱歉。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "I am sorry.",
+        "Em xin lỗi anh ạ.",
+        "抱歉。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "I am sorry.",
+        "vietnamese": "Em xin lỗi anh ạ.",
+        "chinese": "抱歉。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "P076",
+      "kind": "phrase",
+      "category_id": "greetings",
+      "title": "告别",
+      "summary": "下次见。",
+      "body": "英文为按本任务编写的示例。使用前替换真实背景，避免虚构经历。",
+      "evidence_type": "authored_example",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": 0,
+      "privacy_level": 0,
+      "tags": [
+        "See you next time.",
+        "Hẹn gặp lại anh ạ.",
+        "下次见。"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "phrase": {
+        "english": "See you next time.",
+        "vietnamese": "Hẹn gặp lại anh ạ.",
+        "chinese": "下次见。",
+        "register_note": "按本人偏好调整姓名、时态和场景；未经母语者专项复核。",
+        "assumptions": "越南语出现anh/em时，假设对方适合称anh且说话者适合自称em；女性客户或其他辈分需调整。空白越南语表示本条仅提供英文与中文，不代表已完成三语审核。"
+      }
+    },
+    {
+      "id": "R001",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "初次即时消息字数",
+      "summary": "围绕身份、真实来由和一个问题；复杂资料另附。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "English words",
+        "首次业务私信"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 40,
+        "max_value": 80,
+        "unit": "English words",
+        "trigger_condition": "首次业务私信",
+        "action": "围绕身份、真实来由和一个问题；复杂资料另附。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R002",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "初次业务邮件字数",
+      "summary": "正文集中，技术细节放清楚命名的附件。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "English words",
+        "首次开发邮件正文"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 80,
+        "max_value": 150,
+        "unit": "English words",
+        "trigger_condition": "首次开发邮件正文",
+        "action": "正文集中，技术细节放清楚命名的附件。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R003",
+      "kind": "rule",
+      "category_id": "conversation",
+      "title": "每轮主问题数量",
+      "summary": "先问一个主问题，听回答后再决定追问。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "question",
+        "普通聊天或需求访谈"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 1,
+        "max_value": 1,
+        "unit": "question",
+        "trigger_condition": "普通聊天或需求访谈",
+        "action": "先问一个主问题，听回答后再决定追问。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R004",
+      "kind": "rule",
+      "category_id": "conversation",
+      "title": "相关补充问题上限",
+      "summary": "最多再加一个相关问题，不堆积任务。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "question",
+        "确有必要同轮补充"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 1,
+        "unit": "question",
+        "trigger_condition": "确有必要同轮补充",
+        "action": "最多再加一个相关问题，不堆积任务。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R005",
+      "kind": "rule",
+      "category_id": "conversation",
+      "title": "初识私人问题数量",
+      "summary": "仅一个低敏感问题，跟随对方意愿。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "question",
+        "R0或R1初识"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 1,
+        "unit": "question",
+        "trigger_condition": "R0或R1初识",
+        "action": "仅一个低敏感问题，跟随对方意愿。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R006",
+      "kind": "rule",
+      "category_id": "conversation",
+      "title": "连续短答后的换题提示",
+      "summary": "可以换题或收尾，不据此判断对方内心。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "short replies",
+        "连续短答且没有展开"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 2,
+        "max_value": 2,
+        "unit": "short replies",
+        "trigger_condition": "连续短答且没有展开",
+        "action": "可以换题或收尾，不据此判断对方内心。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R007",
+      "kind": "rule",
+      "category_id": "conversation",
+      "title": "自己的连续发言",
+      "summary": "一段说完留出对方回应机会；技术讲解另作安排。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "seconds",
+        "一般对话"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 30,
+        "max_value": 60,
+        "unit": "seconds",
+        "trigger_condition": "一般对话",
+        "action": "一段说完留出对方回应机会；技术讲解另作安排。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R008",
+      "kind": "rule",
+      "category_id": "conversation",
+      "title": "初识倾听比例",
+      "summary": "给对方充分表达空间，不要求机械计时。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "percent",
+        "了解对方经历或需求"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 60,
+        "max_value": 70,
+        "unit": "percent",
+        "trigger_condition": "了解对方经历或需求",
+        "action": "给对方充分表达空间，不要求机械计时。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R009",
+      "kind": "rule",
+      "category_id": "conversation",
+      "title": "提问后思考停顿",
+      "summary": "留出短暂思考空间，翻译计算时等更久。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "seconds",
+        "普通开放问题后"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 2,
+        "max_value": 3,
+        "unit": "seconds",
+        "trigger_condition": "普通开放问题后",
+        "action": "留出短暂思考空间，翻译计算时等更久。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R010",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "未经邀请语音",
+      "summary": "先确认语音是否方便。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "message",
+        "尚不知对方是否愿意听"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 0,
+        "unit": "message",
+        "trigger_condition": "尚不知对方是否愿意听",
+        "action": "先确认语音是否方便。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R011",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "普通语音时长",
+      "summary": "内容简短，型号日期金额补文字。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "seconds",
+        "对方已接受语音"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 30,
+        "max_value": 60,
+        "unit": "seconds",
+        "trigger_condition": "对方已接受语音",
+        "action": "内容简短，型号日期金额补文字。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R012",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "初次电话时长",
+      "summary": "到时询问是否方便继续。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minutes",
+        "约定首次通话"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 10,
+        "max_value": 15,
+        "unit": "minutes",
+        "trigger_condition": "约定首次通话",
+        "action": "到时询问是否方便继续。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R013",
+      "kind": "rule",
+      "category_id": "coffee",
+      "title": "初次咖啡占用",
+      "summary": "说明大致占用，让对方自由选择是否延长。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minutes",
+        "提出短咖啡邀约"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 30,
+        "max_value": 45,
+        "unit": "minutes",
+        "trigger_condition": "提出短咖啡邀约",
+        "action": "说明大致占用，让对方自由选择是否延长。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R014",
+      "kind": "rule",
+      "category_id": "home",
+      "title": "初次到访时间预留",
+      "summary": "留出自然告辞空间，实际时长听主人安排。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minutes",
+        "家庭短访的个人行程规划"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 45,
+        "max_value": 90,
+        "unit": "minutes",
+        "trigger_condition": "家庭短访的个人行程规划",
+        "action": "留出自然告辞空间，实际时长听主人安排。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R015",
+      "kind": "rule",
+      "category_id": "home",
+      "title": "到访前确认时间",
+      "summary": "提前一天确认，紧急变动及时通知。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "day",
+        "普通已约拜访"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 1,
+        "max_value": 1,
+        "unit": "day",
+        "trigger_condition": "普通已约拜访",
+        "action": "提前一天确认，紧急变动及时通知。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R016",
+      "kind": "rule",
+      "category_id": "requests",
+      "title": "拒绝后的重复劝说",
+      "summary": "接受选择，必要时仅询问其他可行安排。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "attempt",
+        "对方已明确拒绝"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 0,
+        "unit": "attempt",
+        "trigger_condition": "对方已明确拒绝",
+        "action": "接受选择，必要时仅询问其他可行安排。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R017",
+      "kind": "rule",
+      "category_id": "gifts",
+      "title": "礼物被拒后的解释",
+      "summary": "可简短解释一次，再明确拒绝则收回。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "explanation",
+        "礼物初次被婉拒"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 1,
+        "unit": "explanation",
+        "trigger_condition": "礼物初次被婉拒",
+        "action": "可简短解释一次，再明确拒绝则收回。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R018",
+      "kind": "rule",
+      "category_id": "food",
+      "title": "表达分担账单",
+      "summary": "表达一次即可，不反复抢单。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "offer",
+        "对方邀请且已坚持支付"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 1,
+        "unit": "offer",
+        "trigger_condition": "对方邀请且已坚持支付",
+        "action": "表达一次即可，不反复抢单。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R019",
+      "kind": "rule",
+      "category_id": "home",
+      "title": "到访后的感谢",
+      "summary": "当晚或次日简短感谢，提及真实细节。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "message",
+        "离开主人家后"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 1,
+        "max_value": 1,
+        "unit": "message",
+        "trigger_condition": "离开主人家后",
+        "action": "当晚或次日简短感谢，提及真实细节。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R020",
+      "kind": "rule",
+      "category_id": "festivals",
+      "title": "普通节日祝福次数",
+      "summary": "一次即可，不要求回复。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "message per occasion",
+        "确知对方相关的节日"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 1,
+        "max_value": 1,
+        "unit": "message per occasion",
+        "trigger_condition": "确知对方相关的节日",
+        "action": "一次即可，不要求回复。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R021",
+      "kind": "rule",
+      "category_id": "health",
+      "title": "首次生病关心",
+      "summary": "简短关心，后续频率跟随回应。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "message",
+        "得知对方不舒服"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 1,
+        "max_value": 1,
+        "unit": "message",
+        "trigger_condition": "得知对方不舒服",
+        "action": "简短关心，后续频率跟随回应。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R022",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "陌生联系第1次",
+      "summary": "第0个工作日首次联系。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "business day offset",
+        "尚无回复的业务开发"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 0,
+        "unit": "business day offset",
+        "trigger_condition": "尚无回复的业务开发",
+        "action": "第0个工作日首次联系。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R023",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "陌生联系第2次",
+      "summary": "第4个工作日跟进一次；所有渠道合并计数。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "business day offset",
+        "首次未回复且仍有相关价值"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 4,
+        "max_value": 4,
+        "unit": "business day offset",
+        "trigger_condition": "首次未回复且仍有相关价值",
+        "action": "第4个工作日跟进一次；所有渠道合并计数。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R024",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "陌生联系第3次",
+      "summary": "第10个工作日最后一次触达，之后结束本轮。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "business day offset",
+        "前两次未回复且仍适宜联系"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 10,
+        "max_value": 10,
+        "unit": "business day offset",
+        "trigger_condition": "前两次未回复且仍适宜联系",
+        "action": "第10个工作日最后一次触达，之后结束本轮。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R025",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "无回复本轮触达上限",
+      "summary": "最多三次，包括首封；明确停止要求立即优先。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "attempts across channels",
+        "陌生业务联系且无有效回复"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 3,
+        "max_value": 3,
+        "unit": "attempts across channels",
+        "trigger_condition": "陌生业务联系且无有效回复",
+        "action": "最多三次，包括首封；明确停止要求立即优先。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R026",
+      "kind": "rule",
+      "category_id": "online",
+      "title": "普通消息确认目标",
+      "summary": "在能力范围内争取四个工作小时确认收到，再约解决时间。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "working hours",
+        "自身内部服务目标"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 4,
+        "unit": "working hours",
+        "trigger_condition": "自身内部服务目标",
+        "action": "在能力范围内争取四个工作小时确认收到，再约解决时间。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R027",
+      "kind": "rule",
+      "category_id": "work",
+      "title": "会后摘要目标",
+      "summary": "尽量当日，最迟下一个工作日发送摘要。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "business day",
+        "有行动事项的会议结束"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 1,
+        "unit": "business day",
+        "trigger_condition": "有行动事项的会议结束",
+        "action": "尽量当日，最迟下一个工作日发送摘要。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R028",
+      "kind": "rule",
+      "category_id": "work",
+      "title": "会议开场",
+      "summary": "问候、介绍、确认剩余时间。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minute offset",
+        "试用30分钟会议"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 0,
+        "max_value": 3,
+        "unit": "minute offset",
+        "trigger_condition": "试用30分钟会议",
+        "action": "问候、介绍、确认剩余时间。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R029",
+      "kind": "rule",
+      "category_id": "work",
+      "title": "职责与背景了解",
+      "summary": "了解对方职责和本次目标。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minute offset",
+        "试用30分钟会议"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 3,
+        "max_value": 8,
+        "unit": "minute offset",
+        "trigger_condition": "试用30分钟会议",
+        "action": "了解对方职责和本次目标。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R030",
+      "kind": "rule",
+      "category_id": "work",
+      "title": "主要需求讨论",
+      "summary": "讨论一个主要需求，听取真实限制。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minute offset",
+        "试用30分钟会议"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 8,
+        "max_value": 20,
+        "unit": "minute offset",
+        "trigger_condition": "试用30分钟会议",
+        "action": "讨论一个主要需求，听取真实限制。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R031",
+      "kind": "rule",
+      "category_id": "work",
+      "title": "支持与未决问题",
+      "summary": "确认可提供支持和待核对内容。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minute offset",
+        "试用30分钟会议"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 20,
+        "max_value": 27,
+        "unit": "minute offset",
+        "trigger_condition": "试用30分钟会议",
+        "action": "确认可提供支持和待核对内容。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R032",
+      "kind": "rule",
+      "category_id": "work",
+      "title": "会议收尾",
+      "summary": "明确动作、责任人、时间和完成标准。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minute offset",
+        "试用30分钟会议"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 27,
+        "max_value": 30,
+        "unit": "minute offset",
+        "trigger_condition": "试用30分钟会议",
+        "action": "明确动作、责任人、时间和完成标准。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R033",
+      "kind": "rule",
+      "category_id": "metrics",
+      "title": "新关系偏好确认项",
+      "summary": "称呼、语言、渠道、时段和自愿分享的兴趣。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "fields",
+        "逐步了解新认识的人"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 5,
+        "max_value": 5,
+        "unit": "fields",
+        "trigger_condition": "逐步了解新认识的人",
+        "action": "称呼、语言、渠道、时段和自愿分享的兴趣。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R034",
+      "kind": "rule",
+      "category_id": "dialects",
+      "title": "每周新词",
+      "summary": "学习五个有实际使用场景的词。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "words per week",
+        "越南语初期学习"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 5,
+        "max_value": 5,
+        "unit": "words per week",
+        "trigger_condition": "越南语初期学习",
+        "action": "学习五个有实际使用场景的词。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R035",
+      "kind": "rule",
+      "category_id": "dialects",
+      "title": "每周完整句子",
+      "summary": "学习三句并明确适用称呼。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "sentences per week",
+        "越南语初期学习"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 3,
+        "max_value": 3,
+        "unit": "sentences per week",
+        "trigger_condition": "越南语初期学习",
+        "action": "学习三句并明确适用称呼。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R036",
+      "kind": "rule",
+      "category_id": "dialects",
+      "title": "每周发音纠正",
+      "summary": "请对方纠正一次，尊重其时间。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "session per week",
+        "有熟悉的越南人可交流"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 1,
+        "max_value": 1,
+        "unit": "session per week",
+        "trigger_condition": "有熟悉的越南人可交流",
+        "action": "请对方纠正一次，尊重其时间。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R037",
+      "kind": "rule",
+      "category_id": "metrics",
+      "title": "单次交流记录时间",
+      "summary": "记录事实、承诺和下一步，不收集无关隐私。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "minutes",
+        "实质交流之后"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 1,
+        "max_value": 2,
+        "unit": "minutes",
+        "trigger_condition": "实质交流之后",
+        "action": "记录事实、承诺和下一步，不收集无关隐私。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R038",
+      "kind": "rule",
+      "category_id": "metrics",
+      "title": "校准周期",
+      "summary": "分四周建基线、单变量改进、延续话题、复盘。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "days",
+        "起步观察计划"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 30,
+        "max_value": 30,
+        "unit": "days",
+        "trigger_condition": "起步观察计划",
+        "action": "分四周建基线、单变量改进、延续话题、复盘。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R039",
+      "kind": "rule",
+      "category_id": "metrics",
+      "title": "起步观察人数",
+      "summary": "兼顾角色与关系阶段，不视为统计代表样本。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "people",
+        "有正常往来的观察样本"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 10,
+        "max_value": 20,
+        "unit": "people",
+        "trigger_condition": "有正常往来的观察样本",
+        "action": "兼顾角色与关系阶段，不视为统计代表样本。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "R040",
+      "kind": "rule",
+      "category_id": "festivals",
+      "title": "主要假期协调提前量",
+      "summary": "提前确认企业休假和恢复联系时间。",
+      "body": "实践起点；未用本人的客户数据验证。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "weeks",
+        "涉及交货或会议安排"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "rule": {
+        "min_value": 2,
+        "max_value": 4,
+        "unit": "weeks",
+        "trigger_condition": "涉及交货或会议安排",
+        "action": "提前确认企业休假和恢复联系时间。",
+        "override_condition": "本人明确偏好、实际工作约定、必要事务和现场情况优先；不把阈值当作全越南规范。"
+      }
+    },
+    {
+      "id": "T001",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "贵：mắc",
+      "summary": "贵的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "đắt",
+        "",
+        "mắc",
+        "贵"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "贵的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "đắt",
+        "central": "",
+        "southern": "mắc",
+        "meaning_zh": "贵",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T002",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "使用：xài",
+      "summary": "使用的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "dùng",
+        "",
+        "xài",
+        "使用"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "使用的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "dùng",
+        "central": "",
+        "southern": "xài",
+        "meaning_zh": "使用",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T003",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "看查看：coi",
+      "summary": "看查看的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "xem",
+        "",
+        "coi",
+        "看查看"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "看查看的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "xem",
+        "central": "",
+        "southern": "coi",
+        "meaning_zh": "看查看",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T004",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "帮忙：giúp / giùm",
+      "summary": "帮忙的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "giúp / hộ",
+        "",
+        "giúp / giùm",
+        "帮忙"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "帮忙的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "giúp / hộ",
+        "central": "",
+        "southern": "giúp / giùm",
+        "meaning_zh": "帮忙",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T005",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "迟晚：trễ",
+      "summary": "迟晚的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "muộn",
+        "",
+        "trễ",
+        "迟晚"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "迟晚的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "muộn",
+        "central": "",
+        "southern": "trễ",
+        "meaning_zh": "迟晚",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T006",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "堵车：kẹt xe",
+      "summary": "堵车的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "tắc đường",
+        "",
+        "kẹt xe",
+        "堵车"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "堵车的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "tắc đường",
+        "central": "",
+        "southern": "kẹt xe",
+        "meaning_zh": "堵车",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T007",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "照片：hình",
+      "summary": "照片的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "ảnh",
+        "",
+        "hình",
+        "照片"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "照片的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "ảnh",
+        "central": "",
+        "southern": "hình",
+        "meaning_zh": "照片",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T008",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "碗：chén",
+      "summary": "碗的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "bát",
+        "",
+        "chén",
+        "碗"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "碗的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "bát",
+        "central": "",
+        "southern": "chén",
+        "meaning_zh": "碗",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T009",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "勺子：muỗng",
+      "summary": "勺子的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "thìa",
+        "",
+        "muỗng",
+        "勺子"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "勺子的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "thìa",
+        "central": "",
+        "southern": "muỗng",
+        "meaning_zh": "勺子",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T010",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "雨伞：dù",
+      "summary": "雨伞的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "ô",
+        "",
+        "dù",
+        "雨伞"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "雨伞的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "ô",
+        "central": "",
+        "southern": "dù",
+        "meaning_zh": "雨伞",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T011",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "空调：máy lạnh",
+      "summary": "空调的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "điều hòa",
+        "",
+        "máy lạnh",
+        "空调"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "空调的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "điều hòa",
+        "central": "",
+        "southern": "máy lạnh",
+        "meaning_zh": "空调",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T012",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "猪：heo",
+      "summary": "猪的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "lợn",
+        "",
+        "heo",
+        "猪"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "猪的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "lợn",
+        "central": "",
+        "southern": "heo",
+        "meaning_zh": "猪",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T013",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "玉米：bắp",
+      "summary": "玉米的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "ngô",
+        "",
+        "bắp",
+        "玉米"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "玉米的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "ngô",
+        "central": "",
+        "southern": "bắp",
+        "meaning_zh": "玉米",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T014",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "菠萝：thơm / khóm",
+      "summary": "菠萝的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "dứa",
+        "",
+        "thơm / khóm",
+        "菠萝"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "菠萝的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "dứa",
+        "central": "",
+        "southern": "thơm / khóm",
+        "meaning_zh": "菠萝",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T015",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "批发：bán sỉ",
+      "summary": "批发的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "bán buôn",
+        "",
+        "bán sỉ",
+        "批发"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "批发的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "bán buôn",
+        "central": "",
+        "southern": "bán sỉ",
+        "meaning_zh": "批发",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T016",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "花：bông",
+      "summary": "花的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "hoa",
+        "",
+        "bông",
+        "花"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "花的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "hoa",
+        "central": "",
+        "southern": "bông",
+        "meaning_zh": "花",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T017",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "水果量词：trái",
+      "summary": "水果量词的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "quả",
+        "",
+        "trái",
+        "水果量词"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "水果量词的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "quả",
+        "central": "",
+        "southern": "trái",
+        "meaning_zh": "水果量词",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T018",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "转弯：quẹo",
+      "summary": "转弯的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "rẽ",
+        "",
+        "quẹo",
+        "转弯"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S06",
+          "claim_scope": "转弯的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "rẽ",
+        "central": "",
+        "southern": "quẹo",
+        "meaning_zh": "转弯",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T019",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "哪里：đâu",
+      "summary": "哪里的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "đâu",
+        "mô",
+        "đâu",
+        "哪里"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S09",
+          "claim_scope": "哪里的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "đâu",
+        "central": "mô",
+        "southern": "đâu",
+        "meaning_zh": "哪里",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T020",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "那边：kia",
+      "summary": "那边的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "kia",
+        "tê",
+        "kia",
+        "那边"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S09",
+          "claim_scope": "那边的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "kia",
+        "central": "tê",
+        "southern": "kia",
+        "meaning_zh": "那边",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T021",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "怎么为什么：sao / thế nào",
+      "summary": "怎么为什么的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "sao / thế nào",
+        "răng",
+        "sao / thế nào",
+        "怎么为什么"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S09",
+          "claim_scope": "怎么为什么的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "sao / thế nào",
+        "central": "răng",
+        "southern": "sao / thế nào",
+        "meaning_zh": "怎么为什么",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T022",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "这样那样：vậy",
+      "summary": "这样那样的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "thế",
+        "rứa",
+        "vậy",
+        "这样那样"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S09",
+          "claim_scope": "这样那样的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "thế",
+        "central": "rứa",
+        "southern": "vậy",
+        "meaning_zh": "这样那样",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T023",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "看见：thấy",
+      "summary": "看见的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "thấy",
+        "chộ",
+        "thấy",
+        "看见"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S09",
+          "claim_scope": "看见的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "thấy",
+        "central": "chộ",
+        "southern": "thấy",
+        "meaning_zh": "看见",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T024",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "水：nước",
+      "summary": "水的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "nước",
+        "nác",
+        "nước",
+        "水"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S09",
+          "claim_scope": "水的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "nước",
+        "central": "nác",
+        "southern": "nước",
+        "meaning_zh": "水",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T025",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "咖啡缩写：cf",
+      "summary": "咖啡缩写的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "",
+        "",
+        "cf",
+        "咖啡缩写"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S07",
+          "claim_scope": "咖啡缩写的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "",
+        "central": "",
+        "southern": "cf",
+        "meaning_zh": "咖啡缩写",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T026",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "可以缩写：đc / dc",
+      "summary": "可以缩写的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "",
+        "",
+        "đc / dc",
+        "可以缩写"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S07",
+          "claim_scope": "可以缩写的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "",
+        "central": "",
+        "southern": "đc / dc",
+        "meaning_zh": "可以缩写",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T027",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "已经缩写：r (rồi)",
+      "summary": "已经缩写的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "",
+        "",
+        "r (rồi)",
+        "已经缩写"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S07",
+          "claim_scope": "已经缩写的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "",
+        "central": "",
+        "southern": "r (rồi)",
+        "meaning_zh": "已经缩写",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T028",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "柔化邀请提醒：nha / nghen",
+      "summary": "柔化邀请提醒的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "nhé",
+        "",
+        "nha / nghen",
+        "柔化邀请提醒"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S08",
+          "claim_scope": "柔化邀请提醒的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "nhé",
+        "central": "",
+        "southern": "nha / nghen",
+        "meaning_zh": "柔化邀请提醒",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "T029",
+      "kind": "term",
+      "category_id": "dialects",
+      "title": "轻轻确认：hén",
+      "summary": "轻轻确认的地方用词或聊天形式。",
+      "body": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "",
+        "",
+        "hén",
+        "轻轻确认"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S08",
+          "claim_scope": "轻轻确认的地方用词或聊天形式。"
+        }
+      ],
+      "term": {
+        "northern": "",
+        "central": "",
+        "southern": "hén",
+        "meaning_zh": "轻轻确认",
+        "usage_note": "常见倾向而非排他分布；按句子与本人用法理解。中部例词仅用于部分地方；缩写不限南部。"
+      }
+    },
+    {
+      "id": "E001",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "春节Tết",
+      "summary": "春节庆祝有前后延伸，企业假期另核对。",
+      "body": "提前确认假期、返乡与交期；祝福一次。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "春节Tết",
+        "lunar"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S14",
+          "claim_scope": "春节庆祝有前后延伸，企业假期另核对。"
+        }
+      ],
+      "event": {
+        "calendar": "lunar",
+        "month": 1,
+        "day": 1,
+        "date_note": "春节庆祝有前后延伸，企业假期另核对。",
+        "action_note": "提前确认假期、返乡与交期；祝福一次。"
+      }
+    },
+    {
+      "id": "E002",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "中秋Tết Trung Thu",
+      "summary": "公历日期每年转换。",
+      "body": "可了解儿童活动、灯笼与月饼；跟随本人家庭安排。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "中秋Tết Trung Thu",
+        "lunar"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S13",
+          "claim_scope": "公历日期每年转换。"
+        }
+      ],
+      "event": {
+        "calendar": "lunar",
+        "month": 8,
+        "day": 15,
+        "date_note": "公历日期每年转换。",
+        "action_note": "可了解儿童活动、灯笼与月饼；跟随本人家庭安排。"
+      }
+    },
+    {
+      "id": "E003",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "Vu Lan",
+      "summary": "庆祝活动可能在前后举行。",
+      "body": "已知对方参与时尊重其孝亲与追念安排。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "Vu Lan",
+        "lunar"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S17",
+          "claim_scope": "庆祝活动可能在前后举行。"
+        }
+      ],
+      "event": {
+        "calendar": "lunar",
+        "month": 7,
+        "day": 15,
+        "date_note": "庆祝活动可能在前后举行。",
+        "action_note": "已知对方参与时尊重其孝亲与追念安排。"
+      }
+    },
+    {
+      "id": "E004",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "越南妇女节",
+      "summary": "纪念日不等于企业统一放假。",
+      "body": "向相关客户或同事简洁祝福。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "越南妇女节",
+        "gregorian"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S15",
+          "claim_scope": "纪念日不等于企业统一放假。"
+        }
+      ],
+      "event": {
+        "calendar": "gregorian",
+        "month": 10,
+        "day": 20,
+        "date_note": "纪念日不等于企业统一放假。",
+        "action_note": "向相关客户或同事简洁祝福。"
+      }
+    },
+    {
+      "id": "E005",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "教师节",
+      "summary": "纪念日不等于企业统一放假。",
+      "body": "与教育从业者和本人提到的相关经历自然连接。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "教师节",
+        "gregorian"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S16",
+          "claim_scope": "纪念日不等于企业统一放假。"
+        }
+      ],
+      "event": {
+        "calendar": "gregorian",
+        "month": 11,
+        "day": 20,
+        "date_note": "纪念日不等于企业统一放假。",
+        "action_note": "与教育从业者和本人提到的相关经历自然连接。"
+      }
+    },
+    {
+      "id": "E006",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "家族祭日giỗ",
+      "summary": "日期由家庭决定，常依农历纪念。",
+      "body": "先理解事件，不自动发送新丧慰问。",
+      "evidence_type": "cultural_reference",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "家族祭日giỗ",
+        "family_specific"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source_id": "S11",
+          "claim_scope": "日期由家庭决定，常依农历纪念。"
+        }
+      ],
+      "event": {
+        "calendar": "family_specific",
+        "month": null,
+        "day": null,
+        "date_note": "日期由家庭决定，常依农历纪念。",
+        "action_note": "先理解事件，不自动发送新丧慰问。"
+      }
+    },
+    {
+      "id": "E007",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "生日",
+      "summary": "只使用本人告知或公开日期。",
+      "body": "一条简短祝福，不推断年龄。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "生日",
+        "family_specific"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "event": {
+        "calendar": "family_specific",
+        "month": null,
+        "day": null,
+        "date_note": "只使用本人告知或公开日期。",
+        "action_note": "一条简短祝福，不推断年龄。"
+      }
+    },
+    {
+      "id": "E008",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "婚礼",
+      "summary": "以邀请说明为准。",
+      "body": "确认人数、着装、时间及礼赠安排。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "婚礼",
+        "family_specific"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "event": {
+        "calendar": "family_specific",
+        "month": null,
+        "day": null,
+        "date_note": "以邀请说明为准。",
+        "action_note": "确认人数、着装、时间及礼赠安排。"
+      }
+    },
+    {
+      "id": "E009",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "新丧事",
+      "summary": "由家庭与宗教仪式决定。",
+      "body": "一次慰问；探访与慰问形式事先确认。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "新丧事",
+        "family_specific"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "event": {
+        "calendar": "family_specific",
+        "month": null,
+        "day": null,
+        "date_note": "由家庭与宗教仪式决定。",
+        "action_note": "一次慰问；探访与慰问形式事先确认。"
+      }
+    },
+    {
+      "id": "E010",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "开业或春节开市",
+      "summary": "以主人明确的开业日期为准。",
+      "body": "祝福顺利；不擅自登门。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "开业或春节开市",
+        "variable"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "event": {
+        "calendar": "variable",
+        "month": null,
+        "day": null,
+        "date_note": "以主人明确的开业日期为准。",
+        "action_note": "祝福顺利；不擅自登门。"
+      }
+    },
+    {
+      "id": "E011",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "客户公司假期",
+      "summary": "公共假日、调休与公司安排需另核对。",
+      "body": "涉及业务时确认值班和恢复联系时间。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "客户公司假期",
+        "variable"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "event": {
+        "calendar": "variable",
+        "month": null,
+        "day": null,
+        "date_note": "公共假日、调休与公司安排需另核对。",
+        "action_note": "涉及业务时确认值班和恢复联系时间。"
+      }
+    },
+    {
+      "id": "E012",
+      "kind": "event",
+      "category_id": "festivals",
+      "title": "圣诞及个人宗教活动",
+      "summary": "是否庆祝与参与方式按本人安排。",
+      "body": "已知对方庆祝时个性化问候，不推定信仰。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [
+        "圣诞及个人宗教活动",
+        "variable"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [],
+      "event": {
+        "calendar": "variable",
+        "month": null,
+        "day": null,
+        "date_note": "是否庆祝与参与方式按本人安排。",
+        "action_note": "已知对方庆祝时个性化问候，不推定信仰。"
+      }
+    },
+    {
+      "id": "M001",
+      "kind": "metric",
+      "category_id": "metrics",
+      "title": "沟通自评分",
+      "summary": "10项，每项0未做到、1部分做到、2有证据做到；不适用排除。",
+      "body": "称呼准确；来意清楚；内容集中；提问适量；接住具体信息；私人话题合适；请求清晰；尊重选择；承诺可靠；收尾完整。公式：实际分数 / (2 * 适用项数) * 100；全部不适用时为未评分，不作除零。只评自己的动作。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "M002",
+      "kind": "metric",
+      "category_id": "metrics",
+      "title": "共识覆盖率",
+      "summary": "检查动作、责任人、更新时间、完成标准四项。",
+      "body": "覆盖率 = 明确项目数 / 4 * 100。不是客户同意采购的概率；不同意或待审批也要如实记录。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "M003",
+      "kind": "metric",
+      "category_id": "metrics",
+      "title": "有效回复率",
+      "summary": "固定观察期内实质回复人数 / 成功送达且符合筛选条件的人数。",
+      "body": "明确不需要或停止联系也属于实质回复，应单独标记负向类型。分母为0时记未定义；不要混入机器人自动回复。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "M004",
+      "kind": "metric",
+      "category_id": "metrics",
+      "title": "承诺按时完成率",
+      "summary": "在承诺期限内完成的到期事项 / 全部到期事项。",
+      "body": "尚未到期事项不入分母；修改承诺保留原记录，不能通过反复延期美化。分母为0时记未定义。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "M005",
+      "kind": "metric",
+      "category_id": "metrics",
+      "title": "信息返工次数",
+      "summary": "记录因规格、数量、日期或范围不清导致的返工。",
+      "body": "区分客户真实变更与自己的表达遗漏，结合案例复盘而非只看总量。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "M006",
+      "kind": "metric",
+      "category_id": "metrics",
+      "title": "关系观察",
+      "summary": "观察双向发起、能自由拒绝、延续话题与愿意维持联系方式。",
+      "body": "不把私密披露、酒量、表情包或消息数量作为信任证明。R等级不作成交概率映射。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "M007",
+      "kind": "metric",
+      "category_id": "metrics",
+      "title": "来源覆盖率",
+      "summary": "文化参考类记录具有至少一个限定范围来源的比例。",
+      "body": "公式：有来源文化记录 / 所有文化记录；实践建议和自编话术单列，不用来源数量证明阈值有效。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "M008",
+      "kind": "metric",
+      "category_id": "metrics",
+      "title": "数据更新检查",
+      "summary": "记录检查日期、来源适用范围及待复核事项。",
+      "body": "节假日公历日期、企业采购条件、热门赛事和软件功能随使用当时重新核对；语言表达需要本地实际反馈。",
+      "evidence_type": "practice_hypothesis",
+      "scope": "与越南人用英文为主的生活与阀门业务交流；本人偏好优先。",
+      "region": "cross_region",
+      "relationship_min": null,
+      "privacy_level": null,
+      "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    }
+  ]
+}

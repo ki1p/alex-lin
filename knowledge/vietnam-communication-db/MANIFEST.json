@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 80,
+      "sha256": "b1e1a1b41bd16ce38a8fa5b00e1fcadc30636d9f2b815e0567471c2b1e65dc13"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4670,
+      "sha256": "f99f7385bc3d0fd2f2a57d5c5a47e51c8f68945ff27e5f06e3ce6a4b90d35720"
+    },
+    {
+      "path": "HANDBOOK.md",
+      "bytes": 2593529,
+      "sha256": "5bfb8deb2162a3fdb72986e1b9bb1b9c2fae7981a2e97153969d9c3f11fce994"
+    },
+    {
+      "path": "database.py",
+      "bytes": 9883,
+      "sha256": "40f8942af00554fc064b7c7ebb0289f853274542ea73ab2a3d9b7d82969bc96b"
+    },
+    {
+      "path": "export_handbook.py",
+      "bytes": 3226,
+      "sha256": "b6026f79f81fb20a988f8c94209bb30119763ab0913f6204a17e6e2c635e537e"
+    },
+    {
+      "path": "schema.sql",
+      "bytes": 2899,
+      "sha256": "b98703b7b29d6d5c9f0b71b84d773d95fd50474571e2121b30e4f5d3fcc0211c"
+    },
+    {
+      "path": "test_database.py",
+      "bytes": 4038,
+      "sha256": "817407a9c5ae2d8286746499b08a513552e70f970f9694943570025b97a6ba0b"
+    },
+    {
+      "path": "vietnam_communication.sqlite3",
+      "bytes": 581632,
+      "sha256": "19aff54e4f44fc567123f0bafe4036ab45ce97baca22ecfd0559301f9a217049"
+    },
+    {
+      "path": "data/database.json",
+      "bytes": 268444,
+      "sha256": "8bd224a2e984d0c98f393c09bf470f74b4e83e27088c6809f0c3b95cf8e039d6"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 409,
+      "sha256": "9dfebb1cdc24102ce8acce1b2f8f84c36b566aabd0ea7adf6a716a80c0660241"
+    }
+  ]
+}
