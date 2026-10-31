@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.building
+*.sqlite3-wal
+*.sqlite3-shm
+private-observations*

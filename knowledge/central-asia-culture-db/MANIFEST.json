@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 80,
+      "sha256": "b1e1a1b41bd16ce38a8fa5b00e1fcadc30636d9f2b815e0567471c2b1e65dc13"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5132,
+      "sha256": "87a3772c8aea52f84295476cbda986719c2d086ba34a89a4e55de72b92ac73c0"
+    },
+    {
+      "path": "HANDBOOK.md",
+      "bytes": 170837,
+      "sha256": "90533dc7e9d365176a67419180ff0124cdb1559c0b60f7875e5ef25436941d07"
+    },
+    {
+      "path": "COMMON.md",
+      "bytes": 52182,
+      "sha256": "2842f3e34b30f33e44f8c93d7fe5d61c4d57020ee77a0347b35f498f95b9e9d9"
+    },
+    {
+      "path": "KZ.md",
+      "bytes": 20365,
+      "sha256": "cb0dffc269a6bbace2aad3c2ee0297cc7407db42dfb63e25ba9f2f827828389e"
+    },
+    {
+      "path": "UZ.md",
+      "bytes": 21541,
+      "sha256": "54de51f6f420b2f9a1e53154eb9f361b8863133d2ccafac6962a7309dae1012d"
+    },
+    {
+      "path": "KG.md",
+      "bytes": 19272,
+      "sha256": "8bf3540632f03f99945dc573c1ae6ef29560a6c3cc3b29cfe842688bcd784ab8"
+    },
+    {
+      "path": "TJ.md",
+      "bytes": 21952,
+      "sha256": "e13be180cb29fcc4adef08af1b5975c02028020f56b90efb972da88bbf972d45"
+    },
+    {
+      "path": "TM.md",
+      "bytes": 19392,
+      "sha256": "7c8ccff940ba44af0b83f6c18d5209e108ee20631f60ffb23cb1be2591b2cb1f"
+    },
+    {
+      "path": "kb.py",
+      "bytes": 13684,
+      "sha256": "23bbd590c0b14b0d53abd70457427d85ae8dfb94c635b27f0eefd51afb47c8fd"
+    },
+    {
+      "path": "schema.sql",
+      "bytes": 1552,
+      "sha256": "04354d3187b72fd6e64ff83e4847dcc710bd59c73949c929cd8620d9a1eb23fc"
+    },
+    {
+      "path": "test_kb.py",
+      "bytes": 5042,
+      "sha256": "d0fec0feec04acfae1eacafabad9946f1d7e29ae124a12e41b69e7f9bca6039e"
+    },
+    {
+      "path": "data.json",
+      "bytes": 276053,
+      "sha256": "cfea5f10bbb6cba42ec60ba1c15335944d39e4776f485853533709da952eee8c"
+    },
+    {
+      "path": "central_asia.sqlite3",
+      "bytes": 602112,
+      "sha256": "c4dbc118b80e3000e63cb4ba654a6a315591de165cbe1973885a2b1c95ebe709"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 362,
+      "sha256": "3da2351083ae76131cd1e55a7b0d947c3a729dda955f67b9a6eb4b56cbec33f5"
+    }
+  ]
+}
