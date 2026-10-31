@@ -57,8 +57,9 @@ class KnowledgeTests(unittest.TestCase):
 
     def test_literal_query_is_not_sql(self):
         with kb.connect(self.path) as c:
+            before=kb.stats(c)['records']
             self.assertFalse(kb.search(c,"' OR 1=1 --"))
-            self.assertEqual(kb.stats(c)['records'],301)
+            self.assertEqual(kb.stats(c)['records'],before)
 
     def test_references_have_scoped_sources(self):
         with kb.connect(self.path) as c:

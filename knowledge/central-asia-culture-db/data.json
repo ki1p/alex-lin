@@ -1,13 +1,14 @@
 {
   "metadata": {
     "title": "中亚五国日常文化与商务沟通知识数据库",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "updated_on": "2026-10-31",
     "scope": "哈萨克斯坦、乌兹别克斯坦、吉尔吉斯斯坦、塔吉克斯坦、土库曼斯坦；常见生活、语言、地区和业务场景",
     "evidence_notice": "地区参考、来源短语、自编示例、实践参数分别标记；不声称穷尽全部文化，不生成国籍性格或成交概率。",
     "native_review": "没有条目被声称已完成母语者专项审核；本地短语有来源，复杂俄语示例为本任务自编。",
     "privacy": "不含真实客户档案或WhatsApp聊天，不含凭据，不产生自动发送任务。",
-    "source_access": "区分full_text、partial_full_text与search_excerpt。遇到访问限制未绕过。"
+    "source_access": "区分full_text、partial_full_text与search_excerpt。遇到访问限制未绕过。",
+    "lifestyle_scope": "办公与联系时段、未知睡眠字段、2026参考假日、美食与兴趣话题；每次建议客户联系前先核对当地时间。"
   },
   "countries": [
     {
@@ -145,6 +146,30 @@
     {
       "id": "metrics",
       "name_zh": "实践参数与复盘"
+    },
+    {
+      "id": "daily_rhythm",
+      "name_zh": "工作与生活作息"
+    },
+    {
+      "id": "contact_timing",
+      "name_zh": "联系时间与免打扰"
+    },
+    {
+      "id": "cuisine",
+      "name_zh": "特色美食与饮品"
+    },
+    {
+      "id": "music_dance",
+      "name_zh": "音乐舞蹈与表演"
+    },
+    {
+      "id": "outdoor_leisure",
+      "name_zh": "运动户外与休闲"
+    },
+    {
+      "id": "personal_preferences",
+      "name_zh": "个人偏好与作息确认"
     }
   ],
   "sources": [
@@ -164,7 +189,7 @@
       "publisher": "U.S. International Trade Administration",
       "access_level": "full_text",
       "checked_on": "2026-10-31",
-      "limitations": "仅采用语言、会议及往来背景；不采用其中的签证、汇率或绝对化国民性格概括。"
+      "limitations": "仅采用语言、会议及往来背景；不采用其中的签证、汇率或绝对化国民性格概括。 本次另采用办公时段段落作为通用参考；不保证每家企业一致，不使用旧签证、医疗或旧年份假期信息。"
     },
     {
       "id": "KZ03",
@@ -299,7 +324,7 @@
       "publisher": "U.S. International Trade Administration",
       "access_level": "full_text",
       "checked_on": "2026-10-31",
-      "limitations": "只采用会议与礼赠背景；签证等动态信息未纳入。不得用概括代替本人偏好。"
+      "limitations": "只采用会议与礼赠背景；签证等动态信息未纳入。不得用概括代替本人偏好。 本次另采用办公时段段落作为通用参考；不保证每家企业一致，不使用旧签证、医疗或旧年份假期信息。"
     },
     {
       "id": "UZ10",
@@ -380,7 +405,7 @@
       "publisher": "U.S. International Trade Administration",
       "access_level": "full_text",
       "checked_on": "2026-10-31",
-      "limitations": "只采用会议、称呼和习惯差异背景；不推广宗教饮食概括，不采用动态入境信息。"
+      "limitations": "只采用会议、称呼和习惯差异背景；不推广宗教饮食概括，不采用动态入境信息。 本次另采用办公时段段落作为通用参考；不保证每家企业一致，不使用旧签证、医疗或旧年份假期信息。"
     },
     {
       "id": "KG09",
@@ -461,7 +486,7 @@
       "publisher": "U.S. International Trade Administration",
       "access_level": "full_text",
       "checked_on": "2026-10-31",
-      "limitations": "仅用于通信及支付场景背景，企业和地区差异显著；未采用签证或法律意见。"
+      "limitations": "仅用于通信及支付场景背景，企业和地区差异显著；未采用签证或法律意见。 本次另采用办公时段段落作为通用参考；不保证每家企业一致，不使用旧签证、医疗或旧年份假期信息。"
     },
     {
       "id": "TM01",
@@ -542,7 +567,7 @@
       "publisher": "U.S. International Trade Administration",
       "access_level": "full_text",
       "checked_on": "2026-10-31",
-      "limitations": "仅采用商务联系和通信背景；不据此判断个人动机，不提供合同、投资或旅行法律建议。"
+      "limitations": "仅采用商务联系和通信背景；不据此判断个人动机，不提供合同、投资或旅行法律建议。 本次另采用办公时段段落作为通用参考；不保证每家企业一致，不使用旧签证、医疗或旧年份假期信息。"
     },
     {
       "id": "CA01",
@@ -615,6 +640,186 @@
       "access_level": "search_excerpt",
       "checked_on": "2026-10-31",
       "limitations": "只用于查询时区，不能推导固定上班、午休或节假日。实际会议前复核。"
+    },
+    {
+      "id": "LIFE_UZ_FOOD",
+      "title": "Uzbek cuisine",
+      "url": "https://gov.uz/en/pages/national_foods",
+      "publisher": "Government of Uzbekistan",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_UZ_TOUR",
+      "title": "Uzbek cuisine topic index",
+      "url": "https://uzbekistan.travel/en/c/uzbek-cuisine/",
+      "publisher": "Uzbekistan Tourism",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_UZ_LAGMAN",
+      "title": "Uzbek lagman",
+      "url": "https://uzbekistan.travel/en/o/uzbek-lagman/",
+      "publisher": "Uzbekistan Tourism",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_KZ_DAIRY",
+      "title": "Kumys event and traditional food",
+      "url": "https://farabi.university/news/90564?lang=en",
+      "publisher": "Al-Farabi Kazakh National University",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_KG_FOOD",
+      "title": "Boorsok cooking class",
+      "url": "https://www.cbt-naryn.com/borrsok.html",
+      "publisher": "CBT Naryn",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "社区体验提供者的本地介绍；不把商业宣传中的“每家都如此”当作全国调查。"
+    },
+    {
+      "id": "LIFE_KG_AUCA",
+      "title": "International faculty and staff guidebook, 2017",
+      "url": "https://www.auca.kg/uploads/HR/AUCA_Guidebook_for_International_Faculty_Staff2017.pdf",
+      "publisher": "American University of Central Asia",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "2017年生活指南；只采用饮食与文化场景，不采用旧价格、健康、入境或强劝客人等建议。"
+    },
+    {
+      "id": "LIFE_TJ_FOOD",
+      "title": "Tajik cuisine cultural magazine",
+      "url": "https://www.mfa.tj/uploads/main/2021/06/Tajikistan.pdf",
+      "publisher": "ECO Cultural Institute / Tajik MFA-hosted magazine",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "检索可见的菜肴描述；全文获取超时，未声称通读整本。"
+    },
+    {
+      "id": "LIFE_TJ_TERMS",
+      "title": "Tajik food terminology comparison",
+      "url": "https://tnu.tj/avtorefi/avtorefeTagaevaMM.pdf",
+      "publisher": "Tajik National University",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "语言研究中的食物名称与释义表，不将其当作统一食谱。"
+    },
+    {
+      "id": "LIFE_TM_FOOD",
+      "title": "Turkmen culinary guide",
+      "url": "https://tmtourism.com/blog/culinary-guide-to-turkmenistan-from-dograma-to-the-gastronomic-secrets-of-the-silk-road",
+      "publisher": "TmTourism",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "当地旅行服务提供者的饮食介绍，只采用基本菜名与组成；地区配方和个人饮食须确认。"
+    },
+    {
+      "id": "LIFE_ART_AITYS",
+      "title": "Aitysh/Aitys, art of improvisation",
+      "url": "https://ich.unesco.org/en/RL/aitysh-aitys-art-of-improvisation-00997",
+      "publisher": "UNESCO",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_ART_LAZGI",
+      "title": "Khorazm dance, Lazgi",
+      "url": "https://ich.unesco.org/en/RL/khorazm-dance-lazgi-01364",
+      "publisher": "UNESCO",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_ART_SHASH",
+      "title": "Shashmaqom music",
+      "url": "https://ich.unesco.org/en/RL/shashmaqom-music-00089?RL=00089",
+      "publisher": "UNESCO",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_ART_KATTA",
+      "title": "Katta Ashula",
+      "url": "https://ich.unesco.org/en/RL/katta-ashula-00288",
+      "publisher": "UNESCO",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_ART_FALAK",
+      "title": "Falak",
+      "url": "https://ich.unesco.org/en/RL/falak-01725",
+      "publisher": "UNESCO",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_ART_KUSHT",
+      "title": "Kushtdepdi rite of singing and dancing",
+      "url": "https://ich.unesco.org/en/RL/kushtdepdi-rite-of-singing-and-dancing-01259",
+      "publisher": "UNESCO",
+      "access_level": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "limitations": "地域与个人差异存在；只支持所列文化事实，不证明个人喜好或睡眠时间。"
+    },
+    {
+      "id": "LIFE_CAL_KZ",
+      "title": "Kazakhstan holidays and weekends in 2026",
+      "url": "https://www.gov.kz/article/33969?lang=en",
+      "publisher": "Government of Kazakhstan",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "2026年参考日历；工作周与企业调班可能不同，不能自动外推到其他年份。"
+    },
+    {
+      "id": "LIFE_CAL_UZ",
+      "title": "Uzbekistan holidays in 2026",
+      "url": "https://www.timeanddate.com/holidays/uzbekistan/2026",
+      "publisher": "timeanddate.com",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "二级参考日历；区分Public Holiday、Observance和补班。可能存在初步日期、遗漏调休和企业差异，未标成完整官方工作日历。"
+    },
+    {
+      "id": "LIFE_CAL_KG",
+      "title": "Kyrgyzstan holidays in 2026",
+      "url": "https://www.timeanddate.com/holidays/kyrgyzstan/2026",
+      "publisher": "timeanddate.com",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "二级参考日历；区分Public Holiday、Observance和补班。可能存在初步日期、遗漏调休和企业差异，未标成完整官方工作日历。"
+    },
+    {
+      "id": "LIFE_CAL_TJ",
+      "title": "Tajikistan holidays in 2026",
+      "url": "https://www.timeanddate.com/holidays/tajikistan/2026",
+      "publisher": "timeanddate.com",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "二级参考日历；区分Public Holiday、Observance和补班。可能存在初步日期、遗漏调休和企业差异，未标成完整官方工作日历。"
+    },
+    {
+      "id": "LIFE_CAL_TM",
+      "title": "Turkmenistan holidays in 2026",
+      "url": "https://www.timeanddate.com/holidays/turkmenistan/2026",
+      "publisher": "timeanddate.com",
+      "access_level": "full_text",
+      "checked_on": "2026-10-31",
+      "limitations": "二级参考日历；区分Public Holiday、Observance和补班。可能存在初步日期、遗漏调休和企业差异，未标成完整官方工作日历。"
     }
   ],
   "records": [
@@ -7234,6 +7439,3467 @@
       "scope": "跨国交流方法，按语言、角色、关系和本人偏好调整。",
       "details": {},
       "tags": [],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C022",
+      "country": "KZ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "常见办公时段参考",
+      "summary": "09:00—18:00。",
+      "body": "商务指南提供一般办公时段，未保证每家相同。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "reference_type": "general_business_guide",
+        "office_hours": "09:00—18:00",
+        "source": "reference_not_customer_confirmed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "常见办公时段参考"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ02",
+          "supports": "09:00—18:00。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C023",
+      "country": "KZ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "建议联系窗口",
+      "summary": "可先尝试当地09:30—12:00、14:00—17:30。",
+      "body": "这是自拟的保守联系窗口，不是法律规定或全国统计；本人约定优先。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "windows": [
+          [
+            "09:30",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:30"
+          ]
+        ],
+        "validated": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "建议联系窗口"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C024",
+      "country": "KZ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "午餐和晚餐的安排",
+      "summary": "除明确来源及本人确认外，不为所有客户写死用餐时间。",
+      "body": "先问午餐、下班后和家庭晚餐是否方便接消息；午间窗口的空档仅为保守避让。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "breakfast_time": null,
+        "lunch_time": null,
+        "dinner_time": null,
+        "customer_confirmed": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "午餐和晚餐的安排"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C025",
+      "country": "KZ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "起床和睡眠时间待确认",
+      "summary": "没有足以给该国每个人指定起床、午睡和入睡时间的数据。",
+      "body": "记录本人愿意告知的免打扰时段；不把晚上23:00可能休息说成已知正在睡觉。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "wake_time": null,
+        "bedtime": null,
+        "nap_time": null,
+        "status": "unknown_until_customer_confirms"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "起床和睡眠时间待确认"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C026",
+      "country": "KZ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "晚上23:00的处理",
+      "summary": "按你的联系偏好，客户当地深夜23:00时先准备内容，建议延后邮件、WhatsApp和电话。",
+      "body": "计算下一个候选窗口；跳过配置中的非工作日、已查假日与本人不方便的日期，不能一律说“明天工作时间”。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "applies_to": [
+          "email",
+          "whatsapp",
+          "call"
+        ],
+        "default_quiet_hours": [
+          "22:00",
+          "08:30"
+        ],
+        "policy_not_sleep_fact": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "晚上23:00的处理"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C027",
+      "country": "KZ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与轮班",
+      "summary": "周一至周五只作为未知作息时的保守联系配置。",
+      "body": "工厂、维护值班、零售和六天工作制可能不同；主动回复或夜班不代表愿意随时接销售消息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与轮班"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C028",
+      "country": "KZ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "出差时看实际所在地",
+      "summary": "当前所在地优先于国籍和公司总部所在地。",
+      "body": "客户已确认在别国出差时，使用其时区；原国家节假日不能自动当作其休息日。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "出差时看实际所在地"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C022",
+      "country": "UZ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "常见办公时段参考",
+      "summary": "09:00—18:00，周一至周五。",
+      "body": "指南另提示10:00后较常能找到工作人员，乡村地区可能较早结束。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "reference_type": "general_business_guide",
+        "office_hours": "09:00—18:00，周一至周五",
+        "source": "reference_not_customer_confirmed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "常见办公时段参考"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "UZ09",
+          "supports": "09:00—18:00，周一至周五。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C023",
+      "country": "UZ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "建议联系窗口",
+      "summary": "可先尝试当地10:00—12:00、14:00—17:00。",
+      "body": "这是自拟的保守联系窗口，不是法律规定或全国统计；本人约定优先。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "windows": [
+          [
+            "10:00",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "validated": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "建议联系窗口"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C024",
+      "country": "UZ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "午餐和晚餐的安排",
+      "summary": "除明确来源及本人确认外，不为所有客户写死用餐时间。",
+      "body": "先问午餐、下班后和家庭晚餐是否方便接消息；午间窗口的空档仅为保守避让。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "breakfast_time": null,
+        "lunch_time": null,
+        "dinner_time": null,
+        "customer_confirmed": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "午餐和晚餐的安排"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C025",
+      "country": "UZ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "起床和睡眠时间待确认",
+      "summary": "没有足以给该国每个人指定起床、午睡和入睡时间的数据。",
+      "body": "记录本人愿意告知的免打扰时段；不把晚上23:00可能休息说成已知正在睡觉。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "wake_time": null,
+        "bedtime": null,
+        "nap_time": null,
+        "status": "unknown_until_customer_confirms"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "起床和睡眠时间待确认"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C026",
+      "country": "UZ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "晚上23:00的处理",
+      "summary": "按你的联系偏好，客户当地深夜23:00时先准备内容，建议延后邮件、WhatsApp和电话。",
+      "body": "计算下一个候选窗口；跳过配置中的非工作日、已查假日与本人不方便的日期，不能一律说“明天工作时间”。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "applies_to": [
+          "email",
+          "whatsapp",
+          "call"
+        ],
+        "default_quiet_hours": [
+          "22:00",
+          "08:30"
+        ],
+        "policy_not_sleep_fact": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "晚上23:00的处理"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C027",
+      "country": "UZ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与轮班",
+      "summary": "周一至周五只作为未知作息时的保守联系配置。",
+      "body": "工厂、维护值班、零售和六天工作制可能不同；主动回复或夜班不代表愿意随时接销售消息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与轮班"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C028",
+      "country": "UZ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "出差时看实际所在地",
+      "summary": "当前所在地优先于国籍和公司总部所在地。",
+      "body": "客户已确认在别国出差时，使用其时区；原国家节假日不能自动当作其休息日。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "出差时看实际所在地"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C020",
+      "country": "KG",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "常见办公时段参考",
+      "summary": "09:00—18:00。",
+      "body": "指南提供一般办公时段；实际单位与工作周须询问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "reference_type": "general_business_guide",
+        "office_hours": "09:00—18:00",
+        "source": "reference_not_customer_confirmed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "常见办公时段参考"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KG08",
+          "supports": "09:00—18:00。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C021",
+      "country": "KG",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "建议联系窗口",
+      "summary": "可先尝试当地09:30—12:00、14:00—17:00。",
+      "body": "这是自拟的保守联系窗口，不是法律规定或全国统计；本人约定优先。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "windows": [
+          [
+            "09:30",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "validated": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "建议联系窗口"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C022",
+      "country": "KG",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "午餐和晚餐的安排",
+      "summary": "除明确来源及本人确认外，不为所有客户写死用餐时间。",
+      "body": "先问午餐、下班后和家庭晚餐是否方便接消息；午间窗口的空档仅为保守避让。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "breakfast_time": null,
+        "lunch_time": null,
+        "dinner_time": null,
+        "customer_confirmed": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "午餐和晚餐的安排"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C023",
+      "country": "KG",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "起床和睡眠时间待确认",
+      "summary": "没有足以给该国每个人指定起床、午睡和入睡时间的数据。",
+      "body": "记录本人愿意告知的免打扰时段；不把晚上23:00可能休息说成已知正在睡觉。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "wake_time": null,
+        "bedtime": null,
+        "nap_time": null,
+        "status": "unknown_until_customer_confirms"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "起床和睡眠时间待确认"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C024",
+      "country": "KG",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "晚上23:00的处理",
+      "summary": "按你的联系偏好，客户当地深夜23:00时先准备内容，建议延后邮件、WhatsApp和电话。",
+      "body": "计算下一个候选窗口；跳过配置中的非工作日、已查假日与本人不方便的日期，不能一律说“明天工作时间”。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "applies_to": [
+          "email",
+          "whatsapp",
+          "call"
+        ],
+        "default_quiet_hours": [
+          "22:00",
+          "08:30"
+        ],
+        "policy_not_sleep_fact": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "晚上23:00的处理"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C025",
+      "country": "KG",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与轮班",
+      "summary": "周一至周五只作为未知作息时的保守联系配置。",
+      "body": "工厂、维护值班、零售和六天工作制可能不同；主动回复或夜班不代表愿意随时接销售消息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与轮班"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C026",
+      "country": "KG",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "出差时看实际所在地",
+      "summary": "当前所在地优先于国籍和公司总部所在地。",
+      "body": "客户已确认在别国出差时，使用其时区；原国家节假日不能自动当作其休息日。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "出差时看实际所在地"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C022",
+      "country": "TJ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "常见办公时段参考",
+      "summary": "08:00—17:00；午休通常12:00—13:00。",
+      "body": "这是通用商务资料中的描述，不等于本人固定作息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "reference_type": "general_business_guide",
+        "office_hours": "08:00—17:00；午休通常12:00—13:00",
+        "source": "reference_not_customer_confirmed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "常见办公时段参考"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "TJ08",
+          "supports": "08:00—17:00；午休通常12:00—13:00。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C023",
+      "country": "TJ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "建议联系窗口",
+      "summary": "可先尝试当地09:00—11:30、13:30—16:30。",
+      "body": "这是自拟的保守联系窗口，不是法律规定或全国统计；本人约定优先。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "windows": [
+          [
+            "09:00",
+            "11:30"
+          ],
+          [
+            "13:30",
+            "16:30"
+          ]
+        ],
+        "validated": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "建议联系窗口"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C024",
+      "country": "TJ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "午餐和晚餐的安排",
+      "summary": "除明确来源及本人确认外，不为所有客户写死用餐时间。",
+      "body": "先问午餐、下班后和家庭晚餐是否方便接消息；午间窗口的空档仅为保守避让。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "breakfast_time": null,
+        "lunch_time": [
+          "12:00",
+          "13:00"
+        ],
+        "dinner_time": null,
+        "customer_confirmed": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "午餐和晚餐的安排"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C025",
+      "country": "TJ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "起床和睡眠时间待确认",
+      "summary": "没有足以给该国每个人指定起床、午睡和入睡时间的数据。",
+      "body": "记录本人愿意告知的免打扰时段；不把晚上23:00可能休息说成已知正在睡觉。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "wake_time": null,
+        "bedtime": null,
+        "nap_time": null,
+        "status": "unknown_until_customer_confirms"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "起床和睡眠时间待确认"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C026",
+      "country": "TJ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "晚上23:00的处理",
+      "summary": "按你的联系偏好，客户当地深夜23:00时先准备内容，建议延后邮件、WhatsApp和电话。",
+      "body": "计算下一个候选窗口；跳过配置中的非工作日、已查假日与本人不方便的日期，不能一律说“明天工作时间”。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "applies_to": [
+          "email",
+          "whatsapp",
+          "call"
+        ],
+        "default_quiet_hours": [
+          "22:00",
+          "08:30"
+        ],
+        "policy_not_sleep_fact": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "晚上23:00的处理"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C027",
+      "country": "TJ",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与轮班",
+      "summary": "周一至周五只作为未知作息时的保守联系配置。",
+      "body": "工厂、维护值班、零售和六天工作制可能不同；主动回复或夜班不代表愿意随时接销售消息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与轮班"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C028",
+      "country": "TJ",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "出差时看实际所在地",
+      "summary": "当前所在地优先于国籍和公司总部所在地。",
+      "body": "客户已确认在别国出差时，使用其时区；原国家节假日不能自动当作其休息日。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "出差时看实际所在地"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C020",
+      "country": "TM",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "常见办公时段参考",
+      "summary": "09:00—18:00，周一至周五。",
+      "body": "指南提到部分公私部门人员周六仍有缩短的工作安排。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "reference_type": "general_business_guide",
+        "office_hours": "09:00—18:00，周一至周五",
+        "source": "reference_not_customer_confirmed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "常见办公时段参考"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "TM09",
+          "supports": "09:00—18:00，周一至周五。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C021",
+      "country": "TM",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "建议联系窗口",
+      "summary": "可先尝试当地09:30—12:00、14:00—17:00。",
+      "body": "这是自拟的保守联系窗口，不是法律规定或全国统计；本人约定优先。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "windows": [
+          [
+            "09:30",
+            "12:00"
+          ],
+          [
+            "14:00",
+            "17:00"
+          ]
+        ],
+        "validated": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "建议联系窗口"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C022",
+      "country": "TM",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "午餐和晚餐的安排",
+      "summary": "除明确来源及本人确认外，不为所有客户写死用餐时间。",
+      "body": "先问午餐、下班后和家庭晚餐是否方便接消息；午间窗口的空档仅为保守避让。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "breakfast_time": null,
+        "lunch_time": null,
+        "dinner_time": null,
+        "customer_confirmed": false
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "午餐和晚餐的安排"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C023",
+      "country": "TM",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "起床和睡眠时间待确认",
+      "summary": "没有足以给该国每个人指定起床、午睡和入睡时间的数据。",
+      "body": "记录本人愿意告知的免打扰时段；不把晚上23:00可能休息说成已知正在睡觉。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "wake_time": null,
+        "bedtime": null,
+        "nap_time": null,
+        "status": "unknown_until_customer_confirms"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "起床和睡眠时间待确认"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C024",
+      "country": "TM",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "晚上23:00的处理",
+      "summary": "按你的联系偏好，客户当地深夜23:00时先准备内容，建议延后邮件、WhatsApp和电话。",
+      "body": "计算下一个候选窗口；跳过配置中的非工作日、已查假日与本人不方便的日期，不能一律说“明天工作时间”。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "applies_to": [
+          "email",
+          "whatsapp",
+          "call"
+        ],
+        "default_quiet_hours": [
+          "22:00",
+          "08:30"
+        ],
+        "policy_not_sleep_fact": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "晚上23:00的处理"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C025",
+      "country": "TM",
+      "category": "daily_rhythm",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与轮班",
+      "summary": "周一至周五只作为未知作息时的保守联系配置。",
+      "body": "工厂、维护值班、零售和六天工作制可能不同；主动回复或夜班不代表愿意随时接销售消息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与轮班"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C026",
+      "country": "TM",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "出差时看实际所在地",
+      "summary": "当前所在地优先于国籍和公司总部所在地。",
+      "body": "客户已确认在别国出差时，使用其时区；原国家节假日不能自动当作其休息日。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "出差时看实际所在地"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C029",
+      "country": "KZ",
+      "category": "festivals",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "2026年工作日历的适用范围",
+      "summary": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。",
+      "body": "区分公共假日、纪念活动与可能补班；不把使馆自身休假表当作全国家庭作息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "year": 2026,
+        "complete": false,
+        "source_quality": "official_reference"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "2026年工作日历的适用范围"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_CAL_KZ",
+          "supports": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C029",
+      "country": "UZ",
+      "category": "festivals",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "2026年工作日历的适用范围",
+      "summary": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。",
+      "body": "区分公共假日、纪念活动与可能补班；不把使馆自身休假表当作全国家庭作息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "year": 2026,
+        "complete": false,
+        "source_quality": "secondary_reference"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "2026年工作日历的适用范围"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_CAL_UZ",
+          "supports": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C027",
+      "country": "KG",
+      "category": "festivals",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "2026年工作日历的适用范围",
+      "summary": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。",
+      "body": "区分公共假日、纪念活动与可能补班；不把使馆自身休假表当作全国家庭作息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "year": 2026,
+        "complete": false,
+        "source_quality": "secondary_reference"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "2026年工作日历的适用范围"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_CAL_KG",
+          "supports": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C029",
+      "country": "TJ",
+      "category": "festivals",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "2026年工作日历的适用范围",
+      "summary": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。",
+      "body": "区分公共假日、纪念活动与可能补班；不把使馆自身休假表当作全国家庭作息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "year": 2026,
+        "complete": false,
+        "source_quality": "secondary_reference"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "2026年工作日历的适用范围"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_CAL_TJ",
+          "supports": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C027",
+      "country": "TM",
+      "category": "festivals",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "2026年工作日历的适用范围",
+      "summary": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。",
+      "body": "区分公共假日、纪念活动与可能补班；不把使馆自身休假表当作全国家庭作息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "year": 2026,
+        "complete": false,
+        "source_quality": "secondary_reference"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "2026年工作日历的适用范围"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_CAL_TM",
+          "supports": "参考日历用于提醒避让假日，不能永久外推或替代客户公司安排。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C030",
+      "country": "KZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Бешбармақ / Beshbarmak",
+      "summary": "肉与面片类菜肴。",
+      "body": "交流建议（自编）：您家里通常怎样准备这道菜？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Бешбармақ / Beshbarmak",
+        "description_zh": "肉与面片类菜肴",
+        "conversation_question_zh": "您家里通常怎样准备这道菜？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Бешбармақ / Beshbarmak"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ01",
+          "supports": "肉与面片类菜肴。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C031",
+      "country": "KZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Қазы / Kazy",
+      "summary": "马肉类传统食品，具体加工与供应方式有差异。",
+      "body": "交流建议（自编）：如果第一次尝试，您会推荐怎样搭配？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Қазы / Kazy",
+        "description_zh": "马肉类传统食品，具体加工与供应方式有差异",
+        "conversation_question_zh": "如果第一次尝试，您会推荐怎样搭配？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Қазы / Kazy"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ01",
+          "supports": "马肉类传统食品，具体加工与供应方式有差异。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C032",
+      "country": "KZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Қуырдақ / Kuyrdak",
+      "summary": "炒制或煎烤肉类菜肴，配料随做法变化。",
+      "body": "交流建议（自编）：您喜欢的版本有哪些配料？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Қуырдақ / Kuyrdak",
+        "description_zh": "炒制或煎烤肉类菜肴，配料随做法变化",
+        "conversation_question_zh": "您喜欢的版本有哪些配料？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Қуырдақ / Kuyrdak"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ01",
+          "supports": "炒制或煎烤肉类菜肴，配料随做法变化。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C033",
+      "country": "KZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Бауырсақ / Baursak",
+      "summary": "油炸面点，可配茶或其他食物。",
+      "body": "交流建议（自编）：您更喜欢刚炸好的，还是配茶吃？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Бауырсақ / Baursak",
+        "description_zh": "油炸面点，可配茶或其他食物",
+        "conversation_question_zh": "您更喜欢刚炸好的，还是配茶吃？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Бауырсақ / Baursak"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ01",
+          "supports": "油炸面点，可配茶或其他食物。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C034",
+      "country": "KZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Ірімшік / Irimshik",
+      "summary": "传统乳制食品。",
+      "body": "交流建议（自编）：您会把它作为点心，还是配茶吃？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Ірімшік / Irimshik",
+        "description_zh": "传统乳制食品",
+        "conversation_question_zh": "您会把它作为点心，还是配茶吃？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Ірімшік / Irimshik"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ01",
+          "supports": "传统乳制食品。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C035",
+      "country": "KZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Құрт / Kurt",
+      "summary": "乳制食品，在传统食物介绍中常出现。",
+      "body": "交流建议（自编）：有没有您特别喜欢的口味或做法？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Құрт / Kurt",
+        "description_zh": "乳制食品，在传统食物介绍中常出现",
+        "conversation_question_zh": "有没有您特别喜欢的口味或做法？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Құрт / Kurt"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KZ_DAIRY",
+          "supports": "乳制食品，在传统食物介绍中常出现。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C036",
+      "country": "KZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Қымыз / Kumys",
+      "summary": "发酵乳饮品。",
+      "body": "交流建议（自编）：您平时会喝，还是在特定场合喝？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Қымыз / Kumys",
+        "description_zh": "发酵乳饮品",
+        "conversation_question_zh": "您平时会喝，还是在特定场合喝？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Қымыз / Kumys"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ01",
+          "supports": "发酵乳饮品。"
+        },
+        {
+          "source": "LIFE_KZ_DAIRY",
+          "supports": "发酵乳饮品。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C037",
+      "country": "KZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Шұбат / Shubat",
+      "summary": "传统发酵乳饮品之一。",
+      "body": "交流建议（自编）：您会推荐第一次尝试的人注意什么？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Шұбат / Shubat",
+        "description_zh": "传统发酵乳饮品之一",
+        "conversation_question_zh": "您会推荐第一次尝试的人注意什么？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Шұбат / Shubat"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ01",
+          "supports": "传统发酵乳饮品之一。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C030",
+      "country": "UZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Palov / Osh",
+      "summary": "米饭、肉和蔬菜等组成的地方菜，存在地区版本。",
+      "body": "交流建议（自编）：您喜欢塔什干、撒马尔罕或家里的哪种做法？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Palov / Osh",
+        "description_zh": "米饭、肉和蔬菜等组成的地方菜，存在地区版本",
+        "conversation_question_zh": "您喜欢塔什干、撒马尔罕或家里的哪种做法？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Palov / Osh"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_UZ_FOOD",
+          "supports": "米饭、肉和蔬菜等组成的地方菜，存在地区版本。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C031",
+      "country": "UZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Somsa / Samsa",
+      "summary": "烤制馅面点，馅料及做法随地区和季节变化。",
+      "body": "交流建议（自编）：您喜欢肉馅、南瓜馅还是其他馅？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Somsa / Samsa",
+        "description_zh": "烤制馅面点，馅料及做法随地区和季节变化",
+        "conversation_question_zh": "您喜欢肉馅、南瓜馅还是其他馅？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Somsa / Samsa"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_UZ_FOOD",
+          "supports": "烤制馅面点，馅料及做法随地区和季节变化。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C032",
+      "country": "UZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Lagman",
+      "summary": "面条类地方菜。",
+      "body": "交流建议（自编）：您更喜欢汤面还是其他做法？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Lagman",
+        "description_zh": "面条类地方菜",
+        "conversation_question_zh": "您更喜欢汤面还是其他做法？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Lagman"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_UZ_LAGMAN",
+          "supports": "面条类地方菜。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C033",
+      "country": "UZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Manti",
+      "summary": "蒸制包馅面食。",
+      "body": "交流建议（自编）：您家常用什么馅料？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Manti",
+        "description_zh": "蒸制包馅面食",
+        "conversation_question_zh": "您家常用什么馅料？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Manti"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_UZ_TOUR",
+          "supports": "蒸制包馅面食。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C034",
+      "country": "UZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Shashlik / Kabob",
+      "summary": "串烤肉类及其不同版本。",
+      "body": "交流建议（自编）：您喜欢哪一种串烤？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Shashlik / Kabob",
+        "description_zh": "串烤肉类及其不同版本",
+        "conversation_question_zh": "您喜欢哪一种串烤？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Shashlik / Kabob"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_UZ_FOOD",
+          "supports": "串烤肉类及其不同版本。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C035",
+      "country": "UZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Non / Patyr",
+      "summary": "面饼及其地方做法。",
+      "body": "交流建议（自编）：您最喜欢哪里的面饼？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Non / Patyr",
+        "description_zh": "面饼及其地方做法",
+        "conversation_question_zh": "您最喜欢哪里的面饼？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Non / Patyr"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_UZ_FOOD",
+          "supports": "面饼及其地方做法。"
+        },
+        {
+          "source": "LIFE_UZ_TOUR",
+          "supports": "面饼及其地方做法。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C036",
+      "country": "UZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Shurpa",
+      "summary": "肉和蔬菜等组成的汤类。",
+      "body": "交流建议（自编）：家里和餐馆的做法有什么不同？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Shurpa",
+        "description_zh": "肉和蔬菜等组成的汤类",
+        "conversation_question_zh": "家里和餐馆的做法有什么不同？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Shurpa"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_UZ_FOOD",
+          "supports": "肉和蔬菜等组成的汤类。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C037",
+      "country": "UZ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Nonushta早餐",
+      "summary": "传统早餐介绍涉及面饼、乳制品、茶及水果等。",
+      "body": "交流建议（自编）：您工作日早餐会简单一些，还是有时间慢慢吃？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Nonushta早餐",
+        "description_zh": "传统早餐介绍涉及面饼、乳制品、茶及水果等",
+        "conversation_question_zh": "您工作日早餐会简单一些，还是有时间慢慢吃？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Nonushta早餐"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_UZ_FOOD",
+          "supports": "传统早餐介绍涉及面饼、乳制品、茶及水果等。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C028",
+      "country": "KG",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Боорсок / Boorsok",
+      "summary": "油炸面点，与待客及家庭聚会有关。",
+      "body": "交流建议（自编）：您喜欢配什么一起吃？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Боорсок / Boorsok",
+        "description_zh": "油炸面点，与待客及家庭聚会有关",
+        "conversation_question_zh": "您喜欢配什么一起吃？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Боорсок / Boorsok"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_FOOD",
+          "supports": "油炸面点，与待客及家庭聚会有关。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C029",
+      "country": "KG",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Бешбармак / Beshbarmak",
+      "summary": "宴席中可见的肉与面食菜肴。",
+      "body": "交流建议（自编）：您印象最深的是家里哪一次聚餐？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Бешбармак / Beshbarmak",
+        "description_zh": "宴席中可见的肉与面食菜肴",
+        "conversation_question_zh": "您印象最深的是家里哪一次聚餐？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Бешбармак / Beshbarmak"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_AUCA",
+          "supports": "宴席中可见的肉与面食菜肴。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C030",
+      "country": "KG",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Lagman",
+      "summary": "当地餐饮介绍中可见的面条类菜肴。",
+      "body": "交流建议（自编）：您喜欢哪种做法？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Lagman",
+        "description_zh": "当地餐饮介绍中可见的面条类菜肴",
+        "conversation_question_zh": "您喜欢哪种做法？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Lagman"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_AUCA",
+          "supports": "当地餐饮介绍中可见的面条类菜肴。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C031",
+      "country": "KG",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Manti",
+      "summary": "当地菜单中可见的蒸制面食。",
+      "body": "交流建议（自编）：您喜欢什么馅料？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Manti",
+        "description_zh": "当地菜单中可见的蒸制面食",
+        "conversation_question_zh": "您喜欢什么馅料？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Manti"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_AUCA",
+          "supports": "当地菜单中可见的蒸制面食。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C032",
+      "country": "KG",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Shorpo",
+      "summary": "汤类菜肴。",
+      "body": "交流建议（自编）：您会在什么季节或场合点这道汤？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Shorpo",
+        "description_zh": "汤类菜肴",
+        "conversation_question_zh": "您会在什么季节或场合点这道汤？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Shorpo"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_AUCA",
+          "supports": "汤类菜肴。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C033",
+      "country": "KG",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Кымыз / Kymyz",
+      "summary": "发酵马乳饮品。",
+      "body": "交流建议（自编）：您是平时喝，还是出行和聚会时喝？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Кымыз / Kymyz",
+        "description_zh": "发酵马乳饮品",
+        "conversation_question_zh": "您是平时喝，还是出行和聚会时喝？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Кымыз / Kymyz"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_AUCA",
+          "supports": "发酵马乳饮品。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C034",
+      "country": "KG",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Максым / Maksym",
+      "summary": "谷物饮品，资料中介绍为较浓稠的饮料。",
+      "body": "交流建议（自编）：您喜欢哪一种谷物饮品？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Максым / Maksym",
+        "description_zh": "谷物饮品，资料中介绍为较浓稠的饮料",
+        "conversation_question_zh": "您喜欢哪一种谷物饮品？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Максым / Maksym"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_AUCA",
+          "supports": "谷物饮品，资料中介绍为较浓稠的饮料。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C035",
+      "country": "KG",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Бозо / Bozo",
+      "summary": "谷物发酵饮品。",
+      "body": "交流建议（自编）：您会把它推荐给第一次来的人吗？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Бозо / Bozo",
+        "description_zh": "谷物发酵饮品",
+        "conversation_question_zh": "您会把它推荐给第一次来的人吗？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Бозо / Bozo"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_AUCA",
+          "supports": "谷物发酵饮品。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C030",
+      "country": "TJ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Қурутоб / Qurutob",
+      "summary": "面饼、乳制调味和蔬菜等组成的地方菜，做法有变化。",
+      "body": "交流建议（自编）：您最喜欢哪家的做法？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Қурутоб / Qurutob",
+        "description_zh": "面饼、乳制调味和蔬菜等组成的地方菜，做法有变化",
+        "conversation_question_zh": "您最喜欢哪家的做法？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Қурутоб / Qurutob"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TJ_FOOD",
+          "supports": "面饼、乳制调味和蔬菜等组成的地方菜，做法有变化。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C031",
+      "country": "TJ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Оши палав / Oshi Palav",
+      "summary": "与聚会和社会文化活动相连的饭食。",
+      "body": "交流建议（自编）：您家有什么特别的配料或做法？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Оши палав / Oshi Palav",
+        "description_zh": "与聚会和社会文化活动相连的饭食",
+        "conversation_question_zh": "您家有什么特别的配料或做法？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Оши палав / Oshi Palav"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "TJ07",
+          "supports": "与聚会和社会文化活动相连的饭食。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C032",
+      "country": "TJ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Самбӯса / Sambusa",
+      "summary": "当地食物名称中的馅面点。",
+      "body": "交流建议（自编）：您更喜欢什么馅料？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Самбӯса / Sambusa",
+        "description_zh": "当地食物名称中的馅面点",
+        "conversation_question_zh": "您更喜欢什么馅料？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Самбӯса / Sambusa"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TJ_TERMS",
+          "supports": "当地食物名称中的馅面点。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C033",
+      "country": "TJ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Ширбиринҷ / Shirbirinj",
+      "summary": "奶与米的粥类食品。",
+      "body": "交流建议（自编）：您会在早餐吃，还是其他时候吃？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Ширбиринҷ / Shirbirinj",
+        "description_zh": "奶与米的粥类食品",
+        "conversation_question_zh": "您会在早餐吃，还是其他时候吃？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Ширбиринҷ / Shirbirinj"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TJ_TERMS",
+          "supports": "奶与米的粥类食品。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C034",
+      "country": "TJ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Мастоба / Mastoba",
+      "summary": "米汤类菜肴。",
+      "body": "交流建议（自编）：您家通常怎样准备？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Мастоба / Mastoba",
+        "description_zh": "米汤类菜肴",
+        "conversation_question_zh": "您家通常怎样准备？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Мастоба / Mastoba"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TJ_TERMS",
+          "supports": "米汤类菜肴。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C035",
+      "country": "TJ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Оши туппа / Oshi Tuppa",
+      "summary": "面汤类菜肴。",
+      "body": "交流建议（自编）：这是您常吃的菜吗？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Оши туппа / Oshi Tuppa",
+        "description_zh": "面汤类菜肴",
+        "conversation_question_zh": "这是您常吃的菜吗？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Оши туппа / Oshi Tuppa"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TJ_TERMS",
+          "supports": "面汤类菜肴。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C036",
+      "country": "TJ",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Фатир / Fatir",
+      "summary": "面饼，在相关地方菜中也用作组成部分。",
+      "body": "交流建议（自编）：您喜欢单独吃，还是用于做菜？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Фатир / Fatir",
+        "description_zh": "面饼，在相关地方菜中也用作组成部分",
+        "conversation_question_zh": "您喜欢单独吃，还是用于做菜？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Фатир / Fatir"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TJ_FOOD",
+          "supports": "面饼，在相关地方菜中也用作组成部分。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C028",
+      "country": "TM",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Dograma",
+      "summary": "碎面饼、肉、洋葱和肉汤等组成的地方菜。",
+      "body": "交流建议（自编）：您家会在什么场合准备它？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Dograma",
+        "description_zh": "碎面饼、肉、洋葱和肉汤等组成的地方菜",
+        "conversation_question_zh": "您家会在什么场合准备它？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Dograma"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TM_FOOD",
+          "supports": "碎面饼、肉、洋葱和肉汤等组成的地方菜。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C029",
+      "country": "TM",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Palaw / Palow",
+      "summary": "米饭、肉和蔬菜等组成的地方菜。",
+      "body": "交流建议（自编）：您喜欢的做法有什么特点？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Palaw / Palow",
+        "description_zh": "米饭、肉和蔬菜等组成的地方菜",
+        "conversation_question_zh": "您喜欢的做法有什么特点？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Palaw / Palow"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TM_FOOD",
+          "supports": "米饭、肉和蔬菜等组成的地方菜。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C030",
+      "country": "TM",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Gutap",
+      "summary": "薄皮馅面食，存在蔬菜或肉等不同馅料。",
+      "body": "交流建议（自编）：您更喜欢哪一种馅料？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Gutap",
+        "description_zh": "薄皮馅面食，存在蔬菜或肉等不同馅料",
+        "conversation_question_zh": "您更喜欢哪一种馅料？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Gutap"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TM_FOOD",
+          "supports": "薄皮馅面食，存在蔬菜或肉等不同馅料。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C031",
+      "country": "TM",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Işlekli",
+      "summary": "肉馅面饼或馅饼类食品。",
+      "body": "交流建议（自编）：您更喜欢家里做的还是餐馆做的？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Işlekli",
+        "description_zh": "肉馅面饼或馅饼类食品",
+        "conversation_question_zh": "您更喜欢家里做的还是餐馆做的？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Işlekli"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TM_FOOD",
+          "supports": "肉馅面饼或馅饼类食品。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C032",
+      "country": "TM",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Fiççi",
+      "summary": "烤制肉馅面点。",
+      "body": "交流建议（自编）：第一次吃时有什么搭配建议？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Fiççi",
+        "description_zh": "烤制肉馅面点",
+        "conversation_question_zh": "第一次吃时有什么搭配建议？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Fiççi"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TM_FOOD",
+          "supports": "烤制肉馅面点。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C033",
+      "country": "TM",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Çorba / Shorpa",
+      "summary": "当地汤类菜肴。",
+      "body": "交流建议（自编）：您喜欢清淡些还是更浓郁的做法？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Çorba / Shorpa",
+        "description_zh": "当地汤类菜肴",
+        "conversation_question_zh": "您喜欢清淡些还是更浓郁的做法？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Çorba / Shorpa"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TM_FOOD",
+          "supports": "当地汤类菜肴。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C034",
+      "country": "TM",
+      "category": "cuisine",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Çörek",
+      "summary": "面包或面饼类食物。",
+      "body": "交流建议（自编）：您更喜欢刚出炉的哪种面饼？ 具体配方、过敏原、是否含乳或酒精应按实际产品询问；不把特色美食等同于每位客户的最爱。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "local_name": "Çörek",
+        "description_zh": "面包或面饼类食物",
+        "conversation_question_zh": "您更喜欢刚出炉的哪种面饼？",
+        "customer_preference": "unknown_until_customer_confirms",
+        "recipe_is_not_universal": true
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Çörek"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_TM_FOOD",
+          "supports": "面包或面饼类食物。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C038",
+      "country": "KZ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "冬不拉Kuy",
+      "summary": "冬不拉Kuy具有器乐演奏传统。",
+      "body": "交流建议（自编）：您更喜欢听现场演奏，还是自己弹奏？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "冬不拉Kuy",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您更喜欢听现场演奏，还是自己弹奏？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "冬不拉Kuy"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ05",
+          "supports": "冬不拉Kuy具有器乐演奏传统。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C039",
+      "country": "KZ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Aitys即兴对唱",
+      "summary": "Aitys涉及即兴诗歌和表演者之间的交流。",
+      "body": "交流建议（自编）：您平时会听Aitys，还是更喜欢其他音乐？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Aitys即兴对唱",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您平时会听Aitys，还是更喜欢其他音乐？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Aitys即兴对唱"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_ART_AITYS",
+          "supports": "Aitys涉及即兴诗歌和表演者之间的交流。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C040",
+      "country": "KZ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Orteke表演",
+      "summary": "Orteke结合舞蹈、木偶和音乐，见于相关文化遗产资料。",
+      "body": "交流建议（自编）：您看过现场表演吗？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Orteke表演",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您看过现场表演吗？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Orteke表演"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ06",
+          "supports": "Orteke结合舞蹈、木偶和音乐，见于相关文化遗产资料。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C041",
+      "country": "KZ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Kures运动话题",
+      "summary": "Kures见于哈萨克文化遗产介绍。",
+      "body": "交流建议（自编）：您喜欢看传统体育，还是其他比赛？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Kures运动话题",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您喜欢看传统体育，还是其他比赛？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Kures运动话题"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KZ06",
+          "supports": "Kures见于哈萨克文化遗产介绍。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C038",
+      "country": "UZ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Lazgi舞蹈",
+      "summary": "Lazgi是与花剌子模文化相关的舞蹈传统。",
+      "body": "交流建议（自编）：您更喜欢观看舞蹈，还是在聚会时参与？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Lazgi舞蹈",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您更喜欢观看舞蹈，还是在聚会时参与？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Lazgi舞蹈"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_ART_LAZGI",
+          "supports": "Lazgi是与花剌子模文化相关的舞蹈传统。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C039",
+      "country": "UZ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Shashmaqom音乐",
+      "summary": "Shashmaqom结合声乐、器乐和诗歌等内容。",
+      "body": "交流建议（自编）：您喜欢传统音乐，还是更常听流行音乐？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Shashmaqom音乐",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您喜欢传统音乐，还是更常听流行音乐？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Shashmaqom音乐"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_ART_SHASH",
+          "supports": "Shashmaqom结合声乐、器乐和诗歌等内容。"
+        }
+      ]
+    },
+    {
+      "id": "UZ-C040",
+      "country": "UZ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Katta Ashula",
+      "summary": "Katta Ashula与费尔干纳谷地等地区的歌唱传统相关。",
+      "body": "交流建议（自编）：您家乡有喜欢的歌唱表演吗？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Katta Ashula",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您家乡有喜欢的歌唱表演吗？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Katta Ashula"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_ART_KATTA",
+          "supports": "Katta Ashula与费尔干纳谷地等地区的歌唱传统相关。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C036",
+      "country": "KG",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Aitysh阿肯即兴表演",
+      "summary": "Aitysh涉及阿肯即兴演唱或诗歌表演。",
+      "body": "交流建议（自编）：您有特别喜欢的表演者吗？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Aitysh阿肯即兴表演",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您有特别喜欢的表演者吗？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Aitysh阿肯即兴表演"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_ART_AITYS",
+          "supports": "Aitysh涉及阿肯即兴演唱或诗歌表演。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C037",
+      "country": "KG",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Manas讲唱",
+      "summary": "Manas史诗传统可成为口传文学与表演话题。",
+      "body": "交流建议（自编）：您有没有听过让您印象深的现场讲唱？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Manas讲唱",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您有没有听过让您印象深的现场讲唱？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Manas讲唱"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KG06",
+          "supports": "Manas史诗传统可成为口传文学与表演话题。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C038",
+      "country": "KG",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Kok boru",
+      "summary": "Kok boru是传统马术运动话题。",
+      "body": "交流建议（自编）：您会去现场看，还是更喜欢其他运动？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Kok boru",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您会去现场看，还是更喜欢其他运动？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Kok boru"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KG07",
+          "supports": "Kok boru是传统马术运动话题。"
+        }
+      ]
+    },
+    {
+      "id": "KG-C039",
+      "country": "KG",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Shyrdak与毡艺",
+      "summary": "传统毡艺涉及手工与图案知识。",
+      "body": "交流建议（自编）：您家里有没有喜欢的手工物件？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Shyrdak与毡艺",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您家里有没有喜欢的手工物件？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Shyrdak与毡艺"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "KG07",
+          "supports": "传统毡艺涉及手工与图案知识。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C037",
+      "country": "TJ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Falak歌唱",
+      "summary": "Falak是与塔吉克山地社群相关的传统音乐。",
+      "body": "交流建议（自编）：您会推荐哪一首或哪位表演者？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Falak歌唱",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您会推荐哪一首或哪位表演者？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Falak歌唱"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_ART_FALAK",
+          "supports": "Falak是与塔吉克山地社群相关的传统音乐。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C038",
+      "country": "TJ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Shashmaqom",
+      "summary": "Shashmaqom的声乐与器乐传统也与塔吉克文化相关。",
+      "body": "交流建议（自编）：您偏好传统音乐还是现代音乐？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Shashmaqom",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您偏好传统音乐还是现代音乐？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Shashmaqom"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_ART_SHASH",
+          "supports": "Shashmaqom的声乐与器乐传统也与塔吉克文化相关。"
+        }
+      ]
+    },
+    {
+      "id": "TJ-C039",
+      "country": "TJ",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Chakan手工",
+      "summary": "Chakan刺绣可作为手工、图案与家庭传承话题。",
+      "body": "交流建议（自编）：您有特别喜欢的图案或手工作品吗？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Chakan手工",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您有特别喜欢的图案或手工作品吗？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Chakan手工"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "TJ06",
+          "supports": "Chakan刺绣可作为手工、图案与家庭传承话题。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C035",
+      "country": "TM",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Kushtdepdi歌舞",
+      "summary": "Kushtdepdi结合歌唱与舞蹈。",
+      "body": "交流建议（自编）：您更喜欢观看表演，还是在合适场合参与？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Kushtdepdi歌舞",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您更喜欢观看表演，还是在合适场合参与？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Kushtdepdi歌舞"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_ART_KUSHT",
+          "supports": "Kushtdepdi结合歌唱与舞蹈。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C036",
+      "country": "TM",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Dutar音乐",
+      "summary": "Dutar相关制作、演奏与歌唱见于文化遗产资料。",
+      "body": "交流建议（自编）：有没有您推荐的Dutar作品？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Dutar音乐",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "有没有您推荐的Dutar作品？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Dutar音乐"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "TM06",
+          "supports": "Dutar相关制作、演奏与歌唱见于文化遗产资料。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C037",
+      "country": "TM",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "Gorogly叙事",
+      "summary": "Gorogly可作为叙事与表演话题。",
+      "body": "交流建议（自编）：您小时候听过相关故事吗？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "Gorogly叙事",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您小时候听过相关故事吗？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "Gorogly叙事"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "TM06",
+          "supports": "Gorogly可作为叙事与表演话题。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C038",
+      "country": "TM",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "地毯手工",
+      "summary": "地毯制作可作为图案与手工经验话题。",
+      "body": "交流建议（自编）：您更关注图案、配色还是制作过程？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "地毯手工",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您更关注图案、配色还是制作过程？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "地毯手工"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "TM06",
+          "supports": "地毯制作可作为图案与手工经验话题。"
+        }
+      ]
+    },
+    {
+      "id": "TM-C039",
+      "country": "TM",
+      "category": "music_dance",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "马文化活动",
+      "summary": "阿哈尔捷金马相关传统是文化活动话题。",
+      "body": "交流建议（自编）：您喜欢看相关活动，还是有其他休闲爱好？ 这些是可聊的文化活动，不是已经确认的个人爱好；参加歌舞必须出于本人意愿。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "activity": "马文化活动",
+        "interest_class": "cultural_topic_not_personal_preference",
+        "customer_interest": "unknown",
+        "question_zh": "您喜欢看相关活动，还是有其他休闲爱好？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "马文化活动"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "TM06",
+          "supports": "阿哈尔捷金马相关传统是文化活动话题。"
+        }
+      ]
+    },
+    {
+      "id": "KZ-C042",
+      "country": "KZ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "现代音乐与唱歌",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢听歌、自己唱歌，还是其他放松方式？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢听歌、自己唱歌，还是其他放松方式？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "现代音乐与唱歌"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C043",
+      "country": "KZ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "舞蹈与聚会",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您更喜欢安静聊天，还是热闹一些的聚会？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您更喜欢安静聊天，还是热闹一些的聚会？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "舞蹈与聚会"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C044",
+      "country": "KZ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "运动和户外",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢亲自运动，还是观看比赛？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢亲自运动，还是观看比赛？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "运动和户外"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KZ-C045",
+      "country": "KZ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与家人",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：周末您通常愿意怎样安排休息时间？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "周末您通常愿意怎样安排休息时间？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与家人"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C041",
+      "country": "UZ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "现代音乐与唱歌",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢听歌、自己唱歌，还是其他放松方式？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢听歌、自己唱歌，还是其他放松方式？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "现代音乐与唱歌"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C042",
+      "country": "UZ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "舞蹈与聚会",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您更喜欢安静聊天，还是热闹一些的聚会？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您更喜欢安静聊天，还是热闹一些的聚会？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "舞蹈与聚会"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C043",
+      "country": "UZ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "运动和户外",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢亲自运动，还是观看比赛？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢亲自运动，还是观看比赛？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "运动和户外"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "UZ-C044",
+      "country": "UZ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与家人",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：周末您通常愿意怎样安排休息时间？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "周末您通常愿意怎样安排休息时间？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与家人"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C040",
+      "country": "KG",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "现代音乐与唱歌",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢听歌、自己唱歌，还是其他放松方式？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢听歌、自己唱歌，还是其他放松方式？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "现代音乐与唱歌"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C041",
+      "country": "KG",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "舞蹈与聚会",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您更喜欢安静聊天，还是热闹一些的聚会？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您更喜欢安静聊天，还是热闹一些的聚会？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "舞蹈与聚会"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C042",
+      "country": "KG",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "运动和户外",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢亲自运动，还是观看比赛？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢亲自运动，还是观看比赛？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "运动和户外"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C043",
+      "country": "KG",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与家人",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：周末您通常愿意怎样安排休息时间？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "周末您通常愿意怎样安排休息时间？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与家人"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C040",
+      "country": "TJ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "现代音乐与唱歌",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢听歌、自己唱歌，还是其他放松方式？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢听歌、自己唱歌，还是其他放松方式？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "现代音乐与唱歌"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C041",
+      "country": "TJ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "舞蹈与聚会",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您更喜欢安静聊天，还是热闹一些的聚会？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您更喜欢安静聊天，还是热闹一些的聚会？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "舞蹈与聚会"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C042",
+      "country": "TJ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "运动和户外",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢亲自运动，还是观看比赛？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢亲自运动，还是观看比赛？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "运动和户外"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TJ-C043",
+      "country": "TJ",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与家人",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：周末您通常愿意怎样安排休息时间？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "周末您通常愿意怎样安排休息时间？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与家人"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C040",
+      "country": "TM",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "现代音乐与唱歌",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢听歌、自己唱歌，还是其他放松方式？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢听歌、自己唱歌，还是其他放松方式？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "现代音乐与唱歌"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C041",
+      "country": "TM",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "舞蹈与聚会",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您更喜欢安静聊天，还是热闹一些的聚会？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您更喜欢安静聊天，还是热闹一些的聚会？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "舞蹈与聚会"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C042",
+      "country": "TM",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "运动和户外",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：您喜欢亲自运动，还是观看比赛？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "您喜欢亲自运动，还是观看比赛？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "运动和户外"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "TM-C043",
+      "country": "TM",
+      "category": "personal_preferences",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "周末与家人",
+      "summary": "这项个人偏好尚未确认。",
+      "body": "自编交流问题：周末您通常愿意怎样安排休息时间？ 对方不展开就换题，不依据国家或年龄代填答案。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "customer_interest": null,
+        "source": "must_be_voluntarily_shared_by_person",
+        "question_zh": "周末您通常愿意怎样安排休息时间？"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "周末与家人"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "KG-C044",
+      "country": "KG",
+      "category": "outdoor_leisure",
+      "kind": "culture",
+      "evidence": "cultural_reference",
+      "title": "湖区徒步与城市文化活动",
+      "summary": "大学生活指南介绍过伊塞克湖、徒步以及比什凯克剧院博物馆等休闲选项。",
+      "body": "可询问本人更喜欢户外还是城市活动；2017年资料中的营业、价格和交通安排不能当成当日信息。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "湖区徒步与城市文化活动"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": [
+        {
+          "source": "LIFE_KG_AUCA",
+          "supports": "大学生活指南介绍过伊塞克湖、徒步以及比什凯克剧院博物馆等休闲选项。"
+        }
+      ]
+    },
+    {
+      "id": "CA-C043",
+      "country": "CA",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "不要把餐馆晚关门当作客户晚睡",
+      "summary": "某家餐馆营业到深夜，不能证明客户愿意在深夜接业务消息。",
+      "body": "联系仍按本人偏好和免打扰配置。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "不要把餐馆晚关门当作客户晚睡"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-C044",
+      "country": "CA",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "夜间邮件也按用户偏好顺延",
+      "summary": "按你的要求，邮件和WhatsApp都需要在发送建议前核对当地时间。",
+      "body": "只准备正文可以继续；延后发送不等于自动建立发送任务。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "夜间邮件也按用户偏好顺延"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-C045",
+      "country": "CA",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "次日与下一工作窗口",
+      "summary": "当地23:00后应计算当地日期，不能用北京时间的“明天”直接排期。",
+      "body": "非工作日或假日后可能要等更久，候选时间同时显示当地和北京时间。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "次日与下一工作窗口"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-C046",
+      "country": "CA",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "斋月和个人作息",
+      "summary": "本人若提及禁食或晚间安排，确认方便联系的窗口。",
+      "body": "不按国籍推断宗教实践，也不将其永久写成固定睡眠时间。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "斋月和个人作息"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-C047",
+      "country": "CA",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "保存已确认偏好的方式",
+      "summary": "作息、免打扰和兴趣应带本人提供的来源及确认日期。",
+      "body": "真实客户记录只保存在受控本地文件；公共仓库只放空白模板与通用文化。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "保存已确认偏好的方式"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-C048",
+      "country": "CA",
+      "category": "contact_timing",
+      "kind": "culture",
+      "evidence": "practice_hypothesis",
+      "title": "运行时与自动提醒的范围",
+      "summary": "contact_planner.py在被调用时输出当前或指定时间的建议。",
+      "body": "它不是持续后台监控，没有接入真实消息发送拦截器；本聊天后续准备客户联系时先运行核对。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {},
+      "tags": [
+        "lifestyle_v1_1",
+        "运行时与自动提醒的范围"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P037",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "确认方便时间",
+      "summary": "您什么时间接收工作消息比较方便？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "В какое время Вам удобнее получать рабочие сообщения?",
+        "meaning_zh": "您什么时间接收工作消息比较方便？",
+        "meaning_en": "What time is convenient for work messages?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "确认方便时间"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P038",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "确认周六工作",
+      "summary": "您通常周六工作，还是工作日联系更方便？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "Вы обычно работаете по субботам или лучше писать в будни?",
+        "meaning_zh": "您通常周六工作，还是工作日联系更方便？",
+        "meaning_en": "Do you usually work Saturdays, or should I write on weekdays?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "确认周六工作"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P039",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "夜间不打扰",
+      "summary": "您那里已经很晚了，我会在您方便的工作时间联系。",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "У Вас уже поздний вечер. Я напишу в удобное для Вас рабочее время.",
+        "meaning_zh": "您那里已经很晚了，我会在您方便的工作时间联系。",
+        "meaning_en": "It is late there. I will write during your convenient working hours.",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "夜间不打扰"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P040",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "确认假期",
+      "summary": "假期后什么时候方便继续讨论？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "Когда Вам будет удобно вернуться к обсуждению после праздников?",
+        "meaning_zh": "假期后什么时候方便继续讨论？",
+        "meaning_en": "When would you like to resume after the holidays?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "确认假期"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P041",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "听歌还是唱歌",
+      "summary": "您更喜欢听音乐，还是自己唱歌？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "Вы больше любите слушать музыку или петь сами?",
+        "meaning_zh": "您更喜欢听音乐，还是自己唱歌？",
+        "meaning_en": "Do you prefer listening to music or singing?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "听歌还是唱歌"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P042",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "观看还是跳舞",
+      "summary": "您更喜欢看表演，还是自己跳舞？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "Вам больше нравится смотреть выступления или танцевать самим?",
+        "meaning_zh": "您更喜欢看表演，还是自己跳舞？",
+        "meaning_en": "Do you prefer watching performances or dancing?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "观看还是跳舞"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P043",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "请推荐音乐",
+      "summary": "您推荐听什么当地音乐？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "Какую местную музыку Вы бы посоветовали послушать?",
+        "meaning_zh": "您推荐听什么当地音乐？",
+        "meaning_en": "Which local music would you recommend?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "请推荐音乐"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P044",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "请推荐地方食物",
+      "summary": "您最喜欢家乡的哪一道菜？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "Какое блюдо из Вашего родного города Вы любите больше всего?",
+        "meaning_zh": "您最喜欢家乡的哪一道菜？",
+        "meaning_en": "Which dish from your hometown do you like most?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "请推荐地方食物"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P045",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "问配料",
+      "summary": "这道菜通常用什么配料？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "Какие ингредиенты обычно используют в этом блюде?",
+        "meaning_zh": "这道菜通常用什么配料？",
+        "meaning_en": "What ingredients are usually used in this dish?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "问配料"
+      ],
+      "updated_on": "2026-10-31",
+      "sources": []
+    },
+    {
+      "id": "CA-P046",
+      "country": "CA",
+      "category": "personal_preferences",
+      "kind": "phrase",
+      "evidence": "authored_example",
+      "title": "问周末休息",
+      "summary": "您周末喜欢怎样休息？",
+      "body": "自编礼貌示例；有些问题更适合已熟悉的关系，不需集中盘问。",
+      "scope": "联系时段为可覆盖的实践建议；文化活动不代表个人一定喜欢，具体作息与兴趣以本人确认和当前所在地为准。",
+      "details": {
+        "text": "Как Вы любите отдыхать в выходные?",
+        "meaning_zh": "您周末喜欢怎样休息？",
+        "meaning_en": "How do you like to relax on weekends?",
+        "register": "俄语Вы礼貌语域；确认对方愿意聊生活话题后使用。",
+        "transliteration": "",
+        "when_to_use": "与当前交流相关、对方方便且愿意回答时。",
+        "when_not_to_use": "初识时连续盘问或已明确不愿谈。",
+        "native_review_status": "authored_not_native_reviewed"
+      },
+      "tags": [
+        "lifestyle_v1_1",
+        "问周末休息"
+      ],
       "updated_on": "2026-10-31",
       "sources": []
     }

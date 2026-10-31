@@ -1,0 +1,20 @@
+{
+  "example_only": true,
+  "customer_ref": "replace-with-local-opaque-id",
+  "country": "KZ",
+  "timezone": null,
+  "schedule_confirmed": false,
+  "working_days": null,
+  "contact_windows": null,
+  "quiet_hours": null,
+  "unavailable_dates": [],
+  "confirmed_working_dates": [],
+  "preferences_confirmed_on": null,
+  "wake_time": null,
+  "bedtime": null,
+  "meal_times": null,
+  "food_preferences": [],
+  "music_preferences": [],
+  "sports_preferences": [],
+  "note": "空白模板。本人愿意提供时再填；不要上传真实客户档案到公共GitHub。"
+}

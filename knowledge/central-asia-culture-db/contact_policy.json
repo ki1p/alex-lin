@@ -1,0 +1,320 @@
+{
+  "version": "1.1.0",
+  "checked_on": "2026-10-31",
+  "purpose": "只读的发送前联系时间建议；不发送、不建立队列或后台提醒。",
+  "countries": {
+    "KZ": {
+      "timezone": "Asia/Almaty",
+      "verified_utc_offset_minutes": 300,
+      "office_hours_reference": "09:00—18:00",
+      "reference_source": "KZ02",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "17:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "UZ": {
+      "timezone": "Asia/Tashkent",
+      "verified_utc_offset_minutes": 300,
+      "office_hours_reference": "09:00—18:00，周一至周五",
+      "reference_source": "UZ09",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "10:00",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "17:00"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "KG": {
+      "timezone": "Asia/Bishkek",
+      "verified_utc_offset_minutes": 360,
+      "office_hours_reference": "09:00—18:00",
+      "reference_source": "KG08",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "17:00"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "TJ": {
+      "timezone": "Asia/Dushanbe",
+      "verified_utc_offset_minutes": 300,
+      "office_hours_reference": "08:00—17:00；午休通常12:00—13:00",
+      "reference_source": "TJ08",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "09:00",
+          "11:30"
+        ],
+        [
+          "13:30",
+          "16:30"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    },
+    "TM": {
+      "timezone": "Asia/Ashgabat",
+      "verified_utc_offset_minutes": 300,
+      "office_hours_reference": "09:00—18:00，周一至周五",
+      "reference_source": "TM09",
+      "working_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "working_days_basis": "unconfirmed_conservative_practice",
+      "contact_windows": [
+        [
+          "09:30",
+          "12:00"
+        ],
+        [
+          "14:00",
+          "17:00"
+        ]
+      ],
+      "quiet_hours": [
+        "22:00",
+        "08:30"
+      ],
+      "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
+      "unavailable_dates": [],
+      "confirmed_working_dates": []
+    }
+  },
+  "calendars": {
+    "KZ": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_KZ",
+      "source_quality": "official_reference",
+      "holidays": {
+        "2026-01-01": "元旦",
+        "2026-01-02": "新年假日",
+        "2026-01-07": "东正教圣诞节",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节顺延",
+        "2026-03-21": "Nauryz",
+        "2026-03-22": "Nauryz",
+        "2026-03-23": "Nauryz",
+        "2026-03-24": "Nauryz顺延",
+        "2026-03-25": "Nauryz顺延",
+        "2026-05-01": "团结日",
+        "2026-05-07": "保卫者日",
+        "2026-05-09": "胜利日",
+        "2026-05-11": "胜利日顺延",
+        "2026-05-27": "Qurban Ait",
+        "2026-07-06": "首都日",
+        "2026-10-25": "共和国日",
+        "2026-10-26": "共和国日顺延",
+        "2026-12-16": "独立日"
+      },
+      "possible_working_dates": [],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "UZ": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_UZ",
+      "source_quality": "secondary_reference",
+      "holidays": {
+        "2026-01-01": "元旦",
+        "2026-01-02": "新年假日",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节顺延",
+        "2026-03-20": "开斋节参考日期",
+        "2026-03-21": "Navruz",
+        "2026-03-23": "Navruz顺延",
+        "2026-05-09": "纪念日",
+        "2026-05-11": "纪念日顺延",
+        "2026-05-27": "宰牲节参考日期",
+        "2026-05-28": "宰牲节假日",
+        "2026-05-29": "宰牲节假日",
+        "2026-08-31": "独立日连休",
+        "2026-09-01": "独立日",
+        "2026-10-01": "教师节",
+        "2026-12-08": "宪法日",
+        "2026-12-31": "新年假日"
+      },
+      "possible_working_dates": [
+        "2026-12-12"
+      ],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "KG": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_KG",
+      "source_quality": "secondary_reference",
+      "holidays": {
+        "2026-01-01": "新年及圣诞参考假日",
+        "2026-01-02": "新年及圣诞参考假日",
+        "2026-01-03": "新年及圣诞参考假日",
+        "2026-01-04": "新年及圣诞参考假日",
+        "2026-01-05": "新年及圣诞参考假日",
+        "2026-01-06": "新年及圣诞参考假日",
+        "2026-01-07": "新年及圣诞参考假日",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节顺延",
+        "2026-03-20": "Orozo Ait参考日期",
+        "2026-03-21": "Nooruz",
+        "2026-05-01": "五月参考假期",
+        "2026-05-02": "五月参考假期",
+        "2026-05-03": "五月参考假期",
+        "2026-05-04": "五月参考假期",
+        "2026-05-05": "五月参考假期",
+        "2026-05-06": "五月参考假期",
+        "2026-05-07": "五月参考假期",
+        "2026-05-08": "五月参考假期",
+        "2026-05-09": "五月参考假期",
+        "2026-05-27": "Kurman Ait参考日期",
+        "2026-08-31": "独立日"
+      },
+      "possible_working_dates": [],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "TJ": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_TJ",
+      "source_quality": "secondary_reference",
+      "holidays": {
+        "2026-01-01": "元旦",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节顺延",
+        "2026-03-20": "开斋节参考日期",
+        "2026-03-21": "Navruz",
+        "2026-03-22": "Navruz",
+        "2026-03-23": "Navruz",
+        "2026-03-24": "Navruz",
+        "2026-05-09": "胜利日",
+        "2026-05-11": "胜利日顺延",
+        "2026-05-27": "宰牲节参考日期",
+        "2026-06-27": "团结日",
+        "2026-06-29": "团结日顺延",
+        "2026-09-09": "独立日",
+        "2026-11-06": "宪法日"
+      },
+      "possible_working_dates": [],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    },
+    "TM": {
+      "checked_on": "2026-10-31",
+      "coverage_years": [
+        2026
+      ],
+      "complete": false,
+      "source_id": "LIFE_CAL_TM",
+      "source_quality": "secondary_reference",
+      "holidays": {
+        "2026-01-01": "元旦",
+        "2026-03-08": "妇女节",
+        "2026-03-09": "妇女节参考顺延",
+        "2026-03-20": "Oraza Bayram参考日期",
+        "2026-03-21": "Nowruz",
+        "2026-03-22": "Nowruz",
+        "2026-03-23": "Nowruz参考顺延",
+        "2026-05-18": "宪法日",
+        "2026-05-27": "Kurban Bayramy参考日期",
+        "2026-05-28": "Kurban Bayramy假日",
+        "2026-05-29": "Kurban Bayramy假日",
+        "2026-09-27": "独立日",
+        "2026-09-28": "独立日参考假日",
+        "2026-09-29": "独立日参考顺延",
+        "2026-10-06": "纪念日",
+        "2026-12-12": "中立日"
+      },
+      "possible_working_dates": [],
+      "notes": "只收录已查参考日期，不能保证完整调休及企业安排；宗教日期须再核对，其他年份不外推。吉尔吉斯资料中存在需核验的工作/纪念日，不全部硬编码。"
+    }
+  }
+}

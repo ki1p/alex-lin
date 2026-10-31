@@ -2,48 +2,48 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 80,
-      "sha256": "b1e1a1b41bd16ce38a8fa5b00e1fcadc30636d9f2b815e0567471c2b1e65dc13"
+      "bytes": 122,
+      "sha256": "5bbd0112ba61b92e83039223a3dd30aa063a1e4bc2e241146bbfc0add7d05451"
     },
     {
       "path": "README.md",
-      "bytes": 5132,
-      "sha256": "87a3772c8aea52f84295476cbda986719c2d086ba34a89a4e55de72b92ac73c0"
+      "bytes": 6451,
+      "sha256": "f3044a3645d8ca2a6644da8a5f6eb022e42270a9fe9a0bbb1202fd58b9255dd2"
     },
     {
       "path": "HANDBOOK.md",
-      "bytes": 170837,
-      "sha256": "90533dc7e9d365176a67419180ff0124cdb1559c0b60f7875e5ef25436941d07"
+      "bytes": 254138,
+      "sha256": "661364e59b3389c97f2e43a7a7fd38e0d4845529f3f7e21b68b6eaf4df35fbfa"
     },
     {
       "path": "COMMON.md",
-      "bytes": 52182,
-      "sha256": "2842f3e34b30f33e44f8c93d7fe5d61c4d57020ee77a0347b35f498f95b9e9d9"
+      "bytes": 63211,
+      "sha256": "0cafbc9780b99e1e69ee5154f8f33259368acb73e7ab6b99c1ccb79a241e8277"
     },
     {
       "path": "KZ.md",
-      "bytes": 20365,
-      "sha256": "cb0dffc269a6bbace2aad3c2ee0297cc7407db42dfb63e25ba9f2f827828389e"
+      "bytes": 33678,
+      "sha256": "fd243b8f4054f4f7033b99b433654885a59b64c439344ab9d56d7d3507db7b5c"
     },
     {
       "path": "UZ.md",
-      "bytes": 21541,
-      "sha256": "54de51f6f420b2f9a1e53154eb9f361b8863133d2ccafac6962a7309dae1012d"
+      "bytes": 34049,
+      "sha256": "2b73bb167f07031f4e3aa6815fec3ec0c41f13b45574c79a36a2e3ece01596a2"
     },
     {
       "path": "KG.md",
-      "bytes": 19272,
-      "sha256": "8bf3540632f03f99945dc573c1ae6ef29560a6c3cc3b29cfe842688bcd784ab8"
+      "bytes": 33490,
+      "sha256": "6db34e337bf958d01f2034ba78d972559c0600eb249fef000b5cd04f5d4dac6e"
     },
     {
       "path": "TJ.md",
-      "bytes": 21952,
-      "sha256": "e13be180cb29fcc4adef08af1b5975c02028020f56b90efb972da88bbf972d45"
+      "bytes": 33951,
+      "sha256": "911139e13aa5898d5c49de8ef0b939dbc039417894046770d785ad3858434968"
     },
     {
       "path": "TM.md",
-      "bytes": 19392,
-      "sha256": "7c8ccff940ba44af0b83f6c18d5209e108ee20631f60ffb23cb1be2591b2cb1f"
+      "bytes": 32958,
+      "sha256": "2904649d9a8c6f4e200b30038b77d5075cf011bb72929671461b7baf0ceada6a"
     },
     {
       "path": "kb.py",
@@ -57,23 +57,53 @@
     },
     {
       "path": "test_kb.py",
-      "bytes": 5042,
-      "sha256": "d0fec0feec04acfae1eacafabad9946f1d7e29ae124a12e41b69e7f9bca6039e"
+      "bytes": 5087,
+      "sha256": "8300b3f808c91f6193009c5ea1f41103b54bb9b6f10d9c0dee0d85400b8ff216"
     },
     {
       "path": "data.json",
-      "bytes": 276053,
-      "sha256": "cfea5f10bbb6cba42ec60ba1c15335944d39e4776f485853533709da952eee8c"
+      "bytes": 429426,
+      "sha256": "f827ae7e4581b11a243440b3fc61596874c555ff6274490fa29a546f5631f1b8"
     },
     {
       "path": "central_asia.sqlite3",
-      "bytes": 602112,
-      "sha256": "c4dbc118b80e3000e63cb4ba654a6a315591de165cbe1973885a2b1c95ebe709"
+      "bytes": 921600,
+      "sha256": "4e0eafcb3c41234251954e7eb7b6e7e18fa81046609f2e7e9a9d2f6c79ad3bbd"
+    },
+    {
+      "path": "contact_planner.py",
+      "bytes": 11069,
+      "sha256": "b1044371268ad139bc6fe32d26ea88827784c5c586bc527b5f77c2974e956405"
+    },
+    {
+      "path": "test_contact_planner.py",
+      "bytes": 6609,
+      "sha256": "a43d35f5ccbf546886e190c5330c06beefd54da544700282b27887dbd8f4773c"
+    },
+    {
+      "path": "contact_policy.json",
+      "bytes": 10109,
+      "sha256": "365ba7d9291c688081641fe573c555c44675277e5d8c6529207a3c0185faf181"
+    },
+    {
+      "path": "customer_schedule.example.json",
+      "bytes": 587,
+      "sha256": "7d19c39af4a2dcf0c77164f0a913821de986a43f33ae7f671a50913f26febc9d"
+    },
+    {
+      "path": "CONTACT_POLICY.md",
+      "bytes": 3636,
+      "sha256": "ac58070a21db2ff4e0be6562ae05a3231aa9e0fdf86579ef5bc1ad74bd76f4c8"
+    },
+    {
+      "path": "LIFESTYLE.md",
+      "bytes": 8416,
+      "sha256": "e7617619d50bb95a47751c4055186785074a0a70dec92d12d45bd21629152477"
     },
     {
       "path": "VALIDATION.json",
-      "bytes": 362,
-      "sha256": "3da2351083ae76131cd1e55a7b0d947c3a729dda955f67b9a6eb4b56cbec33f5"
+      "bytes": 513,
+      "sha256": "cb3f98ab3dcca99d467140c26e8d46d58a758cdd49dec45f513038add5d2bdec"
     }
   ]
 }
