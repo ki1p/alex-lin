@@ -479,3 +479,81 @@ DMDP2批准融资3.85亿美元；不要与同文其他融资相加当作该项�
 
 年度时钟变更参考，不是永久不变的法定规则。
 
+## WB-INCOME27 · World Bank income groups FY2027
+
+[世界银行](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+2026-07-01起FY2027分类，基于2025GNI；不是客户付款能力或安全评级。
+
+## SA-RISK · saudi-arabia risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/saudi-arabia)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## AE-RISK · united-arab-emirates risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/united-arab-emirates)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## IN-RISK · india risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/india)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## ID-RISK · indonesia risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/indonesia)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## PH-RISK · philippines risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/philippines)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## BD-RISK · bangladesh risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/bangladesh)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## EG-RISK · egypt risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/egypt)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## MA-RISK · morocco risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/morocco)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## KE-RISK · kenya risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/kenya)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## TZ-RISK · tanzania risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/tanzania)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## RW-RISK · rwanda risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/rwanda)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+
+## ET-RISK · ethiopia risk snapshot
+
+[UK FCDO](https://www.gov.uk/foreign-travel-advice/ethiopia)；检索日期：2026-10-31；访问层级：`retrieved_page_excerpt`。
+
+旅行风险只作局势线索；不等同中国公民专用意见、信用评级或商业禁令。记录具体地域，不扩大到全国。
+

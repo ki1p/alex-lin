@@ -85,6 +85,6 @@ class DatabaseTests(unittest.TestCase):
                 for row in [r for r in self.data['records'] if r['country']==country['code']]:
                     self.assertIn(row['id'],text)
                     if row['kind']=='project_signal':self.assertIn('当前采购已核实：**否**',text)
-            self.assertIn('431条记录',(target/'README.md').read_text(encoding='utf-8'))
+            self.assertIn(str(len(self.data['records']))+'条记录',(target/'README.md').read_text(encoding='utf-8'))
 
 if __name__=='__main__':unittest.main()

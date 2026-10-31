@@ -10,9 +10,14 @@ def main():
     cats={c['id']:c['name_zh'] for c in d['categories']}
     full=[c for c in d['countries'] if c['coverage']=='new_full_profile']
     linked=[c for c in d['countries'] if c['coverage']=='linked_existing']
+    active=[c for c in full if c.get('market_screen',{}).get('status')=='candidate']
+    inactive=[c for c in full if c not in active]
     for c in d['countries']:
         code=c['code']; filename='COMMON.md' if code=='GLOBAL' else code+'.md'
         lines=[f'# {c["name_zh"]}：市场、文化与日常沟通','','2026-10-31 · [总入口](README.md) · [通用生活与沟通](COMMON.md) · [联系时间](CONTACT_POLICY.md)','',c['overview'],'']
+        screen=c.get('market_screen')
+        if screen:
+            lines.extend(['**最新筛选状态：'+screen['label']+'。** '+screen['reason'],'','[筛选规则与全部结果](SCREENING.md)。本页旧文化资料保留不等于继续开发该市场。',''])
         if c['coverage']=='linked_existing':
             lines.extend(['本轮仅建立关联索引，不表示重新筛查了该市场。','',f'[阅读既有完整资料]({c["profile_link"]})',''])
         elif code!='GLOBAL':
@@ -41,7 +46,8 @@ def main():
     for s in d['sources']:source_lines.extend([f'## {s["id"]} · {s["title"]}','',f'[{s["publisher"]}]({s["url"]})；检索日期：{s["checked_on"]}；访问层级：`{s["access_level"]}`。','',s['limitations'],''])
     (ROOT/'SOURCES.md').write_text('\n'.join(source_lines)+'\n',encoding='utf-8')
     matrix=['# 增长、城建需求与产品适配：分开判断','','2026-10-31。调研顺序是自拟判断，不是统计排名；本轮没有确认任何实时采购线索。','',
-      '|新增完整市场|为什么入选|优先核实方向|调研次序|','|---|---|---|---|']
+      '**按用户最新偏好先筛掉低收入和明显不安稳市场。下表保留旧资料的入选理由，实际开发状态以最后一列及[筛选结果](SCREENING.md)为准。**','',
+      '|已整理资料|原入选背景|原候选方向（需服从筛选）|最新处理|','|---|---|---|---|']
     for c in full:matrix.append(f'|[{c["name_zh"]}]({c["code"]}.md)|{c["selection_reason"]}|{c["cities"][0]}及工程顾问／MEP渠道|{c["research_priority"]}|')
     matrix.extend(['','## 怎样理解“迅速发展”','',
       '- 增长预测：仅对已经找到清晰数值、年份和预测性质的来源记录数值；预测不可写成全年已实现增长。',
@@ -70,6 +76,7 @@ def main():
     policy=json.loads((ROOT/'contact_policy.json').read_text(encoding='utf-8'))
     names={c['code']:c['name_zh'] for c in d['countries']}
     lines=['# 联系时间、生活作息和日历边界','','默认22:00—08:30免打扰为用户联系偏好，**不是任何国家的统一睡眠时间**。当地23:00提示不要打扰，给下一个候选时间。','',
+      '时间工具保留18市场以支持现有客户往来；支持计算时间不表示推荐新开发。退出、暂停和待核验市场会另给提示，先看[筛选结果](SCREENING.md)。','',
       '本工具每次调用时判断；不会后台监控，不会发送、建队列或创建定时任务。用户明确约定和客户确认的时间优先。','',
       '|市场|时区|默认候选工作日|候选当地时间|','|---|---|---|---|']
     weekdays=['一','二','三','四','五','六','日']
@@ -114,10 +121,13 @@ def main():
     (ROOT/'customer_schedule.example.json').write_text(json.dumps(profile,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     n=len(d['records']);ns=len(d['sources'])
     readme=['# 增长与城建市场：文化、日常和阀门销售数据库','',
-      f'版本1.0.0 · 2026-10-31 · **{n}条记录／{len(cats)}类主题／{ns}个来源**。12国新增完整画像，关联越南及中亚五国旧库；联系工具支持18个市场。','',
-      '[市场比较与选择理由](MARKETS.md) · [通用生活和沟通](COMMON.md) · [联系时间](CONTACT_POLICY.md) · [来源](SOURCES.md) · [验证](VALIDATION.json)','',
-      '## 新增完整国别资料','']
-    for c in full:readme.append(f'- [{c["name_zh"]}]({c["code"]}.md)：{c["selection_reason"]}')
+      f'版本{d["metadata"]["version"]} · 2026-10-31 · **{n}条记录／{len(cats)}类主题／{ns}个来源**。已整理12国资料，按最新偏好默认只保留{len(active)}国为重点调研候选；另关联既有越南和中亚五国资料。','',
+      '[先看市场筛选](SCREENING.md) · [市场背景](MARKETS.md) · [日常沟通](COMMON.md) · [联系时间](CONTACT_POLICY.md) · [来源](SOURCES.md) · [验证](VALIDATION.json)','',
+      '**用户最新范围：极低收入或明显不安稳地区不继续深度开发。旧资料保留并标记，不再全部当作推荐。候选也不表示已核实客户付款和采购。**','',
+      '## 当前重点调研候选','']
+    for c in active:readme.append(f'- [{c["name_zh"]}]({c["code"]}.md)：{c["selection_reason"]}；'+c['market_screen']['reason'])
+    readme.extend(['','## 暂不优先／暂停／退出的旧资料',''])
+    for c in inactive:readme.append(f'- [{c["name_zh"]}]({c["code"]}.md)：{c["market_screen"]["label"]}')
     readme.extend(['','## 每国覆盖什么','',
       '入选依据、工程资料阶段、候选城市、产品适配、语言及地区差异、基础日常表达、称呼与关系、美食、音乐舞蹈话题、节庆、办公参考、个人作息提问，以及英文寒暄和阀门跟进示例。',
       '通用手册补充家庭隐私、做客、鞋子座位、礼物、用餐、休闲、电话、WhatsApp、会议、议价、规格、质量、交付与投诉。阅读国别条目时同时看[通用手册](COMMON.md)。','',
@@ -131,7 +141,9 @@ def main():
       '标准库即可查询SQLite；时区需要系统IANA数据或tzdata。中文用字串检索；英文支持大小写／重音归一化。FTS5索引保留给SQL使用，中文默认不依赖分词。','',
       '```powershell',
       'python kb.py stats',
-      'python kb.py search "美食" --country SA',
+      'python kb.py markets',
+      'python kb.py search "Tajine" --country MA',
+      'python kb.py search "Kabsa" --country SA --include-inactive',
       'python kb.py search "谢谢" --country ID --kind phrase --country-only',
       'python kb.py search "压差" --country AE',
       'python kb.py show SA-001',
@@ -141,7 +153,7 @@ def main():
       'python kb.py verify',
       'python -m unittest discover -p "test_*.py" -v',
       '```','',
-      '按国家搜索默认包含GLOBAL通用建议；用--country-only仅查国别记录。JSON是维护源，SQLite和国别手册从同一JSON生成。不要直接修改SQLite后遗失JSON变更。','',
+      '默认搜索只含重点候选、GLOBAL通用建议和既有资料索引；暂停／退出／待核验国家不混入默认结果。查看旧资料需--include-inactive；直接show会显示记录中的market_screen_status。按国家搜索默认包含GLOBAL；--country-only仅查该国。JSON是维护源，SQLite和手册从同一JSON生成。','',
       '```sql',
       'SELECT id, title, body, source_urls',
       'FROM records_with_sources WHERE country = \'SA\';',
@@ -151,6 +163,7 @@ def main():
       '- growth_markets.sqlite3／schema.sql：只读查询库与模式。',
       '- kb.py／export_guides.py：构建、检索与可读文档导出。',
       '- contact_planner.py／contact_policy.json：调用时判断当地联系时间。',
+      '- market_screen.json／SCREENING.md：最新开发筛选与理由；收入、安全和客户资金分别判断。',
       '- customer_schedule.example.json：虚构空白模板；真实客户信息不进仓库。',
       '- test_*.py／VALIDATION.json／MANIFEST.json：验证与交付清单。','',
       '更新经济或项目条目时保留发布日期、预测／实绩性质与阶段；未找到最新证据保持unknown。更新作息只改受控私人档案；不把个人资料写进公共data.json。','',
@@ -158,7 +171,30 @@ def main():
     for c in linked:readme.append(f'- [{c["name_zh"]}]({c["profile_link"]})（既有资料；本轮仅关联）')
     readme.extend(['','本库覆盖常见场景，未声称穷尽所有地区、族群、地方语言或各国全部习俗。实际个人与企业偏好优先。'])
     (ROOT/'README.md').write_text('\n'.join(readme)+'\n',encoding='utf-8')
-    (ROOT/'HANDBOOK.md').write_text('# 手册入口\n\n[数据库说明和国别目录](README.md) · [市场比较](MARKETS.md) · [日常生活全场景](COMMON.md) · [时间规则](CONTACT_POLICY.md) · [来源](SOURCES.md)\n\n完整条目分国保存，避免单页过长。\n',encoding='utf-8')
+    screening=['# 先筛市场，再研究文化','','版本1.1.0 · 2026-10-31。用户要求：特别贫穷或明显不安稳的地方不继续深度开发。','',
+      '当前默认重点候选：**印度、印尼、摩洛哥**。这是研究次序，不是已经通过付款、交付或安全审查的名单。现有越南和中亚客户按既有任务继续服务；没有据此自动宣布这些国家已完成本轮局势重筛。','',
+      '|已整理市场|FY2027收入类别|最新处理|原因|','|---|---|---|---|']
+    income_names={'low':'低收入','lower_middle':'中低收入','upper_middle':'中高收入','high':'高收入'}
+    for c in full:
+        x=c['market_screen'];screening.append(f'|[{c["name_zh"]}]({c["code"]}.md)|{income_names[x["income_group"]]}|{x["label"]}|{x["reason"]}|')
+    screening.extend(['','## 筛选规则','',
+      '1. 以[世界银行FY2027分类](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups)作收入参考；低收入先排除，中低收入不自动等于极贫。收入分类也不是某家企业的信用评级。',
+      '2. 明显持续冲突、全国性严重风险先暂停；局部风险按城市和项目分开，不能因某个边境地区有警告就说全国不稳定。',
+      '3. 高收入也不能自动通过局势筛选。沙特资料截至10月31日存在全国非必要旅行警告及机场遇袭信息，因此暂停新的主动开发。阿联酋不照搬沙特结论，但地区紧张与路线仍待核验。',
+      '4. 孟加拉、肯尼亚、坦桑尼亚属于中低收入，本版未认定它们全国不稳定；资金、渠道或交付未落实，先不投入深度开发。',
+      '5. 菲律宾具体分区与示威影响未完成项目级核验；达沃不再作为默认重点城市。埃及也先核实区域、项目资金与收款条件。',
+      '6. 候选仍须有真实适用的楼宇水回路、可确认的项目资金和企业付款条件，以及可执行的进口、交付与服务安排。',
+      '7. 旧文化资料保留并注明状态；不再继续把退出市场列为优先推荐。不取消用户已授权的现有客户工作。','',
+      '## 当前局势依据','',
+      '以下是检索当日的FCDO资料摘要，用来识别局势和地域风险；不当作商业禁令、信用评级或对未来稳定的保证。计划现场拜访、发货或投入前要按实际目的地复核。',''])
+    for c in full:
+        x=c['market_screen'];screening.extend([f'- [{c["name_zh"]}]({x["security_sources"][0]})：{x["security_note"]}'])
+    screening.extend(['','## 数据行为','',
+      '- `market_screen.json`和data.json的countries.market_screen保存状态、依据、日期与未知项。',
+      '- 默认`kb.py search`隐藏非重点新市场；`--include-inactive`显式查旧资料；`kb.py markets`列出所有状态。',
+      '- 时间工具保留以处理现有客户往来，但退出／暂停／待核验市场会显示新开发提示；没有后台营销或自动发送。'])
+    (ROOT/'SCREENING.md').write_text('\n'.join(screening)+'\n',encoding='utf-8')
+    (ROOT/'HANDBOOK.md').write_text('# 手册入口\n\n[先看筛选](SCREENING.md) · [数据库目录](README.md) · [市场背景](MARKETS.md) · [日常生活全场景](COMMON.md) · [时间规则](CONTACT_POLICY.md) · [来源](SOURCES.md)\n',encoding='utf-8')
     print(f'Exported {len(d["countries"])} scope guides and 5 entry/reference guides')
 
 if __name__=='__main__':main()

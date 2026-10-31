@@ -1,0 +1,299 @@
+{
+  "version": "1.1.0",
+  "checked_on": "2026-10-31",
+  "user_preference": "特别贫穷或明显不安稳的地区不继续深度开发",
+  "income_reference": "WB FY2027, based on 2025 Atlas GNI",
+  "rules": [
+    "低收入类别先排除；中低收入不自动等于极贫或不稳定",
+    "明显持续冲突或全国性严重出行提示先暂停新开发",
+    "局部风险按城市／项目区分，不能一律扩大到全国",
+    "收入、安全、项目资金、客户付款与交付条件分别核验",
+    "候选不等于已批准交易；真实采购和付款条件仍待核验",
+    "已完成的旧资料保留并标记，不继续把退出市场列作推荐"
+  ],
+  "countries": {
+    "GLOBAL": {
+      "status": "shared",
+      "label": "通用规则",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": null,
+      "income_year": null,
+      "reason": "不适用国别筛选",
+      "security_note": null,
+      "security_sources": [],
+      "payment_verified": false,
+      "live_procurement_verified": false
+    },
+    "SA": {
+      "status": "paused_conflict",
+      "label": "局势原因暂停新开发",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "high",
+      "income_year": "FY2027",
+      "reason": "收入高也不能抵消当前冲突和运输风险；暂停新的主动开发，不做稳定市场推荐。",
+      "security_note": "FCDO当前对也门边境附近建议避免所有旅行，其余全国避免非必要旅行；资料报告利雅得机场于10月10日遭导弹袭击。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/saudi-arabia"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "paused_conflict"
+    },
+    "AE": {
+      "status": "conditional_review",
+      "label": "暂不优先，条件待核验",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "high",
+      "income_year": "FY2027",
+      "reason": "购买力和供冷相关性保留，但地区风险与交付路线待核验，暂不列为默认开发重点。",
+      "security_note": "FCDO提示区域局势难预测，以及航班／空域可能受影响；当前页面没有给出与沙特相同的全国性警告。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/united-arab-emirates"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "conditional_review"
+    },
+    "IN": {
+      "status": "candidate",
+      "label": "重点调研候选",
+      "checked_on": "2026-10-31",
+      "default_new_development": true,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "在避开受限地区、确认客户资金及应用的前提下，优先研究已有候选商业城市。",
+      "security_note": "FCDO对巴基斯坦边境附近、查谟和克什米尔及曼尼普尔等特定地区有不同限制；不能把局部风险推广全国。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/india"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "candidate"
+    },
+    "ID": {
+      "status": "candidate",
+      "label": "重点调研候选",
+      "checked_on": "2026-10-31",
+      "default_new_development": true,
+      "income_group": "upper_middle",
+      "income_year": "FY2027",
+      "reason": "优先研究已列候选城市，另确认三时区、自然灾害及实际客户回款条件。",
+      "security_note": "FCDO页面提示火山活动与当地排除区；具体工地、自然灾害和运输路线需核实。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/indonesia"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "candidate"
+    },
+    "PH": {
+      "status": "conditional_review",
+      "label": "暂不优先，条件待核验",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "upper_middle",
+      "income_year": "FY2027",
+      "reason": "先核验具体城市与运输情况；不将受限地区或示威影响未明确的项目作为默认重点。",
+      "security_note": "FCDO对棉兰老及苏禄群岛有分区限制，页面也提示马尼拉等地示威可能影响交通；不能将达沃默认列作稳定优先城市。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/philippines"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "conditional_review"
+    },
+    "BD": {
+      "status": "conditional_review",
+      "label": "暂不优先，条件待核验",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "不是低收入类别；本轮先不投入深度开发，需核验实际项目资金、能源与运输条件。",
+      "security_note": "FCDO对Chittagong Hill Tracts特定地区提示避免非必要旅行；页面另提及燃料、能源和运输影响。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/bangladesh"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "conditional_review"
+    },
+    "EG": {
+      "status": "conditional_review",
+      "label": "暂不优先，条件待核验",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "局部风险、实际项目资金和收款条件需逐项目核验，暂不作为默认重点。",
+      "security_note": "FCDO对北西奈及部分边境／沙漠地区有分区限制，并提示地区紧张；不能将这些结论直接套用开罗所有项目。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/egypt"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "conditional_review"
+    },
+    "MA": {
+      "status": "candidate",
+      "label": "重点调研候选",
+      "checked_on": "2026-10-31",
+      "default_new_development": true,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "先研究卡萨布兰卡、拉巴特等已有候选城市；收入类别不能替代付款和履约核查。",
+      "security_note": "已核对FCDO当前总览；该总览没有列出全国避免非必要旅行的警告。具体地区及履约条件仍待核实。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/morocco"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "candidate"
+    },
+    "KE": {
+      "status": "conditional_review",
+      "label": "暂不优先，条件待核验",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "不是低收入类别，也未判定全国不稳定；渠道服务、项目资金和具体区域未核验，暂不优先。",
+      "security_note": "FCDO对索马里边境及部分东海岸地区有分区限制；不能由此称整个肯尼亚都不稳定。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/kenya"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "conditional_review"
+    },
+    "TZ": {
+      "status": "conditional_review",
+      "label": "暂不优先，条件待核验",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "不是低收入类别，也未判定全国不稳定；渠道、资金及项目用途未落实，暂不优先。",
+      "security_note": "FCDO对靠近莫桑比克Cabo Delgado边境20公里内部分地区提示避免非必要旅行，不是全国性结论。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/tanzania"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "conditional_review"
+    },
+    "RW": {
+      "status": "excluded_low_income",
+      "label": "按低收入规则退出新开发",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "low",
+      "income_year": "FY2027",
+      "reason": "FY2027低收入，按用户收紧后的市场偏好退出新开发；增长预测不抵消该筛选。",
+      "security_note": "FCDO对Rusizi靠近刚果（金）边境等特定地区有提示；本库退出新开发主要依据用户的低收入排除偏好。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/rwanda"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "excluded_low_income"
+    },
+    "ET": {
+      "status": "excluded_low_income",
+      "label": "按低收入规则退出新开发",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "low",
+      "income_year": "FY2027",
+      "reason": "FY2027低收入并有当前冲突证据，按用户偏好退出新开发。",
+      "security_note": "FCDO提示北部正在交战，以及多个边境和地区风险；当前新开发应暂停。",
+      "security_sources": [
+        "https://www.gov.uk/foreign-travel-advice/ethiopia"
+      ],
+      "payment_verified": false,
+      "live_procurement_verified": false,
+      "market_screen_status": "excluded_low_income"
+    },
+    "VN": {
+      "status": "linked_not_rescreened",
+      "label": "既有资料，未完成本轮风险重筛",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "upper_middle",
+      "income_year": "FY2027",
+      "reason": "保留既有资料和现有客户往来；未完成当前局势重筛，不自动推荐新开发。",
+      "security_note": null,
+      "security_sources": [],
+      "payment_verified": false,
+      "live_procurement_verified": false
+    },
+    "KZ": {
+      "status": "linked_not_rescreened",
+      "label": "既有资料，未完成本轮风险重筛",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "upper_middle",
+      "income_year": "FY2027",
+      "reason": "保留既有资料和现有客户往来；未完成当前局势重筛，不自动推荐新开发。",
+      "security_note": null,
+      "security_sources": [],
+      "payment_verified": false,
+      "live_procurement_verified": false
+    },
+    "UZ": {
+      "status": "linked_not_rescreened",
+      "label": "既有资料，未完成本轮风险重筛",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "保留既有资料和现有客户往来；未完成当前局势重筛，不自动推荐新开发。",
+      "security_note": null,
+      "security_sources": [],
+      "payment_verified": false,
+      "live_procurement_verified": false
+    },
+    "KG": {
+      "status": "linked_not_rescreened",
+      "label": "既有资料，未完成本轮风险重筛",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "保留既有资料和现有客户往来；未完成当前局势重筛，不自动推荐新开发。",
+      "security_note": null,
+      "security_sources": [],
+      "payment_verified": false,
+      "live_procurement_verified": false
+    },
+    "TJ": {
+      "status": "linked_not_rescreened",
+      "label": "既有资料，未完成本轮风险重筛",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "lower_middle",
+      "income_year": "FY2027",
+      "reason": "保留既有资料和现有客户往来；未完成当前局势重筛，不自动推荐新开发。",
+      "security_note": null,
+      "security_sources": [],
+      "payment_verified": false,
+      "live_procurement_verified": false
+    },
+    "TM": {
+      "status": "linked_not_rescreened",
+      "label": "既有资料，未完成本轮风险重筛",
+      "checked_on": "2026-10-31",
+      "default_new_development": false,
+      "income_group": "upper_middle",
+      "income_year": "FY2027",
+      "reason": "保留既有资料和现有客户往来；未完成当前局势重筛，不自动推荐新开发。",
+      "security_note": null,
+      "security_sources": [],
+      "payment_verified": false,
+      "live_procurement_verified": false
+    }
+  }
+}

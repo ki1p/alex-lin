@@ -111,9 +111,11 @@ def connect(path=DEFAULT_DB):
     return conn
 
 
-def search(conn,query,country=None,category=None,kind=None,evidence=None,limit=20,include_shared=True):
+def search(conn,query,country=None,category=None,kind=None,evidence=None,limit=20,include_shared=True,include_inactive=False):
     if not query.strip():raise ValueError('Empty query')
     where=['instr(normalized_text,?)>0'];values=[normalize(query)]
+    if not include_inactive:
+        where.append("country IN (SELECT code FROM countries WHERE json_extract(profile_json, '$.market_screen.status') IN ('candidate','shared','linked_not_rescreened'))")
     if country:
         if include_shared and country!='GLOBAL':where.append("country IN (?, 'GLOBAL')")
         else:where.append('country=?')
@@ -146,8 +148,9 @@ def main():
     if hasattr(sys.stdout,'reconfigure'):sys.stdout.reconfigure(encoding='utf-8')
     p=argparse.ArgumentParser(description='增长与城建市场文化数据库');p.add_argument('--db',type=Path,default=DEFAULT_DB)
     sub=p.add_subparsers(dest='cmd',required=True)
-    for cmd in ['build','export','stats','verify']:sub.add_parser(cmd)
+    for cmd in ['build','export','stats','verify','markets']:sub.add_parser(cmd)
     q=sub.add_parser('search');q.add_argument('query');q.add_argument('--country',choices=[c['code'] for c in load()['countries']]);q.add_argument('--category');q.add_argument('--kind',choices=sorted(KINDS));q.add_argument('--evidence',choices=sorted(EVIDENCE));q.add_argument('--limit',type=int,default=20);q.add_argument('--country-only',action='store_true')
+    q.add_argument('--include-inactive',action='store_true',help='显式查看暂停／退出／待核验市场的旧资料；不构成开发推荐')
     q=sub.add_parser('show');q.add_argument('id')
     a=p.parse_args()
     try:
@@ -156,7 +159,8 @@ def main():
             import export_guides
             export_guides.main();return
         with connect(a.db) as c:
-            if a.cmd=='search':out=search(c,a.query,a.country,a.category,a.kind,a.evidence,a.limit,not a.country_only)
+            if a.cmd=='search':out=search(c,a.query,a.country,a.category,a.kind,a.evidence,a.limit,not a.country_only,a.include_inactive)
+            elif a.cmd=='markets':out={x['code']:x.get('market_screen') for x in load()['countries']}
             elif a.cmd=='show':out=show(c,a.id)
             elif a.cmd=='stats':out=stats(c)
             else:

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "checked_on": "2026-10-31",
   "purpose": "18市场只读联系时间判断；不自动发送、排队或后台监控。",
   "countries": {
@@ -32,7 +32,8 @@
       ],
       "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "linked_not_rescreened"
     },
     "UZ": {
       "timezone": "Asia/Tashkent",
@@ -63,7 +64,8 @@
       ],
       "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "linked_not_rescreened"
     },
     "KG": {
       "timezone": "Asia/Bishkek",
@@ -94,7 +96,8 @@
       ],
       "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "linked_not_rescreened"
     },
     "TJ": {
       "timezone": "Asia/Dushanbe",
@@ -125,7 +128,8 @@
       ],
       "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "linked_not_rescreened"
     },
     "TM": {
       "timezone": "Asia/Ashgabat",
@@ -156,7 +160,8 @@
       ],
       "quiet_hours_basis": "user_requested_contact_policy_not_national_sleep_data",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "linked_not_rescreened"
     },
     "SA": {
       "timezone": "Asia/Riyadh",
@@ -187,7 +192,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "paused_conflict"
     },
     "AE": {
       "timezone": "Asia/Dubai",
@@ -226,7 +232,8 @@
             "11:30"
           ]
         ]
-      }
+      },
+      "market_screen_status": "conditional_review"
     },
     "IN": {
       "timezone": "Asia/Kolkata",
@@ -257,7 +264,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "candidate"
     },
     "ID": {
       "timezone": "Asia/Jakarta",
@@ -299,7 +307,8 @@
         "Asia/Jakarta": 420,
         "Asia/Makassar": 480,
         "Asia/Jayapura": 540
-      }
+      },
+      "market_screen_status": "candidate"
     },
     "PH": {
       "timezone": "Asia/Manila",
@@ -330,7 +339,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "conditional_review"
     },
     "BD": {
       "timezone": "Asia/Dhaka",
@@ -361,7 +371,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "conditional_review"
     },
     "EG": {
       "timezone": "Africa/Cairo",
@@ -392,7 +403,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "conditional_review"
     },
     "MA": {
       "timezone": "Africa/Casablanca",
@@ -423,7 +435,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "candidate"
     },
     "KE": {
       "timezone": "Africa/Nairobi",
@@ -454,7 +467,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "conditional_review"
     },
     "TZ": {
       "timezone": "Africa/Dar_es_Salaam",
@@ -485,7 +499,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "conditional_review"
     },
     "RW": {
       "timezone": "Africa/Kigali",
@@ -516,7 +531,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "excluded_low_income"
     },
     "ET": {
       "timezone": "Africa/Addis_Ababa",
@@ -547,7 +563,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "excluded_low_income"
     },
     "VN": {
       "timezone": "Asia/Ho_Chi_Minh",
@@ -578,7 +595,8 @@
       ],
       "quiet_hours_basis": "user_contact_preference_not_sleep_statistics",
       "unavailable_dates": [],
-      "confirmed_working_dates": []
+      "confirmed_working_dates": [],
+      "market_screen_status": "linked_not_rescreened"
     }
   },
   "calendars": {

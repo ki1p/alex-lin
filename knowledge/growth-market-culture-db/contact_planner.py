@@ -118,6 +118,9 @@ def plan(country,at=None,channel='email',profile=None,timezone_override=None,pol
     if not isinstance(calendar,dict) or not isinstance(calendar.get('holidays',{}),dict):raise ValueError('Invalid holiday calendar')
     for day in calendar.get('holidays',{}):date.fromisoformat(day)
     warnings=[]
+    market_status=policy.get('market_screen_status','unknown')
+    if market_status not in {'candidate','unknown','linked_not_rescreened'}:
+        warnings.append('本市场当前不属于新开发重点；时间输出仅供已有往来，不代表建议主动开发。具体退出／暂停／待核验原因见market_screen.json。')
     if not profile.get('schedule_confirmed',False):warnings.append('企业作息未确认；配置的工作日与联系窗口为保守候选，不是全国统一作息。')
     if not country_zone:warnings.append('客户可能在出差地；未自动套用原国家节假日，需核对其当前所在地日历。')
     coverage=calendar.get('coverage_years',[])
@@ -155,6 +158,8 @@ def plan(country,at=None,channel='email',profile=None,timezone_override=None,pol
         result['next_candidate_beijing']=candidate.astimezone(beijing_zone).isoformat(timespec='minutes')
         if candidate.year not in coverage and not any(str(candidate.year) in w for w in warnings):warnings.append(f'候选日期进入{candidate.year}年，其节假日尚未核验。')
     else:result['warnings'].append('没有找到可用窗口，请核对客户作息与免打扰配置。')
+    result['market_screen_status']=market_status
+    result['new_development_recommended']=market_status=='candidate'
     action={'email':'发送邮件','whatsapp':'发送消息','call':'拨打电话'}[channel]
     if local.hour==23 and not okay:result['reminder_zh']=f'客户当地现在是{local:%Y-%m-%d %H:%M}，已是深夜，建议不要打扰；先准备内容，在下一个合适工作窗口再{action}。'
     else:result['reminder_zh']=f'客户当地时间{local:%Y-%m-%d %H:%M}。'+result['recommendation']
