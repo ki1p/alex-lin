@@ -33,7 +33,7 @@ class SitesBridge:
   req=urllib.request.Request(SITE_URL+'/api/bridge',data=None if payload is None else json.dumps(payload,ensure_ascii=False).encode(),headers={'OAI-Sites-Authorization':'Bearer '+self.token,'Content-Type':'application/json'})
   opener=urllib.request.build_opener(urllib.request.ProxyHandler({}),NoRedirect())
   try:
-   with opener.open(req,timeout=30) as r:
+   with opener.open(req,timeout=45) as r:
     if 'application/json' not in r.headers.get('Content-Type',''):raise ValueError('网站返回了登录页，请更新连接凭据。')
     return json.load(r)
   except urllib.error.HTTPError as e:
@@ -50,8 +50,8 @@ class SitesBridge:
   return out
  def upload(self,kind,rows):
   changed=self.changed(kind,rows);count=0
-  for pos in range(0,len(changed),25):
-   batch=changed[pos:pos+25];data=self.request(dict(device_id=self.device,device_name='FriesGo 本机邮件工作台',**{kind:[r for r,h in batch]}))
+  for pos in range(0,len(changed),10):
+   batch=changed[pos:pos+10];data=self.request(dict(device_id=self.device,device_name='FriesGo 本机邮件工作台',**{kind:[r for r,h in batch]}))
    for local,remote in data.get('mapping',{}).items():self.map(local,remote)
    with self.app.store.conn() as db:
     for row,digest in batch:db.execute('INSERT INTO sites_hash VALUES(?,?,?) ON CONFLICT(kind,id) DO UPDATE SET digest=excluded.digest',(kind,row['id'],digest))
