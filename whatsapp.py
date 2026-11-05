@@ -144,6 +144,8 @@ class WhatsApp:
         from app import parse_time
         with self.lock,self.app.send_lock:
             if not self.running:return False
+            if self.app.bridge.enabled and not self.app.bridge.fresh():
+                self.running=False;self.reason='请先同步网站的联系状态，再启动发送。';return False
             app=self.app;bs=self.bridge.state()
             if bs['status']!='ready':self.pause();self.reason='连接已断开，队列暂停';return False
             if app.store.rows("SELECT id FROM events WHERE sync_state='pending'"):

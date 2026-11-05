@@ -156,6 +156,8 @@ class App:
         self.contacts=Contacts(self)
         from website import Website
         self.web=Website(self)
+        from sites_bridge import SitesBridge
+        self.bridge=SitesBridge(self)
     def config_public(self):return {**self.cfg,'password_saved':bool(self.password),'imap_password_saved':bool(self.imap_password or self.password)}
     def recover(self):
         with self.store.conn() as db:
@@ -296,7 +298,7 @@ class App:
         from contacts import POLICY
         return dict(customers=customers,messages=msgs,events=events,counts=counts,config=self.config_public(),contact_policy=POLICY,
             attachments=self.store.rows('SELECT id,name,size FROM attachments'),running=self.running,monitoring=self.monitoring,
-            last_error=self.last_error,reason=self.reason,last_poll=self.last_poll,pending_sync=len(self.store.rows("SELECT id FROM events WHERE sync_state='pending'")),owners=OWNERS,whatsapp=self.wa.state(),website=self.web.state(),version='contacts-1')
+            last_error=self.last_error,reason=self.reason,last_poll=self.last_poll,pending_sync=len(self.store.rows("SELECT id FROM events WHERE sync_state='pending'")),owners=OWNERS,whatsapp=self.wa.state(),website=self.web.state(),sites_bridge=self.bridge.state(),version='sites-bridge-1')
     def start(self):
         with self.send_lock:
             if not self.password:raise ValueError('请先在设置中填写邮箱授权密码。')
@@ -309,6 +311,8 @@ class App:
     def send_one(self,at=None):
         with self.send_lock:
             if not self.running:return False
+            if self.bridge.enabled and not self.bridge.fresh():
+                self.running=False;self.reason='请先同步网站的联系状态，再启动发送。';return False
             at=at or datetime.now(timezone.utc);local=at.astimezone(ZoneInfo(self.cfg['timezone']))
             if local.weekday() not in self.cfg['weekdays'] or not self.cfg['hour_start']<=local.hour<self.cfg['hour_end']:
                 self.reason='当前不在发送时段';return False
@@ -484,7 +488,7 @@ def make_handler(app):
             s=io.StringIO();w=csv.writer(s);w.writerow(['时间','客户编号','公司名称','事件','记录','Excel同步'])
             for r in rows:w.writerow([("'"+str(v)) if str(v).startswith(('=','+','-','@')) else str(v) for v in r.values()])
             return self.response(200,s.getvalue().encode('utf-8-sig'),'text/csv; charset=utf-8')
-        files={'/':'index.html','/message':'index.html','/app.js':'app.js','/whatsapp.js':'whatsapp.js','/website.js':'website.js','/contacts.js':'contacts.js','/outreach.js':'outreach.js','/outreach-rules.js':'outreach-rules.js','/style.css':'style.css'}
+        files={'/':'index.html','/message':'index.html','/app.js':'app.js','/whatsapp.js':'whatsapp.js','/website.js':'website.js','/contacts.js':'contacts.js','/outreach.js':'outreach.js','/sites-bridge.js':'sites-bridge.js','/outreach-rules.js':'outreach-rules.js','/style.css':'style.css'}
         if path not in files:return self.response(404,{'error':'页面不存在。'})
         f=ROOT/'static'/files[path];return self.response(200,f.read_bytes(),mimetypes.guess_type(f.name)[0]+'; charset=utf-8')
     def do_POST(self):
@@ -496,6 +500,10 @@ def make_handler(app):
             if size<0 or size>18*1024*1024:raise ValueError('请求内容过大。')
             d=json.loads(self.rfile.read(size) or b'{}');path=urlparse(self.path).path;result={}
             if path=='/api/config':result=app.save_config(d)
+            elif path=='/api/sites-sync':result=app.bridge.sync()
+            elif path=='/api/sites-toggle':
+                app.bridge.enabled=bool(d.get('enabled'));app.store.set('sites_enabled',app.bridge.enabled)
+                if app.bridge.enabled:app.bridge.last_success=0
             elif path=='/api/contacts/prepare':result=app.contacts.prepare(d.get('message_id'))
             elif path=='/api/contacts/check-whatsapp':result={'checks':app.contacts.check_all(d.get('customer_id'))}
             elif path=='/api/web/profile':result=app.web.configure(d)
@@ -576,7 +584,9 @@ def main():
     except OSError:raise SystemExit('此数据目录已有程序运行，请打开 http://127.0.0.1:8877')
     app=App(data);app.port=args.port
     server=ThreadingHTTPServer(('127.0.0.1',args.port),make_handler(app));server.daemon_threads=True
-    if not args.no_worker:threading.Thread(target=app.worker,daemon=True).start()
+    if not args.no_worker:
+        threading.Thread(target=app.worker,daemon=True).start()
+        threading.Thread(target=app.bridge.worker,daemon=True).start()
     print(f'FriesGo 已启动：http://127.0.0.1:{args.port}  发送队列默认暂停。',flush=True)
     try:server.serve_forever()
     except KeyboardInterrupt:pass

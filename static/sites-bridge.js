@@ -1,0 +1,11 @@
+'use strict';
+const sitesPanel=document.createElement('section');sitesPanel.className='panel full';
+sitesPanel.innerHTML=`<h3>连接 Sales FriesGo 网站</h3><p id="sites-connection" class="hint"></p><div class="actions"><a class="button secondary" href="https://friesgo-sales-workbench.astral-sky-1170.chatgpt.site" target="_blank" rel="noreferrer">打开业务员网站</a><button type="button" id="sites-sync" class="secondary">立即同步记录</button><button type="button" id="sites-toggle" class="secondary">暂停同步</button></div><p class="hint">客户资料、发送结果和回复记录自动同步；网站送来的信件只生成本机草稿。历史记录按消息编号去重。电脑关闭或工作台未运行时，网站显示上次同步时间。</p>`;
+$('#settings-form .settings-grid').prepend(sitesPanel);
+const renderBeforeSites=render;
+render=function(){renderBeforeSites();if(!S)return;const b=S.sites_bridge||{};
+ $('#sites-connection').textContent=`${b.configured?(b.enabled?'已连接':'同步已暂停'):'尚未配置连接'} · 上次成功同步：${date(b.last_sync)}${b.busy?' · 正在同步':''}${b.error?' · '+b.error:''}`;
+ $('#sites-toggle').textContent=b.enabled?'暂停同步':'恢复同步';$('#sites-sync').disabled=!b.configured||b.busy;$('#sites-toggle').disabled=!b.configured;
+};
+$('#sites-sync').onclick=()=>act(async()=>{await api('/api/sites-sync');toast('网站记录已同步。');});
+$('#sites-toggle').onclick=()=>act(async()=>{await api('/api/sites-toggle',{enabled:!S.sites_bridge.enabled});});
