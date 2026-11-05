@@ -16,11 +16,13 @@ class OutreachTests(unittest.TestCase):
   self.assertEqual(self.app.state()['messages'][0]['writing_brief']['first_name'],'Nick')
   self.assertFalse(self.app.running);self.assertFalse(self.app.store.rows('SELECT * FROM events'))
  def test_multiple_contact_drafts_keep_evidence_without_queuing(self):
-  mid=self.draft(writing_brief={'fact':'HVAC service','fact_source':'Official page'})
+  mid=self.draft(writing_brief={'fact':'HVAC service','fact_source':'Official page','lead_context':'Confirmed inquiry','service_scope':'Inspection only','trial_terms':'MOQ to confirm','subject_claims':'Current quote, approval conditions apply'})
   batch=self.app.contacts.prepare(mid)
   self.assertEqual(len(batch['ids']),2)
   for msg in self.app.state()['messages']:
    self.assertEqual(msg['writing_brief']['fact_source'],'Official page');self.assertEqual(msg['status'],'draft')
+   self.assertEqual(msg['writing_brief']['lead_context'],'Confirmed inquiry');self.assertEqual(msg['writing_brief']['service_scope'],'Inspection only')
+   self.assertEqual(msg['writing_brief']['trial_terms'],'MOQ to confirm');self.assertEqual(msg['writing_brief']['subject_claims'],'Current quote, approval conditions apply')
  def test_invalid_brief_does_not_save_a_partial_message(self):
   with self.assertRaises(ValueError):self.draft(writing_brief=['invalid'])
   with self.assertRaises(ValueError):self.draft(writing_brief={'fact':'x'*3001})

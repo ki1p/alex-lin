@@ -245,7 +245,7 @@ class App:
         brief=d.get('writing_brief')
         if brief is not None:
             if not isinstance(brief,dict):raise ValueError('开发信资料格式不正确。')
-            allowed=('first_name','role','fact','fact_source','goal','product','value','result','result_source','next_step')
+            allowed=('first_name','role','lead_context','fact','fact_source','goal','product','value','service_scope','trial_terms','subject_claims','result','result_source','next_step')
             brief={key:text(brief.get(key),3000) for key in allowed}
         mid=d.get('id') or uid()
         with self.store.conn() as db:

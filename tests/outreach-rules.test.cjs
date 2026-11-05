@@ -21,3 +21,21 @@ test('long subject and unsupported result are advisory issues',()=>{
  const r=R.review('one two three four five six seven eight nine','Hi Jane,',{first_name:'Nick',fact:'HVAC',fact_source:'Official',result:'20%'});
  assert.ok(r.issues.some(x=>x.includes('主题超过')));assert.ok(r.issues.some(x=>x.includes('结果背书')));assert.ok(r.issues.some(x=>x.includes('姓名')));
 });
+test('numeric subject claims need evidence and matching body numbers',()=>{
+ const r=R.review('ExampleCo: 500 units, 7-day delivery','Hi Nick, We can review 500 units in 14 days.');
+ assert.ok(r.issues.some(x=>x.includes('承诺依据')));assert.ok(r.issues.some(x=>x.includes('部分数字')));
+ const matched=R.review('ExampleCo: 5,000 units, 14-day lead time','Hi Nick, 5000 units with a 14-day lead time.',{subject_claims:'Fictional QA quote and conditions'});
+ assert.ok(!matched.issues.some(x=>x.includes('承诺依据')||x.includes('部分数字')));
+ assert.ok(matched.manual.some(x=>x.includes('数字相同也不等于承诺一致')));
+});
+test('specific nonnumeric titles do not require invented numbers or promises',()=>{
+ const r=R.review('ExampleCo valve trial requirements','Hi Nick,',{first_name:'Nick',fact:'HVAC',fact_source:'Official'});
+ assert.ok(!r.issues.some(x=>x.includes('承诺依据')||x.includes('部分数字')));
+ const p=R.prompt({name:'ExampleCo'},{lead_context:'Confirmed inbound inquiry',service_scope:'Inspection only',trial_terms:'MOQ to confirm',subject_claims:'None verified'});
+ assert.ok(p.includes('Confirmed inbound inquiry'));assert.ok(p.includes('Inspection only'));assert.ok(p.includes('MOQ to confirm'));
+ assert.ok(p.includes('数字与时间不是硬性要求'));assert.ok(p.includes('不擅自承诺免费'));
+});
+test('free samples and generic cooperation titles are checked without numeric text',()=>{
+ assert.ok(R.review('Free samples for ExampleCo','Hi Nick,').issues.some(x=>x.includes('承诺依据')));
+ assert.ok(R.review('Cooperation Opportunity','Hi Nick,').issues.some(x=>x.includes('空泛合作')));
+});

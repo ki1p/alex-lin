@@ -6,6 +6,8 @@
 
 验证：`node --test tests/outreach-rules.test.cjs`、`python -m unittest discover -s tests -p test_outreach.py -v`。
 
+已补充[可交付价值与标题规则](knowledge/cold-email/value-to-subject.md)：记录获客来源／合作阶段、真实服务范围、试单条件与标题承诺依据。标题中的数字与时间有证据才用；预览提示数字缺口，人工核对正文是否兑现。将长期服务与复购思路用于匹配当前阶段的表达，不承诺虚构交期、免费样品或未具备的供应链能力。
+
 ## 外贸学习知识库
 
 [外貌阔与天天正在做外贸知识库](knowledge/%E5%A4%96%E8%B4%B8%E5%8D%9A%E4%B8%BB%E7%9F%A5%E8%AF%86%E5%BA%93/README.md)：两位博主的141条作品记录、31张方法卡、工作指南、来源说明与Obsidian关系图谱。该目录独立用于阅读与复盘。
