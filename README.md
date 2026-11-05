@@ -1,5 +1,11 @@
 # FriesGo 本地客户开发工作台
 
+## 开发信助手
+
+开发信编辑器已融入[买家视角开发信规则](knowledge/cold-email/README.md)：按“他→痛→证→轻”填写客户事实与来源，整理可复制到 GPT 的提示词，再回填三个主题中的选定主题、英文正文和中文回译。检查当前开发信可提示词数、泛称、规模介绍、占位符和证据缺口；预览也显示检查提示。新建信不再默认填入通用公司介绍。资料随草稿保存在本机，旧草稿继续保留。助手不调用在线模型，检查只作建议，发送仍沿用原队列流程。
+
+验证：`node --test tests/outreach-rules.test.cjs`、`python -m unittest discover -s tests -p test_outreach.py -v`。
+
 ## 外贸学习知识库
 
 [外貌阔与天天正在做外贸知识库](knowledge/%E5%A4%96%E8%B4%B8%E5%8D%9A%E4%B8%BB%E7%9F%A5%E8%AF%86%E5%BA%93/README.md)：两位博主的141条作品记录、31张方法卡、工作指南、来源说明与Obsidian关系图谱。该目录独立用于阅读与复盘。

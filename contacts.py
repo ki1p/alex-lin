@@ -71,7 +71,7 @@ class Contacts:
             if existing:ids.append(existing[0]['id']);continue
             data={k:source[k] for k in ('customer_id','body','cn','owner','scheduled_at')};data['recipient']=recipient
             if channel=='email':
-                data.update(subject=source['subject'],attachments=json.loads(source['attachments']),followup_days=source['followup_days'],followup_body=source['followup_body'])
+                data.update(subject=source['subject'],attachments=json.loads(source['attachments']),followup_days=source['followup_days'],followup_body=source['followup_body'],writing_brief=json.loads(source['writing_brief']))
                 ids.append(self.app.save_draft(data))
             else:ids.append(self.app.wa.draft(data))
         messages=[]

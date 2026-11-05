@@ -44,10 +44,10 @@ function openCompose(cid,message=null,copy=false){const c=S.customers.find(x=>x.
  const m=message||S.messages.find(x=>x.customer_id===cid&&x.status==='draft'&&x.channel!=='whatsapp');
  $('#compose-company').textContent=c.name;f.owner.innerHTML=S.owners.map(x=>`<option>${esc(x)}</option>`).join('');
  f.customer_id.value=cid;f.elements.namedItem('id').value=copy?'':m?.id||'';f.recipient.value=m?.recipient||c.email;f.owner.value=m?.owner||S.config.owner;
- f.subject.value=m?.subject||'Balancing Valve Supply for '+c.name;
- f.body.value=m?.body||`Dear ${c.name} Team,\n\nI’m BaiJiang Lin from FriesGo Global.\n\nWe supply lockable manual balancing valves, self-operated differential pressure control valves, and self-operated flow control valves for suitable water circuits.\n\nMay I send your technical or purchasing team our product catalogue for review?\n\nBest regards,\nBaiJiang Lin | FriesGo Global\n${S.config.sender_email}`;
+ f.subject.value=m?.subject||'';
+ f.body.value=m?.body||'';
  f.cn.value=m?.cn||'';f.scheduled_at.value=toInputTime(copy?null:m?.scheduled_at);f.followup_days.value=copy?0:m?.followup_days||0;
- f.followup_body.value=m?.followup_body||`Dear ${c.name} Team,\n\nI’m following up on my earlier email about water-system balancing valves. Could you let me know whether these components fall within your purchasing scope?\n\nIf you prefer not to receive further messages, please let me know.\n\nBest regards,\nBaiJiang Lin | FriesGo Global`;
+ f.followup_body.value=m?.followup_body||'';
  draftAttachments=[...(m?.attachments||[])];renderAttachments();$('#compose-dialog').showModal();
 }
 function renderAttachments(){$('#attachment-list').innerHTML=draftAttachments.map(id=>{const a=S.attachments.find(x=>x.id===id);return `<div>${esc(a?.name||'附件')} <button type="button" data-remove-attachment="${id}">移除</button></div>`;}).join('');}

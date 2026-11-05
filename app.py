@@ -87,7 +87,7 @@ class Store:
             CREATE INDEX IF NOT EXISTS queue_idx ON messages(status,scheduled_at);
             ''')
             columns={r['name'] for r in db.execute('PRAGMA table_info(messages)')}
-            for col,definition in {'channel':"TEXT NOT NULL DEFAULT 'email'",'wa_account':"TEXT NOT NULL DEFAULT ''",'wa_remote_id':"TEXT NOT NULL DEFAULT ''",'wa_delivery':"TEXT NOT NULL DEFAULT ''"}.items():
+            for col,definition in {'channel':"TEXT NOT NULL DEFAULT 'email'",'wa_account':"TEXT NOT NULL DEFAULT ''",'wa_remote_id':"TEXT NOT NULL DEFAULT ''",'wa_delivery':"TEXT NOT NULL DEFAULT ''",'writing_brief':"TEXT NOT NULL DEFAULT '{}'"}.items():
                 if col not in columns:db.execute(f'ALTER TABLE messages ADD COLUMN {col} {definition}')
     @contextmanager
     def conn(self):
@@ -242,6 +242,11 @@ class App:
             if not a or not Path(a[0]['path']).exists():raise ValueError('附件不存在，请重新上传。')
             total+=a[0]['size']
         if total>12*1024*1024:raise ValueError('单封附件总大小不能超过12MB。')
+        brief=d.get('writing_brief')
+        if brief is not None:
+            if not isinstance(brief,dict):raise ValueError('开发信资料格式不正确。')
+            allowed=('first_name','role','fact','fact_source','goal','product','value','result','result_source','next_step')
+            brief={key:text(brief.get(key),3000) for key in allowed}
         mid=d.get('id') or uid()
         with self.store.conn() as db:
             old=db.execute('SELECT * FROM messages WHERE id=?',(mid,)).fetchone()
@@ -249,6 +254,7 @@ class App:
             args=(recipient,subject,body,cn,owner,schedule,json_dump(attachments),days,follow)
             if old:db.execute('UPDATE messages SET recipient=?,subject=?,body=?,cn=?,owner=?,scheduled_at=?,attachments=?,followup_days=?,followup_body=? WHERE id=?',(*args,mid))
             else:db.execute('INSERT INTO messages(recipient,subject,body,cn,owner,scheduled_at,attachments,followup_days,followup_body,id,customer_id,created_at,message_id) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)',(*args,mid,cid,now_iso(),f'<{uid()}@friesgo.local>'))
+            if brief is not None:db.execute('UPDATE messages SET writing_brief=? WHERE id=?',(json_dump(brief),mid))
             self.contacts.save(db,cid,[recipient],[],source='开发信草稿')
         return mid
     def queue(self,ids):
@@ -283,7 +289,8 @@ class App:
             c['emails']=contact_map.get((c['id'],'email'),[]);c['whatsapp_numbers']=contact_map.get((c['id'],'whatsapp'),[])
         msgs=self.store.rows('SELECT m.*,c.name,c.code,c.state AS customer_state FROM messages m JOIN customers c ON c.id=m.customer_id ORDER BY m.created_at DESC')
         events=self.store.rows('SELECT e.*,c.name FROM events e JOIN customers c ON c.id=e.customer_id ORDER BY e.created_at DESC,e.rowid DESC LIMIT 300')
-        for m in msgs:m['attachments']=json.loads(m['attachments'])
+        for m in msgs:
+            m['attachments']=json.loads(m['attachments']);m['writing_brief']=json.loads(m['writing_brief'])
         for e in events:e['details']=json.loads(e['details'])
         counts={x:sum(m['status']==x for m in msgs) for x in ['draft','queued','sending','submitted','failed','uncertain','cancelled']}
         from contacts import POLICY
@@ -477,7 +484,7 @@ def make_handler(app):
             s=io.StringIO();w=csv.writer(s);w.writerow(['时间','客户编号','公司名称','事件','记录','Excel同步'])
             for r in rows:w.writerow([("'"+str(v)) if str(v).startswith(('=','+','-','@')) else str(v) for v in r.values()])
             return self.response(200,s.getvalue().encode('utf-8-sig'),'text/csv; charset=utf-8')
-        files={'/':'index.html','/message':'index.html','/app.js':'app.js','/whatsapp.js':'whatsapp.js','/website.js':'website.js','/contacts.js':'contacts.js','/style.css':'style.css'}
+        files={'/':'index.html','/message':'index.html','/app.js':'app.js','/whatsapp.js':'whatsapp.js','/website.js':'website.js','/contacts.js':'contacts.js','/outreach.js':'outreach.js','/outreach-rules.js':'outreach-rules.js','/style.css':'style.css'}
         if path not in files:return self.response(404,{'error':'页面不存在。'})
         f=ROOT/'static'/files[path];return self.response(200,f.read_bytes(),mimetypes.guess_type(f.name)[0]+'; charset=utf-8')
     def do_POST(self):
