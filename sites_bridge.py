@@ -31,7 +31,9 @@ class SitesBridge:
   if self.transport:return self.transport(payload)
   if not self.token:raise ValueError('网站尚未连接。')
   req=urllib.request.Request(SITE_URL+'/api/bridge',data=None if payload is None else json.dumps(payload,ensure_ascii=False).encode(),headers={'OAI-Sites-Authorization':'Bearer '+self.token,'Content-Type':'application/json'})
-  opener=urllib.request.build_opener(urllib.request.ProxyHandler({}),NoRedirect())
+  # Remote Sites traffic follows the computer's existing HTTPS proxy. The
+  # loopback-only desktop API remains separate and is never proxied here.
+  opener=urllib.request.build_opener(urllib.request.ProxyHandler(),NoRedirect())
   try:
    with opener.open(req,timeout=45) as r:
     if 'application/json' not in r.headers.get('Content-Type',''):raise ValueError('网站返回了登录页，请更新连接凭据。')
@@ -39,6 +41,7 @@ class SitesBridge:
   except urllib.error.HTTPError as e:
    if e.code in (401,403):raise ValueError('网站连接授权已过期，请重新连接。') from None
    raise ValueError('网站同步失败（HTTP %s），记录仍保存在本机。'%e.code) from None
+  except (urllib.error.URLError,TimeoutError):raise ValueError('网站暂时连接不上，记录保留在本机，将自动重试。') from None
  def mapping(self):return {x['local_id']:x['remote_id'] for x in self.app.store.rows('SELECT * FROM sites_map')}
  def map(self,local,remote):
   with self.app.store.conn() as db:db.execute('INSERT INTO sites_map VALUES(?,?) ON CONFLICT(local_id) DO UPDATE SET remote_id=excluded.remote_id',(local,remote))
